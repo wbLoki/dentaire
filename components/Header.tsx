@@ -4,6 +4,8 @@ import { Dialog } from '@headlessui/react'
 import { HiBars3, HiXMark } from "react-icons/hi2";
 import Image from 'next/image';
 
+import logo from '../media/logo.jpg';
+
 const navigation = [
     { name: 'Notre Cabinet', href: '#' },
     { name: 'Soins & Services', href: '#' },
@@ -21,7 +23,7 @@ function Header({}: Props) {
                 <div className="flex lg:flex-1">
                     <a href="#" className="-m-1.5 p-1.5">
                     <span className="sr-only">Cabinet Dentaire Ennasr</span>
-                    <Image width={40} height={40} className="h-8" src={`https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600`} alt="" />
+                    <Image width={50} height={50} className="h-10 rounded-full" src={logo} alt="" />
                     </a>
                 </div>
             <div className="flex lg:hidden">
@@ -51,8 +53,8 @@ function Header({}: Props) {
                 <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">
-                            <span className="sr-only">Your Company</span>
-                            <Image width={40} height={40} className="h-8" src={`https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600`} alt="" />
+                            <span className="sr-only">Cabinet Dentaire Ennasr</span>
+                            <Image width={50} height={50} className="h-10 rounded-full" src={logo} alt="" />
                         </a>
                         <button
                             type="button"
