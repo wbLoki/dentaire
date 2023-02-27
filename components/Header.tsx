@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { HiBars3, HiXMark } from "react-icons/hi2";
+import Image from 'next/image';
 
 const navigation = [
     { name: 'Notre Cabinet', href: '#' },
@@ -20,7 +21,7 @@ function Header({}: Props) {
                 <div className="flex lg:flex-1">
                     <a href="#" className="-m-1.5 p-1.5">
                     <span className="sr-only">Cabinet Dentaire Ennasr</span>
-                    <img className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+                    <Image width={40} height={40} className="h-8" src={`https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600`} alt="" />
                     </a>
                 </div>
             <div className="flex lg:hidden">
@@ -47,11 +48,11 @@ function Header({}: Props) {
             </div>
             </nav>
             <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-                <Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
+                <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
-                            <img className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+                            <Image width={40} height={40} className="h-8" src={`https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600`} alt="" />
                         </a>
                         <button
                             type="button"
