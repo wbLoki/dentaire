@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Header from '@/components/Header'
 import Hero from '@/components/index/Hero'
 import Services from '@/components/index/Services'
+import Features from '@/components/index/Features'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,9 +24,11 @@ export default function Home() {
         <section id="hero">
           <Hero />
         </section>
-        {/* <div className='h-[1px] w-[85%] mx-auto bg-slate-700/30 my-8'></div> */}
         <section id="services" className='bg-slate-100/40'>
           <Services />
+        </section>
+        <section id="features" className='bg-mauve md:bg-transparent'>
+          <Features />
         </section>
       </main>
     </>

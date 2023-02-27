@@ -6,6 +6,7 @@ import service2 from '../../media/service2.png';
 import service3 from '../../media/service3.png';
 import service4 from '../../media/service4.png';
 import { FiChevronRight } from "react-icons/fi";
+import Image from 'next/image';
 
 const services = [
     {name: 'Appareils dentaires & prothese fixee', desc: 'Lorem ipsum is placeholder text commonly used in the graphic.', color: 'blue', img: service1, key: 1},
@@ -25,13 +26,18 @@ function Services({}: Props) {
                 Sentez-vous incroyable à propos de votre santé bucco-dentaire
             </h2>
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6'>
-                {services.map(service => 
-                    <Card key={service.key}
-                        name={service.name}
-                        desc={service.desc}
-                        color={service.color}
-                        img={service.img}
-                    />
+                {services.map((service, index:number) => 
+                    <div key={index} className='flex flex-col rounded-3xl border p-3 gap-3 flex-shrink'>
+                        <div className={`flex p-4 bg-${service.color} rounded-2xl aspect-square w-full justify-center items-center`}>
+                            <div className='bg-white/25 p-3 rounded-3xl border-t border-l border-white/50'>
+                                <div className='bg-white p-4 rounded-2xl w-fit mx-auto'>
+                                    <Image src={service.img} alt="icon" width={32} height={32} className="text-purple h-8 w-auto"/>
+                                </div>
+                            </div>
+                        </div>
+                        <span className='text-lg flex-grow text-center'>{service.name}</span>
+                        <span className='text-slate-500 self-center text-center'>{service.desc}</span>
+                    </div>
                 )}
             </div>
             <div className='bg-purple/10 rounded-2xl w-56 p-2 justify-self-center'>
@@ -42,6 +48,9 @@ function Services({}: Props) {
                     </div>
                 </div>
             </div>
+        </div>
+        <div>
+            <span className='bg-rose text-peach sr-only'></span>
         </div>
     </>
   )
