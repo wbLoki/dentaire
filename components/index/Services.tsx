@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Card from './Card'
 import service1 from '../../media/service1.png';
 import service2 from '../../media/service2.png';
 import service3 from '../../media/service3.png';
