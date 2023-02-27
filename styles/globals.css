@@ -4,8 +4,11 @@
 
 @layer components {
   section {
-    @apply py-4 px-2
+    @apply py-4 px-2 space-y-4
   }
+  /* main {
+    @apply 
+  } */
 }
 
 html,

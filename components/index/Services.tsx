@@ -1,0 +1,50 @@
+import React from 'react'
+
+import Card from './Card'
+import service1 from '../../media/service1.png';
+import service2 from '../../media/service2.png';
+import service3 from '../../media/service3.png';
+import service4 from '../../media/service4.png';
+import { FiChevronRight } from "react-icons/fi";
+
+const services = [
+    {name: 'Appareils dentaires & prothese fixee', desc: 'Lorem ipsum is placeholder text commonly used in the graphic.', color: 'blue', img: service1, key: 1},
+    {name: 'Implants', desc: 'Lorem ipsum is placeholder text commonly used in the graphic.', color: 'mauve', img: service2, key: 2},
+    {name: 'Blanchiment', desc: 'Lorem ipsum is placeholder text commonly used in the graphic.', color: 'rose', img: service3, key: 3},
+    {name: 'Traitement canalaire', desc: 'Lorem ipsum is placeholder text commonly used in the graphic.', color: 'peach', img: service4, key: 4},
+]
+
+type Props = {}
+
+function Services({}: Props) {
+  return (
+    <>
+        <div className='grid grid-row-4 px-4 lg:px-8 text-xs gap-8'>
+            <span className='text-purple uppercase'>services</span>
+            <h2 className='text-2xl lg:text-4xl lg:max-w-[70%]'>
+                Sentez-vous incroyable à propos de votre santé bucco-dentaire
+            </h2>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6'>
+                {services.map(service => 
+                    <Card key={service.key}
+                        name={service.name}
+                        desc={service.desc}
+                        color={service.color}
+                        img={service.img}
+                    />
+                )}
+            </div>
+            <div className='bg-purple/10 rounded-2xl w-56 p-2 justify-self-center'>
+                <div className='flex p-2 text-purple items-center justify-center gap-2'>
+                    <span>Voir la liste des services</span>
+                    <div className='p-0.5 bg-purple rounded-full'>
+                        <FiChevronRight className='text-white h-4 w-auto'/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </>
+  )
+}
+
+export default Services

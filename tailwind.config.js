@@ -13,11 +13,14 @@ module.exports = {
       colors: {
         blue: "#DBEFFA",
         purple: "#583FBC",
+        mauve: "#DBDEFA",
+        rose: "#F6DBFA",
+        peach: "#FADBE2",
       },
       backgroundImage: {
         "hero-image": "url('../media/hero.jpg')",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss"), require("autoprefixer")],
 };

@@ -21,9 +21,9 @@ function Header({}: Props) {
         <div className="px-6 pt-6 xl:pt-14 lg:px-8 h-auto max-w-screen-2xl mx-auto sm:text-xs xl:text-sm">
             <nav className="flex items-center justify-between" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <a href="#" className="-m-1.5 p-1.5">
-                    <span className="sr-only">Cabinet Dentaire Ennasr</span>
-                    <Image width={50} height={50} className="h-10 rounded-full" src={logo} alt="" />
+                    <a href="#" className="-m-1.5 p-1.5 flex items-center gap-2 2xl:text-lg">
+                        <Image width={50} className="h-10 rounded-full h-auto" src={logo} alt="" />
+                        <span className="">Cabinet Dentaire Ennasr</span>
                     </a>
                 </div>
             <div className="flex lg:hidden">
@@ -52,9 +52,9 @@ function Header({}: Props) {
             <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
                     <div className="flex items-center justify-between">
-                        <a href="#" className="-m-1.5 p-1.5">
-                            <span className="sr-only">Cabinet Dentaire Ennasr</span>
+                        <a href="#" className="-m-1.5 p-1.5 flex items-center gap-2">
                             <Image width={50} height={50} className="h-10 rounded-full" src={logo} alt="" />
+                            <span className="">Cabinet Dentaire Ennasr</span>
                         </a>
                         <button
                             type="button"
