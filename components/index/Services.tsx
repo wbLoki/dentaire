@@ -49,7 +49,8 @@ function Services({}: Props) {
             </div>
         </div>
         <div>
-            <span className='bg-rose text-peach sr-only'></span>
+            <span className='bg-rose sr-only'></span>
+            <span className='bg-peach sr-only'></span>
         </div>
     </>
   )

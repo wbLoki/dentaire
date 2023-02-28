@@ -16,6 +16,7 @@ module.exports = {
         mauve: "#DBDEFA",
         rose: "#F6DBFA",
         peach: "#FADBE2",
+        orange: "#FF8C4B",
       },
       backgroundImage: {
         "hero-image": "url('../media/hero.jpg')",

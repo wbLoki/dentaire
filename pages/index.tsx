@@ -4,8 +4,10 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Header from '@/components/Header'
 import Hero from '@/components/index/Hero'
+
 import Services from '@/components/index/Services'
 import Features from '@/components/index/Features'
+import Reviews from '@/components/index/Reviews'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,6 +31,9 @@ export default function Home() {
         </section>
         <section id="features" className='bg-mauve md:bg-transparent'>
           <Features />
+        </section>
+        <section id="reviews" className='bg-blue md:bg-transparent'>
+          <Reviews />
         </section>
       </main>
     </>
