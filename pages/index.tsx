@@ -8,6 +8,7 @@ import Hero from '@/components/index/Hero'
 import Services from '@/components/index/Services'
 import Features from '@/components/index/Features'
 import Reviews from '@/components/index/Reviews'
+import Location from '@/components/index/Location'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -34,6 +35,9 @@ export default function Home() {
         </section>
         <section id="reviews" className='bg-blue md:bg-transparent'>
           <Reviews />
+        </section>
+        <section id="location">
+          <Location />
         </section>
       </main>
     </>
