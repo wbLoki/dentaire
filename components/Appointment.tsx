@@ -64,11 +64,11 @@ function Appointment({}: Props) {
     };
 
     //   Handling form submit
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: React.SyntheticEvent) => {
         e.preventDefault();
 
         let isValidForm = handleValidation();
-        // console.log(isValidForm);
+        console.log(e);
 
         if (isValidForm) {
         setButtonText("Sending");
@@ -162,7 +162,7 @@ function Appointment({}: Props) {
                         onChange={e => setService(e.target.value)}
                         className="h-full w-full appearance-none rounded-md border-0 bg-transparent bg-none pl-4 pr-9 focus:ring-2 focus:ring-inset focus:ring-purple md:text-sm block py-2 px-3.5 shadow-sm ring-1 ring-inset ring-gray-300 md:leading-6"
                         >
-                            <option value="" disabled selected>Choisissez un service</option>
+                            <option value="" disabled>Choisissez un service</option>
                             {services.map((e, i) => <option key={i}>{e}</option>)}
                         </select>
                         <HiChevronDown
@@ -204,7 +204,6 @@ function Appointment({}: Props) {
                         onChange={e => setMessage(e.target.value)}
                         rows={4}
                         className="block w-full rounded-md border-0 py-2 px-3.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple sm:text-sm sm:leading-6"
-                        defaultValue={''}
                         placeholder="Tapez votre message ici..."
                     />
                     </div>
