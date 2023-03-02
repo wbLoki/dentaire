@@ -68,7 +68,6 @@ function Appointment({}: Props) {
         e.preventDefault();
 
         let isValidForm = handleValidation();
-        console.log(e);
 
         if (isValidForm) {
         setButtonText("Sending");
@@ -90,7 +89,7 @@ function Appointment({}: Props) {
 
         const { error } = await res.json();
         if (error) {
-            // console.log(error);
+            console.log(error);
             setShowSuccessMessage(false);
             setShowFailureMessage(true);
             setButtonText("Envoyer");

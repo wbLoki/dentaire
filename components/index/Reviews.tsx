@@ -4,7 +4,7 @@ import { FaStar, FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 const testim = [
     {name: 'Reda Nahab', text: 'Une bonne personne, professionel, il a de bonnes qualités et il maitrise bien son métier.', rating: 5},
     {name: 'Yasser Boukhal', text: `Dentiste compétent et à l'écoute mashallah, The best one in Tangier.`, rating: 5},
-    {name: 'Khouloud Mazouz', text: 'Médecin très compétent avec un service chaleureux et une prise en charge globale!', rating: 4},
+    {name: 'Khouloud Mazouz', text: 'Médecin très compétent avec un service chaleureux et une prise en charge globale!', rating: 5},
 ];
 type Props = {}
 type Testimonial = {name: string, text: string, rating: number}
