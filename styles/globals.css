@@ -34,3 +34,7 @@ input:focus {
   box-shadow: 0 0 0 2px rgb(88 63 188) inset;
   --tw-ring-inset: inset;
 }
+
+#header:focus {
+  outline: none;
+}

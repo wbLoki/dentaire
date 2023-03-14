@@ -5,9 +5,10 @@ import { HiBars3, HiXMark } from "react-icons/hi2";
 import Image from 'next/image';
 
 import logo from '../media/logo.jpg';
+import Link from 'next/link';
 
 const navigation = [
-    { name: 'Notre Cabinet', href: '#' },
+    { name: 'Notre Cabinet', href: '/cabinet' },
     { name: 'Soins & Services', href: '#' },
     { name: 'Nos Realisations', href: '#' },
     { name: 'Contactez-nous', href: '#' },
@@ -51,7 +52,7 @@ function Header({}: Props) {
             </nav>
             <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
-                    <div className="flex items-center justify-between">
+                    <div className="flex items-center justify-between" id="logo">
                         <a href="#" className="-m-1.5 p-1.5 flex items-center gap-2">
                             <Image width={50} height={50} className="h-10 rounded-full w-auto" src={logo} alt="" />
                             <span className="">Cabinet Dentaire Ennasr</span>
@@ -69,13 +70,13 @@ function Header({}: Props) {
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
                                 {navigation.map((item) => (
-                                    <a
+                                    <Link
                                     key={item.name}
                                     href={item.href}
                                     className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
                                     >
                                     {item.name}
-                                    </a>
+                                    </Link>
                                 ))}
                             </div>
                             <div className="py-6">
