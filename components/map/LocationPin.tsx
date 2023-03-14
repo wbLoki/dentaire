@@ -6,7 +6,7 @@ type Props = {lat: number, lng: number}
 
 function LocationPin({}: Props) {
   return (
-    <div className='flex items-center w-fit'>
+    <div className='flex absolute -translate-x-1/2 -translate-y-1/2 text-center w-fit'>
       <FaMapMarkerAlt className='text-3xl'/>
     </div>
   )

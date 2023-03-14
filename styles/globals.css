@@ -19,3 +19,18 @@ body {
   font-size: larger;
   font-family: 'Alata', sans-serif;
 }
+
+input, textarea {
+  -webkit-box-shadow: 0 0 0 1px rgb(209 213 219) inset;
+  -moz-box-shadow: 0 0 0 1px rgb(209 213 219) inset;
+  box-shadow: 0 0 0 1px rgb(209 213 219) inset;
+  --tw-ring-inset: inset;
+  outline: none;
+}
+
+input:focus {
+  -webkit-box-shadow: 0 0 0 2px rgb(88 63 188) inset;
+  -moz-box-shadow: 0 0 0 2px rgb(88 63 188) inset;
+  box-shadow: 0 0 0 2px rgb(88 63 188) inset;
+  --tw-ring-inset: inset;
+}

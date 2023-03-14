@@ -104,7 +104,7 @@ function Appointment({}: Props) {
 
 
     return (
-        <form action="#" method="POST" onSubmit={handleSubmit} className="mx-auto max-w-xl text-slate-500 ">
+        <form action="#" method="POST" onSubmit={handleSubmit} className="mx-auto max-w-xl text-slate-500">
             <div className="grid grid-cols-1 gap-y-6 gap-x-8 md:grid-cols-2">
                 {/************************   Nom et Prenom    ************************/}
                 <div> 
@@ -121,7 +121,7 @@ function Appointment({}: Props) {
                         onChange={e => setFullname(e.target.value)}
                         autoComplete="given-name"
                         placeholder='Nom et prenom'
-                        className="block w-full rounded-md border-0 py-2 px-3.5 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-purple sm:text-sm sm:leading-6"
+                        className="block w-full rounded-md appearance-none py-2 px-3.5 sm:text-sm sm:leading-6"
                     />
                     </div>
                 </div>
@@ -140,7 +140,7 @@ function Appointment({}: Props) {
                         onChange={e => setEmail(e.target.value)}
                         autoComplete="email"
                         placeholder='Address email'
-                        className="block w-full rounded-md border-0 py-2 px-3.5 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-purple sm:text-sm sm:leading-6"
+                        className="block w-full rounded-md appearance-none py-2 px-3.5 sm:text-sm sm:leading-6"
                     />
                     </div>
                 </div>
@@ -159,7 +159,7 @@ function Appointment({}: Props) {
                         value={service}
                         required
                         onChange={e => setService(e.target.value)}
-                        className="h-full w-full appearance-none rounded-md border-0 bg-transparent bg-none pl-4 pr-9 focus:ring-2 focus:ring-inset focus:ring-purple md:text-sm block py-2 px-3.5 shadow-sm ring-1 ring-inset ring-gray-300 md:leading-6"
+                        className="h-full w-full appearance-none rounded-md border-0 bg-transparent bg-none pl-4 pr-9 focus:ring-2 focus:ring-inset focus:ring-purple md:text-sm block py-2 px-3.5 shadow-sm ring-1 ring-inset ring-gray-300 md:leading-6 outline-none"
                         >
                             <option value="" disabled>Choisissez un service</option>
                             {services.map((e, i) => <option key={i}>{e}</option>)}
@@ -184,7 +184,7 @@ function Appointment({}: Props) {
                             required
                             onChange={e => setNumber(e.target.value)}
                             autoComplete="tel"
-                            className="block w-full rounded-md border-0 py-2 px-3.5 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-purple sm:text-sm sm:leading-6"
+                            className="block w-full rounded-md appearance-none py-2 px-3.5 sm:text-sm sm:leading-6"
                             placeholder='Numero de telephone'
                         />
                     </div>
@@ -202,7 +202,7 @@ function Appointment({}: Props) {
                         required
                         onChange={e => setMessage(e.target.value)}
                         rows={4}
-                        className="block w-full rounded-md border-0 py-2 px-3.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple sm:text-sm sm:leading-6"
+                        className="block w-full rounded-md appearance-none py-2 px-3.5 sm:text-sm sm:leading-6"
                         placeholder="Tapez votre message ici..."
                     />
                     </div>

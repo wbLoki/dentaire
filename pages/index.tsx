@@ -9,6 +9,7 @@ import Services from '@/components/index/Services'
 import Features from '@/components/index/Features'
 import Reviews from '@/components/index/Reviews'
 import Location from '@/components/index/Location'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -40,6 +41,7 @@ export default function Home() {
           <Location />
         </section>
       </main>
+      <Footer />
     </>
   )
 }

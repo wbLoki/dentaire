@@ -16,7 +16,10 @@ function Map({}: Props) {
     <div className="p-2">
       <div className="w-full h-full rounded-3xl overflow-hidden">
         <GoogleMapReact
-          bootstrapURLKeys={{ key: process.env.GOOGLE_MAP_API || "AIzaSyDO9DFWsX6c8lzdlIl1oE0Ih2Naqb1I28c" }}
+          bootstrapURLKeys={{ 
+            key: process.env.GOOGLE_MAP_API || "AIzaSyDO9DFWsX6c8lzdlIl1oE0Ih2Naqb1I28c" ,
+            libraries:['places', 'geometry', 'drawing', 'visualization'],
+          }}
           defaultCenter={location}
           defaultZoom={19}
         >

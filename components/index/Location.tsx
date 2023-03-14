@@ -6,7 +6,7 @@ type Props = {}
 
 function Location({}: Props) {
   return (
-    <div className='grid grid-rows-2 lg:grid-cols-2 h-fit'>
+    <div className='grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 h-fit'>
         <Map />
         <div className='flex flex-col rounded-2xl p-4 md:p-6 lg:px-14 text-xs gap-8 lg:gap-16'>
             <span className='uppercase text-purple text-xs -ml-4'>
