@@ -86,6 +86,14 @@ function cabinet({}: Props) {
                             }
                         </div>
                 </div>
+
+                <div className='flex flex-col gap-8 text-center max-w-screen-lg mx-auto'>
+                    <span className='uppercase text-purple text-[12px]'>faq</span>
+                    <h2 className='text-4xl col-span-4'>Frequently asked question</h2>
+                    <div className='border-t-4 border-purple w-full'>
+                        <div></div>
+                    </div>
+                </div>
             </section>
         </main>
         <Footer />

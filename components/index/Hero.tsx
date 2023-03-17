@@ -34,7 +34,7 @@ function Hero({}: Props) {
             </div>
             
             <div className='bg-hero-image flex rounded-t-2xl lg:rounded-r-[3rem] lg:rounded-l-none bg-top lg:bg-center row-start-1 lg:col-start-2'>
-                <div className='self-end bg-slate-100 rounded-2xl p-2 flex text-xs items-center gap-4 pr-20 mb-12 ml-4'>
+                {/* <div className='self-end bg-slate-100 rounded-2xl p-2 flex text-xs items-center gap-4 pr-20 mb-12 ml-4'>
                     <div className='relative w-fit'>
                         <Image src={majd} width={64} height={64} alt="majd" className='rounded-2xl'/>
                         <div className='bg-green-600 rounded-full w-3 h-3 absolute right-0 bottom-0'></div>
@@ -43,7 +43,7 @@ function Hero({}: Props) {
                         <span className=''>dr. majd zade</span>
                         <span className='text-slate-500'>consultant</span>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
 

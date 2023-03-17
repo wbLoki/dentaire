@@ -71,9 +71,9 @@ function Footer({}: Props) {
                         follow us on
                     </h3>
                     <div className='flex gap-4'>
-                        <Link href="/"><FaInstagram className='text-white text-2xl'/></Link>
-                        <Link href="/"><FaFacebookF className='text-white text-2xl'/></Link>
-                        <Link href="/"><FaTiktok className='text-white text-2xl'/></Link>
+                        <a target="_blank" href="https://www.instagram.com/dr.majdzade/" rel="noopener noreferrer"><FaInstagram className='text-white text-2xl'/></a>
+                        <span><FaFacebookF className='text-white text-2xl'/></span>
+                        {/* <Link href="/"><FaTiktok className='text-white text-2xl'/></Link> */}
                     </div>
                 </div>
             </div>
