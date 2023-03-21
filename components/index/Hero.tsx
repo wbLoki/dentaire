@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 
 import { FiPhoneCall } from "react-icons/fi";
@@ -6,7 +7,7 @@ import majd  from '../../media/majd.jpg';
 
 type Props = {}
 
-function Hero({}: Props) {
+function Hero(myRef: any) {
   return (
     <>
         <div className='bg-blue rounded-[3rem] grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2'>
@@ -16,9 +17,11 @@ function Hero({}: Props) {
                     <h3 className='text-slate-600 text-base'>Vous aurez toutes les bonnes raisons de venir chez nous.</h3>
                     <div className='grid grid-rows-2 md:grid-cols-2 place-items-center text-xs gap-2'>
                         <div className='w-full'>
-                            <button className='text-white w-full bg-purple rounded-2xl px-8 py-5 lg:px-6 lg:py-3 xl:py-5 2xl:px-12 text-sm'>
-                                On Vous Rappelle ?
-                            </button>
+                            <Link href="#location">
+                                <button className='text-white w-full bg-purple rounded-2xl px-8 py-5 lg:px-6 lg:py-3 xl:py-5 2xl:px-12 text-sm'>
+                                    On Vous Rappelle ?
+                                </button>
+                            </Link>
                         </div>
                         <button className='flex items-center w-full bg-white/30 p-2 rounded-xl gap-4'>
                             <div className='bg-white p-3 w-fit rounded-xl'>

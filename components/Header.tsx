@@ -45,7 +45,7 @@ function Header({}: Props) {
                 ))}
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="#" className="leading-6 text-white bg-purple rounded-md py-2 px-5">
+                <a href="#location" className="leading-6 text-white bg-purple rounded-md py-2 px-5">
                 On Vous Rappelle ?
                 </a>
             </div>
