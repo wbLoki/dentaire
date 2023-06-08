@@ -3,19 +3,19 @@ import Header from '@/components/Header'
 import Image from 'next/image'
 import React from 'react'
 
-import cabinet1 from '../media/cabinet1.png'
-import cabinet2 from '../media/cabinet2.png'
-import cabinet3 from '../media/cabinet3.png'
+import cabinet1 from '../media/cabinet/IMG_4445.jpg'
+import cabinet2 from '../media/cabinet/IMG_4447.jpg'
+import cabinet3 from '../media/cabinet/IMG_4341.jpg'
 import doc1 from '../media/docs/doc1.png'
 import doc2 from '../media/docs/doc2.png'
 import doc3 from '../media/docs/doc3.png'
 import doc4 from '../media/docs/doc4.png'
 
 const docs = [
-    {name: "majd zade", color: "blue", img: doc1},
-    {name: "taha zade", color: "mauve", img: doc2},
-    {name: "Assistante chi haja", color: "rose", img: doc3},
-    {name: "Wail Bouymaj", color: "peach", img: doc4},
+    {name: "Dr. majd", color: "blue", img: doc2},
+    {name: "Dr. taha", color: "mauve", img: doc3},
+    {name: "Assistante Kaouthar", color: "rose", img: doc4},
+    {name: "Assistante Souad", color: "peach", img: doc1},
 ];
 
 type Props = {}
@@ -40,8 +40,8 @@ function cabinet({}: Props) {
                         </button>
                     </div>
                     <div className='flex gap-6 justify-center'>
-                        <Image src={cabinet1} width={390} height={500} alt="majd" className='rounded-2xl h-5/6 max-w-1/2 object-cover place-self-start'/>
-                        <Image src={cabinet2} width={390} height={500} alt="majd" className='rounded-2xl h-5/6 max-w-1/2 object-cover place-self-end'/>
+                        <Image src={cabinet1} width={390} height={500} alt="majd" className='rounded-2xl h-5/6 max-w-[70%] object-contain place-self-start'/>
+                        <Image src={cabinet2} width={390} height={500} alt="majd" className='rounded-2xl h-5/6 max-w-[50%] object-cover place-self-end'/>
                     </div>
                 </div>
                 <div className='flex flex-col md:grid md:grid-cols-2 gap-2 lg:gap-16'>

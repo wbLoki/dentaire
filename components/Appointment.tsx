@@ -13,7 +13,7 @@ function Appointment({}: Props) {
     const [number, setNumber] = useState("");
     const [service, setService] = useState("");
     const [message, setMessage] = useState("");
-    const sendToMail = "Majdzade@hotmail.com" // email that will receive notifications
+    const sendToMail = "wailbouymaj+12@gmail.com" // email that will receive notifications
     const sendFromMail = "wailbouymaj@gmail.com" // email that will send these notifications, preferably a website email
 
     //   Form validation state

@@ -36,7 +36,7 @@ function Hero(myRef: any) {
                 </div>
             </div>
             
-            <div className='bg-hero-image flex rounded-t-2xl lg:rounded-r-[3rem] lg:rounded-l-none bg-top lg:bg-center row-start-1 lg:col-start-2'>
+            <div className='bg-hero-image flex rounded-t-2xl lg:rounded-r-[3rem] lg:rounded-l-none bg-top lg:bg-center bg-cover row-start-1 lg:col-start-2 '>
                 {/* <div className='self-end bg-slate-100 rounded-2xl p-2 flex text-xs items-center gap-4 pr-20 mb-12 ml-4'>
                     <div className='relative w-fit'>
                         <Image src={majd} width={64} height={64} alt="majd" className='rounded-2xl'/>

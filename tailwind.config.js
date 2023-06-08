@@ -20,9 +20,13 @@ module.exports = {
         orange: "#FF8C4B",
       },
       backgroundImage: {
-        "hero-image": "url('../media/hero.jpg')",
+        "hero-image": "url('../media/cabinet/happy.jpg')",
       },
     },
   },
-  plugins: [require("tailwindcss"), require("autoprefixer")],
+  plugins: [
+    require("tailwindcss"),
+    require("autoprefixer"),
+    require("flowbite/plugin"),
+  ],
 };
