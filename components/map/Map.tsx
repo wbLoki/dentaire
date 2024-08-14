@@ -17,7 +17,7 @@ function Map({}: Props) {
       <div className="w-full h-full rounded-3xl overflow-hidden">
         <GoogleMapReact
           bootstrapURLKeys={{ 
-            key: process.env.GOOGLE_MAP_API as string,
+            key: process.env.NEXT_PUBLIC_GOOGLE_MAP_API as string,
             libraries:['places', 'geometry', 'drawing', 'visualization'],
           }}
           defaultCenter={location}
