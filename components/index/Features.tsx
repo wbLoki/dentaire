@@ -38,7 +38,7 @@ function Features({}: Props) {
                     </div>
                     <div className='flex flex-col gap-4'>
                         <span className='text-lg'>{feature.title}</span>
-                        <span className='text-slate-500'>{feature.desc}</span>
+                        <span className='text-slate-700'>{feature.desc}</span>
                     </div>
                 </div>
             ))}

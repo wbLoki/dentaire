@@ -33,7 +33,7 @@ function cabinet({}: Props) {
                             Nous voulons que vous vous sentiez bien dans votre
                             bien-être bucco-dentaire. Pas seulement deux fois par
                             an, mais chaque fois que vous prenez une bouchée,
-                            racontez une blague, riez ou partagez un baiser.
+                            racontez une blague ou riez.
                         </p>
                         <button className='text-white text-sm capitalize bg-purple w-fit px-8 py-4 rounded-2xl'>
                             contactez nous

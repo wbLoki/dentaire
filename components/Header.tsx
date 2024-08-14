@@ -8,10 +8,10 @@ import logo from '../media/logo.jpg';
 import Link from 'next/link';
 
 const navigation = [
-    { name: 'Notre Cabinet', href: '/cabinet' },
-    { name: 'Soins & Services', href: '#' },
-    { name: 'Nos Realisations', href: '#' },
-    { name: 'Contactez-nous', href: '#' },
+    { name: 'Home', href: '/' },
+    { name: 'Treatments & Services', href: '#' },
+    { name: 'About Us', href: '/cabinet' },
+    { name: 'Contact Us', href: '#' },
   ]
 
 type Props = {}
@@ -19,8 +19,8 @@ type Props = {}
 function Header({}: Props) {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     return (
-        <div className="px-6 pt-6 xl:pt-14 lg:px-8 h-auto max-w-screen-2xl mx-auto sm:text-xs xl:text-sm">
-            <nav className="flex items-center justify-between" aria-label="Global">
+        <div className="px-6 pt-6 xl:pt-14 lg:px-8 h-auto max-w-screen-xl mx-auto sm:text-xs xl:text-sm">
+            <nav className="flex items-center justify-between">
                 <div className="flex lg:flex-1">
                     <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2 2xl:text-lg">
                         <Image width={50} height={50} className="h-10 rounded-full w-auto" src={logo} alt="" />
@@ -37,18 +37,19 @@ function Header({}: Props) {
                 <HiBars3 className="h-6 w-6" aria-hidden="true" />
                 </button>
             </div>
-            <div className="hidden lg:flex lg:gap-x-12">
+            <div className="hidden lg:flex lg:gap-x-8 items-center">
                 {navigation.map((item) => (
-                <a key={item.name} href={item.href} className="font-semibold leading-6 text-gray-900">
+                <a key={item.name} href={item.href} className="font-semibold leading-6 text-sky-700">
                     {item.name}
                 </a>
                 ))}
+                <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+                    <a href="#location" className="leading-6 text-white bg-sky-700 hover:bg-sky-600 rounded-3xl py-2 px-5">
+                    On Vous Rappelle ?
+                    </a>
+                </div>
             </div>
-            <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="#location" className="leading-6 text-white bg-purple rounded-md py-2 px-5">
-                On Vous Rappelle ?
-                </a>
-            </div>
+            
             </nav>
             <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <Dialog.Panel className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">

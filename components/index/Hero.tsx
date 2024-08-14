@@ -14,7 +14,7 @@ function Hero(myRef: any) {
             <div className='flex flex-col lg:grid lg:grid-rows-5 items-center gap-8 lg:gap-12 p-6 pb-10 xl:p-16 2xl:pr-10 text-center lg:text-left'>
                 <h1 className='lg:row-span-3 text-4xl xl:text-6xl'>Votre sourire est notre priorite</h1>
                 <div className='lg:row-span-2 space-y-10'>
-                    <h3 className='text-slate-600 text-base'>Vous aurez toutes les bonnes raisons de venir chez nous.</h3>
+                    <h2 className='text-slate-600 text-base'>Vous aurez toutes les bonnes raisons de venir chez nous.</h2>
                     <div className='grid grid-rows-2 md:grid-cols-2 place-items-center text-xs gap-2'>
                         <div className='w-full'>
                             <Link href="#location">

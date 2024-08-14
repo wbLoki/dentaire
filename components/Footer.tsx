@@ -11,7 +11,7 @@ function Footer({}: Props) {
         <div className='grid grid-cols-1 md:grid-cols-2 max-w-screen-2xl mx-auto gap-14 text-xs text-slate-500'>
             {/**************** CONTACT INFORMATION *****************/}
             <div className='flex flex-col gap-10'>
-                <h3 className='uppercase self-center'>
+                <h3 className='uppercase self-center text-slate-300'>
                     contact & information
                 </h3>
                 <div className='grid grid-rows-3 gap-8 md:gap-6 self-center'>
@@ -22,7 +22,7 @@ function Footer({}: Props) {
                             </div>
                         </div>
                         <div className='flex flex-col gap-2'>
-                            <span>Numero de Telephone</span>
+                            <span className='text-slate-300'>Numero de Telephone</span>
                             <span className='text-white text-sm'>07 74 76 78 38</span>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ function Footer({}: Props) {
                             </div>
                         </div>
                         <div className='flex flex-col gap-2'>
-                            <span>Horaires</span>
+                            <span className='text-slate-300'>Horaires</span>
                             <div className='flex flex-col'>
                                 <span className='text-white text-sm'>10:00 AM - 14:00 PM</span>
                                 <span className='text-white text-sm'>16:00 PM - 20:00 PM</span>
@@ -49,7 +49,7 @@ function Footer({}: Props) {
                             </div>
                         </div>
                         <div className='flex flex-col gap-2'>
-                            <span>Cabinet Address</span>
+                            <span className='text-slate-300'>Cabinet Address</span>
                             <span className='text-white text-sm'>35 West Rue Tanger, Tanger</span>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ function Footer({}: Props) {
             </div>
             {/**************** QUICK LINKS *****************/}
             <div className='flex flex-col gap-10'>
-                <h3 className='uppercase self-center'>
+                <h3 className='uppercase self-center text-slate-300'>
                     quick links
                 </h3>
                 <div className='flex flex-col gap-8 md:gap-4 capitalize text-white text-sm text-center'>
@@ -67,11 +67,11 @@ function Footer({}: Props) {
                     <Link href="/">FAQ</Link>
                 </div>
                 <div className='flex flex-col gap-8 items-center'>
-                    <h3 className='uppercase self-center'>
+                    <h3 className='uppercase self-center text-slate-300'>
                         follow us on
                     </h3>
                     <div className='flex gap-4'>
-                        <a target="_blank" href="https://www.instagram.com/dr.majdzade/" rel="noopener noreferrer"><FaInstagram className='text-white text-2xl'/></a>
+                        <Link target="_blank" href="https://www.instagram.com/dr.majdzade/" rel="noopener noreferrer"><FaInstagram className='text-white text-2xl'/></Link>
                         <span><FaFacebookF className='text-white text-2xl'/></span>
                         {/* <Link href="/"><FaTiktok className='text-white text-2xl'/></Link> */}
                     </div>
