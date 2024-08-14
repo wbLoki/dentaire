@@ -7,9 +7,6 @@ type Props = {}
 
 // 35.75129233910607, -5.8291821799893695
 function Map({}: Props) {
-  if (!process.env.GOOGLE_MAP_API) {
-    throw new Error('GOOGLE_MAP_API key is not set');
-  }
   const location = {
     address: '8C7PQ52C+G7, Tangier 90090',
     lat: 35.751442,
@@ -20,7 +17,7 @@ function Map({}: Props) {
       <div className="w-full h-full rounded-3xl overflow-hidden">
         <GoogleMapReact
           bootstrapURLKeys={{ 
-            key: process.env.GOOGLE_MAP_API,
+            key: process.env.GOOGLE_MAP_API || '',
             libraries:['places', 'geometry', 'drawing', 'visualization'],
           }}
           defaultCenter={location}
