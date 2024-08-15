@@ -4,7 +4,7 @@ import Head from "next/head";
 
 const keywords = "cabinet, dentaire, tanger, dentiste, dentist, implant dentaire, طبيب أسنان طنجة, طبيب أسنان بوخالف, احسن طبيب أسنان طنجة, أرقام هواتف أطباء الأسنان طنجة, dentist tanger, dentiste tanger";
 
-export default function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   return <>
     <Head>
       <title>Cabinet Dentaire Ennasr</title>
@@ -16,3 +16,5 @@ export default function App({ Component, pageProps }: AppProps) {
     <Component {...pageProps} />
   </>
 }
+
+export default App;

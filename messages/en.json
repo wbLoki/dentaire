@@ -1,0 +1,10 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "services": "Services",
+    "services-list": ["Dental Consultation"],
+    "about": "About Us",
+    "contact": "Contact Us",
+    "call-you": "Call Us"
+  }
+}
