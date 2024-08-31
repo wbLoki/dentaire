@@ -16,6 +16,7 @@ module.exports = {
     extend: {
       colors: {
         blue: "#DBEFFA",
+        darkBlue: "#11517E",
         purple: "#583FBC",
         mauve: "#DBDEFA",
         rose: "#F6DBFA",
@@ -32,6 +33,19 @@ module.exports = {
     require("tailwindcss"),
     require("autoprefixer"),
     require("flowbite/plugin"),
-    nextui(),
+    nextui({
+      addCommonColors: true,
+      prefix: "nextui",
+      defaultTheme: "light",
+      defaultExtendTheme: "light",
+      themes: {
+        light: {
+          colors: {
+            primary: "#11517E",
+            secondary: "#BAB9B9",
+          },
+        }
+      }
+    }),
   ],
 };

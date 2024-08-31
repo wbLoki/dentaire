@@ -1,9 +1,25 @@
 {
   "Navbar": {
-    "home": "Home",
+    "home": "Accueil",
     "services": "Services",
-    "about": "About Us",
-    "contact": "Contact Us",
-    "call-you": "Call Us"
+    "servicesList": {
+      "0": "Consultation dentaire",
+      "1": "Détartrage et polissage",
+      "2": "Blanchiment dentaire",
+      "3": "Soins des caries",
+      "4": "Endodontie",
+      "5": "Chirurgie buccale",
+      "6": "Prothèses dentaires",
+      "7": "Orthodontie",
+      "8": "Implants dentaires",
+      "9": "Parodontologie",
+      "10": "Pédiatrie dentaire",
+      "11": "Esthétique dentaire",
+      "12": "Urgences dentaires"
+    },
+    "about": "À propos",
+    "contact": "Contactez Nous",
+    "call-you": "On vous rappelle?",
+    "see-all": "Voir tout"
   }
 }

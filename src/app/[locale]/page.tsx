@@ -10,10 +10,11 @@ import Footer from '@/src/components/Footer'
 export default function HomePage() {
   return (
     <>
-      <Header />
-      <main className='max-w-screen-2xl md:px-4 mx-auto'>
+      {/* <Header /> */}
+      <main className='mx-auto bg-slate-500'>
         {/************ Hero section ************/}
-        <section id="hero">
+        <section className="bg-[url('/media/bg.jpeg')] h-screen" id="hero">
+          <Header />
           <Hero />
         </section>
         <section id="services" className='bg-slate-100/40'>

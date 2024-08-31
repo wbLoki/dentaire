@@ -38,3 +38,10 @@ input:focus {
 #header:focus {
   outline: none;
 }
+
+#dropdown-item {
+  color: rgb(3, 105, 161);
+}
+#dropdown-item:hover {
+  color: white;
+}
