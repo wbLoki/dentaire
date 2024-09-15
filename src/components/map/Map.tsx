@@ -1,11 +1,10 @@
-"use client";
+'use client';
 
-import React from 'react'
+import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import LocationPin from './LocationPin';
 
-type Props = {}
-
+type Props = {};
 
 // 35.75129233910607, -5.8291821799893695
 function Map({}: Props) {
@@ -13,14 +12,14 @@ function Map({}: Props) {
     address: '8C7PQ52C+G7, Tangier 90090',
     lat: 35.751442,
     lng: -5.829255,
-  }
+  };
   return (
     <div className="p-2">
       <div className="w-full h-full rounded-3xl overflow-hidden">
         <GoogleMapReact
-          bootstrapURLKeys={{ 
+          bootstrapURLKeys={{
             key: process.env.NEXT_PUBLIC_GOOGLE_MAP_API as string,
-            libraries:['places', 'geometry', 'drawing', 'visualization'],
+            libraries: ['places', 'geometry', 'drawing', 'visualization'],
           }}
           defaultCenter={location}
           defaultZoom={19}
@@ -32,7 +31,7 @@ function Map({}: Props) {
         </GoogleMapReact>
       </div>
     </div>
-  )
+  );
 }
 
-export default Map
+export default Map;

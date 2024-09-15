@@ -1,12 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-
-type Props = {}
+type Props = {};
 
 function Carousel({}: Props) {
-  return (
-    <div>Carousel</div>
-  )
+  return <div>Carousel</div>;
 }
 
-export default Carousel
+export default Carousel;

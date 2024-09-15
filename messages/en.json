@@ -1,5 +1,9 @@
 {
   "Navbar": {
+    "name": "Ennasr Dental Clinic",
+    "email": "drzade@tanger-dentiste.ma",
+    "address": "",
+    "phone": "0774767832",
     "home": "Home",
     "services": "Services",
     "servicesList": {
@@ -19,6 +23,12 @@
     },
     "about": "About Us",
     "contact": "Contact Us",
-    "call-you": "Call Us"
+    "call-you": "Call Us",
+    "see-all": "See all"
+  },
+  "Hero": {
+    "title": "Your smile is our priority",
+    "subtitle": "You'll have every good reason to come to us.",
+    "contact-us": "Contact Us"
   }
 }

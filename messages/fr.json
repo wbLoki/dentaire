@@ -1,5 +1,6 @@
 {
   "Navbar": {
+    "name": "Cabinet Dentaire Ennasr",
     "home": "Accueil",
     "services": "Services",
     "servicesList": {
@@ -21,5 +22,9 @@
     "contact": "Contactez Nous",
     "call-you": "On vous rappelle?",
     "see-all": "Voir tout"
+  },
+  "Hero": {
+    "title": "Votre sourire est notre priorite",
+    "subtitle": "Vous aurez toutes les bonnes raisons de venir chez nous."
   }
 }

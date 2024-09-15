@@ -4,7 +4,7 @@
 
 @layer components {
   section {
-    @apply py-4 px-2 space-y-4
+    @apply py-4 px-2 space-y-4;
   }
   /* main {
     @apply 
@@ -20,7 +20,8 @@ body {
   font-family: 'Alata', sans-serif;
 }
 
-input, textarea {
+input,
+textarea {
   -webkit-box-shadow: 0 0 0 1px rgb(209 213 219) inset;
   -moz-box-shadow: 0 0 0 1px rgb(209 213 219) inset;
   box-shadow: 0 0 0 1px rgb(209 213 219) inset;
