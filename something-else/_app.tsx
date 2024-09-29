@@ -9,7 +9,7 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Cabinet Dentaire Ennasr</title>
+        <title>Dr Majd Zade</title>
         <meta
           name="description"
           content="Cabinet Dentaire Ennasr de Tanger. Prenez un rendez-vous avec l'un des meilleurs médecins dès maintenant."

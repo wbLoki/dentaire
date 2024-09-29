@@ -21,7 +21,7 @@ import Image from 'next/image';
 
 import logo from '../media/logo.jpg';
 import { useMessages, useTranslations } from 'next-intl';
-import { FaChevronDown, FaChevronRight } from 'react-icons/fa';
+import { FaChevronDown, FaChevronRight, FaInstagram } from 'react-icons/fa';
 import LangSelector from './LangSelector';
 
 import { MdOutlineMailOutline, MdPhone } from 'react-icons/md';
@@ -94,6 +94,15 @@ function Header({}: Props) {
           className="items-center"
           justify="end"
         >
+          <NavbarItem>
+            <Link
+              color="foreground"
+              className="flex gap-2"
+              href="https://www.instagram.com/dr.majdzade/"
+            >
+              <FaInstagram />
+            </Link>
+          </NavbarItem>
           <NavbarItem className="lg:flex">
             <LangSelector />
           </NavbarItem>
@@ -103,7 +112,7 @@ function Header({}: Props) {
       {/* Bottom navBar */}
       <Navbar
         maxWidth="xl"
-        className="max-w-4xl mx-auto rounded-md"
+        className="max-w-4xl mx-auto rounded-md py-2"
         onMenuOpenChange={setIsMenuOpen}
       >
         <NavbarContent>

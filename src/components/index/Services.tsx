@@ -1,46 +1,40 @@
 import React from 'react';
 
-import service1 from '../../media/service1.png';
-import service2 from '../../media/service2.png';
-import service3 from '../../media/service3.png';
-import service4 from '../../media/service4.png';
 import { FiChevronRight } from 'react-icons/fi';
 import Image from 'next/image';
-
-const services = [
-  {
-    name: 'Appareils dentaires & prothese fixee',
-    desc: 'Lorem ipsum is placeholder text commonly used in the graphic.',
-    color: 'blue',
-    img: service1,
-    key: 1,
-  },
-  {
-    name: 'Implants',
-    desc: 'Lorem ipsum is placeholder text commonly used in the graphic.',
-    color: 'mauve',
-    img: service2,
-    key: 2,
-  },
-  {
-    name: 'Blanchiment',
-    desc: 'Lorem ipsum is placeholder text commonly used in the graphic.',
-    color: 'rose',
-    img: service3,
-    key: 3,
-  },
-  {
-    name: 'Traitement canalaire',
-    desc: 'Lorem ipsum is placeholder text commonly used in the graphic.',
-    color: 'peach',
-    img: service4,
-    key: 4,
-  },
-];
+import { useMessages, useTranslations } from 'next-intl';
 
 type Props = {};
 
 function Services({}: Props) {
+  const t = useTranslations('');
+  const messages = useMessages();
+  let services;
+  if (typeof messages.Services === 'object' && messages.Services !== null) {
+    services = Object.values(messages.Services.servicesList);
+  }
+  const servicesArray = services
+    ?.map((service) => {
+      if (
+        typeof service === 'object' &&
+        service !== null &&
+        'name' in service &&
+        'desc' in service &&
+        'color' in service &&
+        'img' in service
+      ) {
+        return {
+          name: service.name,
+          desc: service.desc,
+          color: service.color,
+          img: service.img,
+        } as Service;
+      } else {
+        return null;
+      }
+    })
+    .filter(Boolean) as Service[];
+  console.log('serices:', servicesArray);
   return (
     <>
       <div className="grid grid-row-4 px-4 lg:px-8 text-xs gap-8 max-w-5xl">
@@ -49,7 +43,7 @@ function Services({}: Props) {
           Sentez-vous incroyable à propos de votre santé bucco-dentaire
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-          {services.map((service, index: number) => (
+          {servicesArray?.map((service, index: number) => (
             <div
               key={index}
               className="flex flex-col rounded-3xl border p-3 gap-3 flex-shrink"
@@ -64,7 +58,7 @@ function Services({}: Props) {
                       alt="icon"
                       width={32}
                       height={32}
-                      className="text-purple h-8 w-auto"
+                      className="text-red-600 h-8 w-auto"
                     />
                   </div>
                 </div>

@@ -30,5 +30,63 @@
     "title": "Your smile is our priority",
     "subtitle": "You'll have every good reason to come to us.",
     "contact-us": "Contact Us"
+  },
+  "Services": {
+    "label": "services",
+    "title": "Feel great about your dental health.",
+    "servicesList": {
+      "0": {
+        "name": "Appareils dentaires & prothese fixee",
+        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "color": "peach",
+        "img": "/media/services/service1.png"
+      },
+      "1": {
+        "name": "Implants",
+        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "color": "mauve",
+        "img": "/media/services/service2.png"
+      },
+      "2": {
+        "name": "Blanchiment",
+        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "color": "rose",
+        "img": "/media/services/service3.png"
+      },
+
+      "3": {
+        "name": "Traitement canalaire",
+        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "color": "peach",
+        "img": "/media/services/service4.png"
+      }
+    }
+  },
+  "Promises": {
+    "label": "Promises",
+    "title": "Why Choose Us for Your Dental Care?",
+    "list": {
+      "0": {
+        "name": "Trustworthy Care",
+        "desc": "Patients can rely on our experienced team for honest assessments and treatment options tailored to their needs.",
+        "img": "/media/promises/shield.svg"
+      },
+      "1": {
+        "name": "Quality Treatment",
+        "desc": "We use the latest techniques and high-quality materials to ensure effective and lasting results.",
+        "img": "/media/promises/star.svg"
+      },
+      "2": {
+        "name": "Personalized Attention",
+        "desc": "Each patient receives individualized care and treatment plans that consider their unique oral health needs.",
+        "img": "/media/promises/couch.svg"
+      },
+
+      "3": {
+        "name": "Transparent Pricing",
+        "desc": "We provide clear information about costs and payment options, so patients know what to expect.",
+        "img": "/media/promises/magnifying-dollar.svg"
+      }
+    }
   }
 }

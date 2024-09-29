@@ -2,10 +2,10 @@ import Header from '@/src/components/Header';
 import Hero from '@/src/components/index/Hero';
 
 import Services from '@/src/components/index/Services';
-import Features from '@/src/components/index/Features';
 import Reviews from '@/src/components/index/Reviews';
 import Location from '@/src/components/index/Location';
 import Footer from '@/src/components/Footer';
+import Promises from '@/src/components/index/Promises';
 
 export default function HomePage() {
   return (
@@ -30,7 +30,7 @@ export default function HomePage() {
           id="features"
           className="bg-mauve md:bg-transparent flex justify-center"
         >
-          <Features />
+          <Promises />
         </section>
         <section
           id="reviews"

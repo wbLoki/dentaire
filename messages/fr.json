@@ -26,5 +26,62 @@
   "Hero": {
     "title": "Votre sourire est notre priorite",
     "subtitle": "Vous aurez toutes les bonnes raisons de venir chez nous."
+  },
+  "Services": {
+    "title": "Feel great about your dental health.",
+    "servicesList": {
+      "0": {
+        "name": "Appareils dentaires & prothese fixee",
+        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "color": "peach",
+        "img": "/media/services/service1.png"
+      },
+      "1": {
+        "name": "Implants",
+        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "color": "mauve",
+        "img": "/media/services/service2.png"
+      },
+      "2": {
+        "name": "Blanchiment",
+        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "color": "rose",
+        "img": "/media/services/service3.png"
+      },
+
+      "3": {
+        "name": "Traitement canalaire",
+        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "color": "peach",
+        "img": "/media/services/service4.png"
+      }
+    }
+  },
+  "Engagements": {
+    "title": "You will all the reasons to come to us.",
+    "subtitle": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+    "list": {
+      "0": {
+        "name": "Appareils dentaires & prothese fixee",
+        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "img": "/media/features/shield.svg"
+      },
+      "1": {
+        "name": "Implants",
+        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "img": "/media/features/hand.svg"
+      },
+      "2": {
+        "name": "Blanchiment",
+        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "img": "/media/features/can.svg"
+      },
+
+      "3": {
+        "name": "Traitement canalaire",
+        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "img": "/media/features/tooth.svg"
+      }
+    }
   }
 }
