@@ -3,6 +3,7 @@ import '../../styles/globals.css';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { NextUIProvider } from '@nextui-org/react';
+import WhatsAppButton from '@/src/components/FloatingWhatsapp';
 
 const keywords =
   'cabinet, dentaire, tanger, dentiste, dentist, implant dentaire, طبيب أسنان طنجة, طبيب أسنان بوخالف, احسن طبيب أسنان طنجة, أرقام هواتف أطباء الأسنان طنجة, dentist tanger, dentiste tanger';
@@ -28,6 +29,7 @@ export default async function RootLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           <NextUIProvider>{children}</NextUIProvider>
+          <WhatsAppButton />
         </NextIntlClientProvider>
       </body>
     </html>

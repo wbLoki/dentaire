@@ -50,14 +50,14 @@ input:focus {
 }
 
 .shine-text {
-  background-color: hsl(252, 50%, 49%); /* Add this line for a purple background */
-  background: hsl(252, 50%, 49%);
+  background-color: hsl(205,76%,28%); /* Add this line for a purple background */
+  background: hsl(205,76%,28%);
 }
 
 .shine-text:hover {
   background-clip: text; /* Ensure background clips to text */
   -webkit-background-clip: text; /* For webkit browsers */
-  background: linear-gradient(to right, hsl(252, 50%, 49%) 0, rgb(107, 79, 219) 0%, hsl(252, 50%, 49%) 100%);
+  background: linear-gradient(to right, hsl(205,76%,28%) 0, hsl(205, 77%, 32%) 0%, hsl(205,76%,28%) 100%);
   animation: shine 2s ease-out forwards;
 }
 

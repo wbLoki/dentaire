@@ -33,7 +33,7 @@ function Promises({}: Props) {
     .filter(Boolean) as PromiseType[];
   return (
     <div className="max-w-5xl flex flex-col bg-mauve rounded-2xl p-4 md:p-6 lg:px-14 text-xs gap-8 lg:gap-16">
-      <span className="uppercase text-purple text-xs -ml-4">{t('label')}</span>
+      <span className="uppercase text-primary text-xs -ml-4">{t('label')}</span>
       <h2 className="text-3xl pl-3 -ml-4">{t('title')}</h2>
       <div className="grid md:grid-cols-2 gap-4 lg:gap-16 lg:p-4">
         {promisesArray?.map((promise: PromiseType, index: number) => (

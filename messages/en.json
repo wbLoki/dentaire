@@ -38,26 +38,22 @@
       "0": {
         "name": "Appareils dentaires & prothese fixee",
         "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
-        "color": "peach",
         "img": "/media/services/service1.png"
       },
       "1": {
         "name": "Implants",
         "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
-        "color": "mauve",
         "img": "/media/services/service2.png"
       },
       "2": {
         "name": "Blanchiment",
         "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
-        "color": "rose",
         "img": "/media/services/service3.png"
       },
 
       "3": {
         "name": "Traitement canalaire",
         "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
-        "color": "peach",
         "img": "/media/services/service4.png"
       }
     }
@@ -88,5 +84,12 @@
         "img": "/media/promises/magnifying-dollar.svg"
       }
     }
+  },
+  "Whatsapp": {
+    "number": "+212622764003",
+    "name": "Dr. Majd Zade",
+    "statusMessage": "We're here to help!",
+    "chatMessage": "Hello! How can we assist you?",
+    "placeholder": "Type a message..."
   }
 }

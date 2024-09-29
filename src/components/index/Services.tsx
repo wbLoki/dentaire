@@ -20,13 +20,11 @@ function Services({}: Props) {
         service !== null &&
         'name' in service &&
         'desc' in service &&
-        'color' in service &&
         'img' in service
       ) {
         return {
           name: service.name,
           desc: service.desc,
-          color: service.color,
           img: service.img,
         } as Service;
       } else {
@@ -38,7 +36,7 @@ function Services({}: Props) {
   return (
     <>
       <div className="grid grid-row-4 px-4 lg:px-8 text-xs gap-8 max-w-5xl">
-        <span className="text-purple uppercase">services</span>
+        <span className="text-primary uppercase">services</span>
         <h2 className="text-2xl lg:text-4xl lg:max-w-[70%]">
           Sentez-vous incroyable à propos de votre santé bucco-dentaire
         </h2>
@@ -49,7 +47,7 @@ function Services({}: Props) {
               className="flex flex-col rounded-3xl border p-3 gap-3 flex-shrink"
             >
               <div
-                className={`flex p-4 bg-${service.color} rounded-2xl aspect-square w-full justify-center items-center`}
+                className={`flex p-4 bg-slate-300 rounded-2xl aspect-square w-full justify-center items-center`}
               >
                 <div className="bg-white/25 p-3 rounded-3xl border-t border-l border-white/50">
                   <div className="bg-white p-4 rounded-2xl w-fit mx-auto">
@@ -72,10 +70,10 @@ function Services({}: Props) {
             </div>
           ))}
         </div>
-        <div className="bg-purple/10 rounded-2xl w-56 p-2 justify-self-center">
-          <div className="flex p-2 text-purple items-center justify-center gap-2">
+        <div className="bg-primary/10 rounded-2xl w-56 p-2 justify-self-center">
+          <div className="flex p-2 text-primary items-center justify-center gap-2">
             <span>Voir la liste des services</span>
-            <div className="p-0.5 bg-purple rounded-full">
+            <div className="p-0.5 bg-primary rounded-full">
               <FiChevronRight className="text-white h-4 w-auto" />
             </div>
           </div>

@@ -64,7 +64,7 @@ function cabinet({}: Props) {
               className="rounded-2xl w-full h-full object-cover"
             />
             <div className="p-2 flex flex-col gap-8 self-center">
-              <span className="uppercase text-purple text-[12px]">
+              <span className="uppercase text-primary text-[12px]">
                 our priority
               </span>
               <h2 className="text-4xl">Nos patients sont notre priorite</h2>
@@ -80,7 +80,7 @@ function cabinet({}: Props) {
           </div>
 
           <div className="p-2 flex flex-col gap-8 self-center">
-            <span className="uppercase text-purple text-[12px]">
+            <span className="uppercase text-primary text-[12px]">
               meet our team
             </span>
             <div className="grid grid-cols-8">
@@ -124,7 +124,7 @@ function cabinet({}: Props) {
           </div>
 
           <div className="flex flex-col gap-8 text-center max-w-screen-lg mx-auto">
-            <span className="uppercase text-purple text-[12px]">faq</span>
+            <span className="uppercase text-primary text-[12px]">faq</span>
             <h2 className="text-4xl col-span-4">Frequently asked question</h2>
             <div className="border-t-4 border-purple w-full">
               <div></div>

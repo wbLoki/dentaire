@@ -28,7 +28,7 @@ export default function HomePage() {
         </section>
         <section
           id="features"
-          className="bg-mauve md:bg-transparent flex justify-center"
+          className="bg-mauve md:bg-zinc-700/20 flex justify-center"
         >
           <Promises />
         </section>

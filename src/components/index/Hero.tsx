@@ -20,14 +20,14 @@ function Hero(myRef: any) {
           <div className="grid grid-rows-2 xl:grid-cols-2 place-items-center text-xs gap-2">
             <div className="w-full">
               <Link href="#location">
-                <button className="text-white w-full shine-text bg-purple rounded-2xl px-8 py-5 lg:px-6 xl:py-5 2xl:px-12">
+                <button className="text-white w-full shine-text rounded-2xl px-8 py-5 lg:px-6 xl:py-5 2xl:px-12">
                   <span className="flex-1">{t('contact-us')}</span>
                 </button>
               </Link>
             </div>
-            <button className="flex items-center w-full bg-white/30 p-2 rounded-xl gap-4">
+            <button className="flex items-center w-full bg-white/60 p-2 rounded-xl gap-4">
               <div className="bg-white p-3 w-fit rounded-xl">
-                <FiPhoneCall className="text-purple text-lg" />
+                <FiPhoneCall className="text-primary text-lg" />
               </div>
               <div
                 className="grid grid-rows-2 text-left gap-0 items-center"
@@ -35,7 +35,7 @@ function Hero(myRef: any) {
                   window.location.href = 'tel:0774767832';
                 }}
               >
-                <span className="uppercase text-purple">24h emergency</span>
+                <span className="uppercase text-primary">24h emergency</span>
                 <span>07 74 76 78 32</span>
               </div>
             </button>

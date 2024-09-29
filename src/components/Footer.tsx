@@ -12,7 +12,7 @@ type Props = {};
 
 function Footer({}: Props) {
   return (
-    <div className="py-8 bg-[#041434]">
+    <div className="py-8 bg-zinc-900">
       <div className="grid grid-cols-1 md:grid-cols-2 max-w-screen-2xl mx-auto gap-14 text-xs text-slate-500">
         {/**************** CONTACT INFORMATION *****************/}
         <div className="flex flex-col gap-10">
@@ -23,7 +23,7 @@ function Footer({}: Props) {
             <div className="flex items-center gap-4">
               <div className="flex bg-white/10 p-2 rounded-2xl aspect-square h-16">
                 <div className="flex bg-white rounded-xl p-3 aspect-square justify-center h-12">
-                  <FiPhoneCall className="text-xl self-center fill-purple text-purple" />
+                  <FiPhoneCall className="text-xl self-center fill-black text-black" />
                 </div>
               </div>
               <div className="flex flex-col gap-2">
@@ -35,7 +35,7 @@ function Footer({}: Props) {
             <div className="flex items-center gap-4">
               <div className="flex bg-white/10 p-2 rounded-2xl aspect-square h-16">
                 <div className="flex bg-white rounded-xl p-2 aspect-square justify-center h-12">
-                  <FiClock className="text-2xl self-center fill-purple text-white" />
+                  <FiClock className="text-2xl self-center fill-black text-white" />
                 </div>
               </div>
               <div className="flex flex-col gap-2">
@@ -54,7 +54,7 @@ function Footer({}: Props) {
             <div className="flex items-center gap-4">
               <div className="flex bg-white/10 p-2 rounded-2xl aspect-square h-16">
                 <div className="flex bg-white rounded-xl p-3 aspect-square justify-center h-12">
-                  <FaMapMarkerAlt className="text-2xl self-center fill-purple text-white" />
+                  <FaMapMarkerAlt className="text-2xl self-center fill-black text-white" />
                 </div>
               </div>
               <div className="flex flex-col gap-2">

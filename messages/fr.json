@@ -25,7 +25,8 @@
   },
   "Hero": {
     "title": "Votre sourire est notre priorite",
-    "subtitle": "Vous aurez toutes les bonnes raisons de venir chez nous."
+    "subtitle": "Vous aurez toutes les bonnes raisons de venir chez nous.",
+    "contact-us": "Contactez Nous"
   },
   "Services": {
     "title": "Feel great about your dental health.",
@@ -33,55 +34,57 @@
       "0": {
         "name": "Appareils dentaires & prothese fixee",
         "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
-        "color": "peach",
         "img": "/media/services/service1.png"
       },
       "1": {
         "name": "Implants",
         "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
-        "color": "mauve",
         "img": "/media/services/service2.png"
       },
       "2": {
         "name": "Blanchiment",
         "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
-        "color": "rose",
         "img": "/media/services/service3.png"
       },
 
       "3": {
         "name": "Traitement canalaire",
         "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
-        "color": "peach",
         "img": "/media/services/service4.png"
       }
     }
   },
-  "Engagements": {
-    "title": "You will all the reasons to come to us.",
-    "subtitle": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+  "Promises": {
+    "label": "Promesses",
+    "title": "Pourquoi Choisir Nos Soins Dentaires ?",
     "list": {
       "0": {
-        "name": "Appareils dentaires & prothese fixee",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
-        "img": "/media/features/shield.svg"
+        "name": "Soins Fiables",
+        "desc": "Les patients peuvent compter sur notre équipe expérimentée pour des évaluations honnêtes et des options de traitement adaptées à leurs besoins.",
+        "img": "/media/promises/shield.svg"
       },
       "1": {
-        "name": "Implants",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
-        "img": "/media/features/hand.svg"
+        "name": "Traitement de Qualité",
+        "desc": "Nous utilisons les dernières techniques et des matériaux de haute qualité pour garantir des résultats efficaces et durables.",
+        "img": "/media/promises/star.svg"
       },
       "2": {
-        "name": "Blanchiment",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
-        "img": "/media/features/can.svg"
+        "name": "Attention Personnalisée",
+        "desc": "Chaque patient bénéficie de soins individualisés et de plans de traitement qui tiennent compte de ses besoins uniques en matière de santé bucco-dentaire.",
+        "img": "/media/promises/couch.svg"
       },
-
       "3": {
-        "name": "Traitement canalaire",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
-        "img": "/media/features/tooth.svg"
+        "name": "Tarification Transparente",
+        "desc": "Nous fournissons des informations claires sur les coûts et les options de paiement, afin que les patients sachent à quoi s'attendre.",
+        "img": "/media/promises/magnifying-dollar.svg"
       }
     }
+  },
+  "Whatsapp": {
+    "number": "+212622764003",
+    "name": "Dr. Majd Zade",
+    "statusMessage": "Nous sommes là pour vous aider !",
+    "chatMessage": "Bonjour ! Comment pouvons-nous vous assister ?",
+    "placeholder": "Tapez un message..."
   }
 }

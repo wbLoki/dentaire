@@ -9,7 +9,7 @@ function Location({}: Props) {
     <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 h-fit">
       <Map />
       <div className="flex flex-col rounded-2xl p-4 md:p-6 lg:px-14 text-xs gap-8 lg:gap-16">
-        <span className="uppercase text-purple text-xs -ml-4">
+        <span className="uppercase text-primary text-xs -ml-4">
           book appointment
         </span>
         <h2 className="text-3xl pl-3 -ml-4">Prendre un Rendez-vous</h2>
