@@ -27,13 +27,13 @@ export default function HomePage() {
         </section>
         <section
           id="features"
-          className="bg-mauve md:bg-zinc-700/20 flex justify-center"
+          className="bg-mauve md:bg-slate-100/60 flex justify-center"
         >
           <Promises />
         </section>
         <section
           id="reviews"
-          className="bg-blue md:bg-transparent flex justify-center"
+          className="bg-blue md:bg-slate-100/40 flex justify-center"
         >
           <Reviews />
         </section>
