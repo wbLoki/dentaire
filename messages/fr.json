@@ -1,8 +1,12 @@
 {
   "Navbar": {
-    "name": "Cabinet Dentaire Ennasr",
+    "name": "Clinique Dentaire Ennasr",
+    "email": "drzade@tanger-dentiste.ma",
+    "address": "",
+    "phone": "0774767832",
     "home": "Accueil",
-    "services": "Services",
+    "services": "Nos Services",
+    "news": "Actualités",
     "servicesList": {
       "0": "Consultation dentaire",
       "1": "Détartrage et polissage",
@@ -18,63 +22,68 @@
       "11": "Esthétique dentaire",
       "12": "Urgences dentaires"
     },
-    "about": "À propos",
-    "contact": "Contactez Nous",
-    "call-you": "On vous rappelle?",
-    "see-all": "Voir tout"
+    "about": "À propos de nous",
+    "call-you": "Appelez-nous",
+    "see-all": "Voir tout",
+    "socials": {
+      "facebook": "Facebook",
+      "instagram": "https://www.instagram.com/dr.majdzade/",
+      "tiktok": "https://www.tiktok.com/@dr.majd.zade",
+      "maps": "https://maps.app.goo.gl/89MUHkwn6pw9HN7s6"
+    }
   },
   "Hero": {
-    "title": "Votre sourire est notre priorite",
+    "title": "Votre sourire est notre priorité",
     "subtitle": "Vous aurez toutes les bonnes raisons de venir chez nous.",
-    "contact-us": "Contactez Nous"
+    "contact-us": "Contactez-nous"
   },
   "Services": {
-    "title": "Feel great about your dental health.",
+    "label": "services",
+    "title": "Sentez-vous bien dans votre santé dentaire.",
     "servicesList": {
       "0": {
-        "name": "Appareils dentaires & prothese fixee",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "name": "Appareils dentaires & prothèse fixe",
+        "desc": "Lorem ipsum est un texte de substitution couramment utilisé dans la graphique.",
         "img": "/media/services/service1.png"
       },
       "1": {
         "name": "Implants",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "desc": "Lorem ipsum est un texte de substitution couramment utilisé dans la graphique.",
         "img": "/media/services/service2.png"
       },
       "2": {
         "name": "Blanchiment",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "desc": "Lorem ipsum est un texte de substitution couramment utilisé dans la graphique.",
         "img": "/media/services/service3.png"
       },
-
       "3": {
         "name": "Traitement canalaire",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "desc": "Lorem ipsum est un texte de substitution couramment utilisé dans la graphique.",
         "img": "/media/services/service4.png"
       }
     }
   },
   "Promises": {
     "label": "Promesses",
-    "title": "Pourquoi Choisir Nos Soins Dentaires ?",
+    "title": "Pourquoi nous choisir pour vos soins dentaires ?",
     "list": {
       "0": {
-        "name": "Soins Fiables",
+        "name": "Soins dignes de confiance",
         "desc": "Les patients peuvent compter sur notre équipe expérimentée pour des évaluations honnêtes et des options de traitement adaptées à leurs besoins.",
         "img": "/media/promises/shield.svg"
       },
       "1": {
-        "name": "Traitement de Qualité",
+        "name": "Traitement de qualité",
         "desc": "Nous utilisons les dernières techniques et des matériaux de haute qualité pour garantir des résultats efficaces et durables.",
         "img": "/media/promises/star.svg"
       },
       "2": {
-        "name": "Attention Personnalisée",
-        "desc": "Chaque patient bénéficie de soins individualisés et de plans de traitement qui tiennent compte de ses besoins uniques en matière de santé bucco-dentaire.",
+        "name": "Attention personnalisée",
+        "desc": "Chaque patient reçoit des soins individualisés et des plans de traitement qui tiennent compte de ses besoins uniques en santé bucco-dentaire.",
         "img": "/media/promises/couch.svg"
       },
       "3": {
-        "name": "Tarification Transparente",
+        "name": "Tarification transparente",
         "desc": "Nous fournissons des informations claires sur les coûts et les options de paiement, afin que les patients sachent à quoi s'attendre.",
         "img": "/media/promises/magnifying-dollar.svg"
       }
@@ -84,7 +93,7 @@
     "number": "+212622764003",
     "name": "Dr. Majd Zade",
     "statusMessage": "Nous sommes là pour vous aider !",
-    "chatMessage": "Bonjour ! Comment pouvons-nous vous assister ?",
+    "chatMessage": "Bonjour ! Comment pouvons-nous vous aider ?",
     "placeholder": "Tapez un message..."
   }
 }

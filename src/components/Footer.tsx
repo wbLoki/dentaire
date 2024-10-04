@@ -69,7 +69,7 @@ function Footer({}: Props) {
         {/**************** QUICK LINKS *****************/}
         <div className="flex flex-col gap-10">
           <h3 className="uppercase self-center text-slate-300">quick links</h3>
-          <div className="flex flex-col gap-8 md:gap-4 capitalize text-white text-sm text-center">
+          <div className="flex flex-col gap-8 md:gap-4 capitalize text-white text-sm items-center">
             <Link href="/">A Propos Nous</Link>
             <Link href="/">services dentaire</Link>
             <Link href="/">dentist</Link>

@@ -25,7 +25,7 @@ function LangSelector({}: Props) {
       variant={'underlined'}
       size="sm"
       classNames={{
-        mainWrapper: 'h-full',
+        mainWrapper: 'my-auto',
       }}
       selectedKeys={[locale]}
       onSelectionChange={(e) => {

@@ -17,7 +17,6 @@ export default function HomePage() {
           className="bg-[url('/media/bg.jpeg')] h-screen flex flex-col justify-between"
           id="hero"
         >
-          <Header />
           <Hero />
         </section>
         <section
@@ -40,7 +39,6 @@ export default function HomePage() {
         </section>
         <section id="location">{/* <Location /> */}</section>
       </main>
-      <Footer />
     </>
   );
 }

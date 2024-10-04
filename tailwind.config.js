@@ -22,6 +22,8 @@ module.exports = {
         rose: '#F6DBFA',
         peach: '#FADBE2',
         orange: '#FF8C4B',
+        'blue-100': '#ebf8ff', // Light blue
+        'blue-50': '#f0f9ff',  // Very light blue
       },
       backgroundImage: {
         'hero-image': "url('../media/cabinet/happy.jpg')",

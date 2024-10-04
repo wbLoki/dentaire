@@ -6,18 +6,28 @@
   section {
     @apply py-4 px-2 space-y-4;
   }
-  /* main {
-    @apply 
-  } */
 }
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  max-width: 100%;
+  /* overflow-x: hidden; */
   /* overflow-y: hidden; */
+  margin: 0;
   font-size: larger;
   font-family: 'Alata', sans-serif;
+}
+
+:dir(rtl) {
+  text-align: right;
+}
+
+:dir(ltr) {
+  text-align: left;
+}
+
+.ltr {
+  direction: ltr;
 }
 
 input,

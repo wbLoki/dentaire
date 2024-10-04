@@ -2,10 +2,11 @@
   "Navbar": {
     "name": "Ennasr Dental Clinic",
     "email": "drzade@tanger-dentiste.ma",
-    "address": "",
+    "address": "14, rue tanger, Tanger, Maroc",
     "phone": "0774767832",
     "home": "Home",
-    "services": "Services",
+    "services": "Our Services",
+    "news": "News",
     "servicesList": {
       "0": "Consultation dentaire",
       "1": "Détartrage et polissage",
@@ -22,18 +23,25 @@
       "12": "Urgences dentaires"
     },
     "about": "About Us",
-    "contact": "Contact Us",
     "call-you": "Call Us",
-    "see-all": "See all"
+    "see-all": "See all",
+    "socials": {
+      "facebook": "Facebook",
+      "instagram": "https://www.instagram.com/dr.majdzade/",
+      "tiktok": "https://www.tiktok.com/@dr.majd.zade",
+      "maps": "https://maps.app.goo.gl/89MUHkwn6pw9HN7s6"
+    }
   },
   "Hero": {
     "title": "Your smile is our priority",
     "subtitle": "You'll have every good reason to come to us.",
-    "contact-us": "Contact Us"
+    "contact-us": "Contact Us",
+    "phone": "0774767832"
   },
   "Services": {
     "label": "services",
     "title": "Feel great about your dental health.",
+    "see-more": "View the list of services",
     "servicesList": {
       "0": {
         "name": "Appareils dentaires & prothese fixee",
@@ -91,5 +99,25 @@
     "statusMessage": "We're here to help!",
     "chatMessage": "Hello! How can we assist you?",
     "placeholder": "Type a message..."
+  },
+  "AboutUs": {
+    "title": "About Us",
+    "desc": "Lorem ipsum is placeholder text print, and publishing industries for previewing layouts and visual mockups.",
+    "img": "/media/about-us.png",
+    "doctor-name": "Dr. Majd Zade",
+    "doctor-desc": "Docteur Majd Zade est un médecin dentiste renommé, expert en esthétique du sourire, en chirurgie dentaire et en orthodontie clinique. Lauréat de la faculté de médecine dentaire de Casablanca, il possède un diplôme universitaire en orthodontie clinique obtenu à Murcie, en Espagne. Il a enrichi son parcours en obtenant des CES en implantologie et parodontologie à Bordeaux, en France, ainsi qu’en esthétique dentaire à Genève, en Suisse. Sa quête d’excellence l’a également conduit à obtenir des CES en esthétique faciale, en techniques de remplissage (FILLER) et en utilisation du BOTOX.",
+    "doctor-img": "/media/about-us/doctor.png",
+    "team-name": "Our team",
+    "team-desc": "Notre équipe du centre dentaire est spécialement formée pour vous offrir un service exceptionnel. Elle se compose d'une secrétaire d'accueil chaleureuse et de deux assistantes dévouées, toutes déterminées à vous fournir une expérience de soins de qualité. De l'accueil initial à chaque étape de votre traitement, notre équipe veille à ce que vous vous sentiez à l'aise. Votre satisfaction et votre bien-être sont au cœur de notre engagement, et notre équipe est là pour répondre à vos besoins et vous offrir le meilleur service possible.",
+    "team-img": "/media/about-us/team.png",
+    "our-center": "Our dental center in Tangier.",
+    "centerImages": {
+      "0": { "src": "/media/about-us/center-1.jpg", "alt": "Center image 1" },
+      "1": { "src": "/media/about-us/center-2.jpg", "alt": "Center image 2" },
+      "2": { "src": "/media/about-us/center-3.jpg", "alt": "Center image 3" },
+      "3": { "src": "/media/about-us/center-4.jpg", "alt": "Center image 4" },
+      "4": { "src": "/media/about-us/center-5.jpg", "alt": "Center image 5" },
+      "5": { "src": "/media/about-us/center-6.jpg", "alt": "Center image 6" }
+    }
   }
 }

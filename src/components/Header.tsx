@@ -1,5 +1,5 @@
 'use client';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 import {
   Navbar,
@@ -18,10 +18,11 @@ import {
   Divider,
 } from '@nextui-org/react';
 import Image from 'next/image';
+import { Link as IntLink } from '../i18n/routing';
 
 import logo from '../media/logo.jpg';
 import { useMessages, useTranslations } from 'next-intl';
-import { FaChevronDown, FaChevronRight, FaInstagram } from 'react-icons/fa';
+import { FaChevronDown, FaPhone, FaInstagram, FaTiktok } from 'react-icons/fa';
 import LangSelector from './LangSelector';
 
 import { MdOutlineMailOutline, MdPhone } from 'react-icons/md';
@@ -30,7 +31,23 @@ import { IoLocationOutline } from 'react-icons/io5';
 type Props = {};
 
 function Header({}: Props) {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = React.useReducer(
+    (current) => !current,
+    false
+  );
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  const handleScroll = () => {
+    setScrollPosition(window.scrollY); // Track the scroll position
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   const t = useTranslations('Navbar');
   const messages = useMessages();
   const menuItems = [
@@ -42,15 +59,14 @@ function Header({}: Props) {
         (messages.Navbar as { servicesList: any }).servicesList
       ),
     },
-    { name: t('about'), href: '/cabinet' },
-    { name: t('contact'), href: '#' },
+    { name: t('about'), href: '/about-us' },
   ];
 
   return (
-    <header>
+    <>
       <Navbar
-        className="hidden lg:flex bg-transparent"
-        height={'2rem'}
+        height={'2.5rem'}
+        className="hidden lg:flex absolute top-0 left-0 right-0 z-10 bg-transparent"
       >
         <NavbarContent
           className="hidden sm:flex gap-4"
@@ -60,31 +76,31 @@ function Header({}: Props) {
             <Link
               color="foreground"
               className="flex gap-2"
-              href="mailto:drzade@tanger-dentiste.ma"
+              href={`mailto:${t('email')}`}
             >
               <MdOutlineMailOutline />
-              <span className="text-xs">drzade@tanger-dentiste.ma</span>
+              <span className="text-xs">{t('email')}</span>
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link
               color="foreground"
-              href="#"
+              href={t('socials.maps')}
               aria-current="page"
               className="flex gap-2"
             >
               <IoLocationOutline />
-              <span className="text-xs">14, rue tanger, Tanger, Maroc</span>
+              <span className="text-xs">{t('address')}</span>
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link
               color="foreground"
-              href="#"
+              href={`tel:${t('phone')}`}
               className="flex gap-2"
             >
               <MdPhone />
-              <span className="text-xs">0612345678</span>
+              <span className="text-xs">{t('phone')}</span>
             </Link>
           </NavbarItem>
         </NavbarContent>
@@ -98,9 +114,18 @@ function Header({}: Props) {
             <Link
               color="foreground"
               className="flex gap-2"
-              href="https://www.instagram.com/dr.majdzade/"
+              href={t('socials.instagram')}
             >
               <FaInstagram />
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link
+              color="foreground"
+              className="flex gap-2"
+              href={t('socials.tiktok')}
+            >
+              <FaTiktok />
             </Link>
           </NavbarItem>
           <NavbarItem className="lg:flex">
@@ -111,13 +136,17 @@ function Header({}: Props) {
 
       {/* Bottom navBar */}
       <Navbar
-        maxWidth="xl"
-        className="max-w-4xl mx-auto rounded-md py-2"
+        maxWidth="lg"
+        className={`max-w-4xl shadow-md fixed left-0 right-0 mx-auto rounded-md z-50 transition-all duration-300 ease-in-out ${
+          isMenuOpen ? 'rounded-b-none' : ''
+        } ${scrollPosition > 0 ? 'xl:top-[0.5rem]' : 'lg:top-[2rem]'}`} // Change top value based on scroll position
+        height={'5rem'}
+        isMenuOpen={isMenuOpen}
         onMenuOpenChange={setIsMenuOpen}
       >
         <NavbarContent>
           <NavbarMenuToggle
-            aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+            // aria-label={isMenuOpen}
             className="lg:hidden"
           />
           <NavbarBrand className="flex gap-2">
@@ -142,7 +171,7 @@ function Header({}: Props) {
                   <DropdownTrigger>
                     <Link
                       className="hidden lg:flex w-full text-sky-700 hover:text-sky-500 cursor-pointer gap-1"
-                      size="md"
+                      size="lg"
                     >
                       {item.name}
                       <FaChevronDown
@@ -175,13 +204,12 @@ function Header({}: Props) {
               </Dropdown>
             ) : (
               <NavbarMenuItem key={`${item}-${index}`}>
-                <Link
+                <IntLink
                   className="hidden lg:flex w-full text-sky-700 hover:text-sky-500"
                   href={item.href}
-                  size="md"
                 >
                   {item.name}
-                </Link>
+                </IntLink>
               </NavbarMenuItem>
             )
           )}
@@ -190,17 +218,14 @@ function Header({}: Props) {
               as={Link}
               href="#"
               color="primary"
-              className="text-sky-50 hover:text-yellow-300 rounded-full"
+              className="text-sky-50 hover:text-yellow-300 px-6 hidden lg:flex rounded-full"
             >
               {t('call-you')}
-              <FaChevronRight
-                fill="currentColor"
-                size={16}
-              />
             </Button>
           </NavbarItem>
         </NavbarContent>
 
+        {/* mobile navbar */}
         <NavbarMenu>
           {menuItems.map((item, index) =>
             item.submenu ? (
@@ -212,7 +237,7 @@ function Header({}: Props) {
                 <NavbarItem>
                   <DropdownTrigger>
                     <Link
-                      className="w-full text-sky-700 hover:text-sky-500 cursor-pointer justify-between gap-1"
+                      className="w-full flex text-sky-700 hover:text-sky-500 cursor-pointer justify-between gap-1"
                       size="lg"
                     >
                       {item.name}
@@ -245,24 +270,42 @@ function Header({}: Props) {
                 </DropdownMenu>
               </Dropdown>
             ) : (
-              <NavbarMenuItem key={`${item}-${index}`}>
-                <Link
+              <NavbarMenuItem
+                onClick={setIsMenuOpen}
+                key={`${item}-${index}`}
+              >
+                <IntLink
                   className="w-full text-sky-700"
                   href={item.href}
-                  size="lg"
+                  // size="lg"
                 >
                   {item.name}
-                </Link>
+                </IntLink>
               </NavbarMenuItem>
             )
           )}
           <Divider className="my-4" />
-          <NavbarMenuItem key="lang">
+          <NavbarMenuItem
+            className="flex justify-between"
+            key="lang"
+          >
             <LangSelector />
+            <Button
+              as={Link}
+              href="#"
+              color="primary"
+              className="text-sky-50 hover:text-yellow-300 rounded-full"
+            >
+              {t('call-you')}
+              <FaPhone
+                fill="currentColor"
+                size={16}
+              />
+            </Button>
           </NavbarMenuItem>
         </NavbarMenu>
       </Navbar>
-    </header>
+    </>
   );
 }
 

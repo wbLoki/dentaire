@@ -9,7 +9,7 @@ import { useTranslations } from 'next-intl';
 
 type Props = {};
 
-function Hero(myRef: any) {
+function Hero() {
   const t = useTranslations('Hero');
   return (
     <div className="max-w-5xl mx-auto grid lg:grid-cols-2 mt-auto">
@@ -20,8 +20,8 @@ function Hero(myRef: any) {
           <div className="grid grid-rows-2 xl:grid-cols-2 place-items-center text-xs gap-2">
             <div className="w-full">
               <Link href="#location">
-                <button className="text-white w-full shine-text rounded-2xl px-8 py-5 lg:px-6 xl:py-5 2xl:px-12">
-                  <span className="flex-1">{t('contact-us')}</span>
+                <button className="flex justify-center text-white w-full shine-text rounded-2xl px-8 py-5 lg:px-6 xl:py-5 2xl:px-12">
+                  <span className="text-medium">{t('contact-us')}</span>
                 </button>
               </Link>
             </div>
@@ -36,7 +36,7 @@ function Hero(myRef: any) {
                 }}
               >
                 <span className="uppercase text-primary">24h emergency</span>
-                <span>07 74 76 78 32</span>
+                <span className="ltr">{t('phone')}</span>
               </div>
             </button>
           </div>

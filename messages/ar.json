@@ -1,26 +1,101 @@
 {
   "Navbar": {
-    "name": "عيادة الأسنان النصر",
-    "home": "Accueil",
-    "services": "Services",
+    "name": "عيادة النصر للأسنان",
+    "email": "drzade@tanger-dentiste.ma",
+    "address": "14، شارع طنجة، طنجة، المغرب",
+    "phone": "0774767832",
+    "home": "الرئيسية",
+    "services": "خدماتنا",
+    "news": "أخبار",
     "servicesList": {
-      "0": "Consultation dentaire",
-      "1": "Détartrage et polissage",
-      "2": "Blanchiment dentaire",
-      "3": "Soins des caries",
-      "4": "Endodontie",
-      "5": "Chirurgie buccale",
-      "6": "Prothèses dentaires",
-      "7": "Orthodontie",
-      "8": "Implants dentaires",
-      "9": "Parodontologie",
-      "10": "Pédiatrie dentaire",
-      "11": "Esthétique dentaire",
-      "12": "Urgences dentaires"
+      "0": "استشارة الأسنان",
+      "1": "تنظيف وتلميع الأسنان",
+      "2": "تبييض الأسنان",
+      "3": "علاج التسوس",
+      "4": "علاج الجذور",
+      "5": "جراحة الفم",
+      "6": "أطقم الأسنان",
+      "7": "تقويم الأسنان",
+      "8": "زرع الأسنان",
+      "9": "طب الأسنان اللثوي",
+      "10": "طب أسنان الأطفال",
+      "11": "التجميل السني",
+      "12": "حالات الطوارئ"
     },
-    "about": "À propos",
-    "contact": "Contactez Nous",
-    "call-you": "On vous rappelle?",
-    "see-all": "Voir tout"
+    "about": "معلومات عنا",
+    "call-you": "اتصل بنا",
+    "see-all": "رؤية الكل",
+    "socials": {
+      "facebook": "Facebook",
+      "instagram": "https://www.instagram.com/dr.majdzade/",
+      "tiktok": "https://www.tiktok.com/@dr.majd.zade",
+      "maps": "https://maps.app.goo.gl/89MUHkwn6pw9HN7s6"
+    }
+  },
+  "Hero": {
+    "title": "ابتسامتك هي أولويتنا",
+    "subtitle": "ستجد كل الأسباب الجيدة لزيارتنا.",
+    "contact-us": "اتصل بنا",
+    "phone": "07 74 76 78 32"
+  },
+  "Services": {
+    "label": "الخدمات",
+    "title": "استمتع بصحة فموية جيدة.",
+    "see-more": "عرض قائمة الخدمات",
+    "servicesList": {
+      "0": {
+        "name": "الأجهزة السنية والأطراف الثابتة",
+        "desc": "Lorem ipsum هو نص بديل يستخدم عادة في الرسومات.",
+        "img": "/media/services/service1.png"
+      },
+      "1": {
+        "name": "زرع الأسنان",
+        "desc": "Lorem ipsum هو نص بديل يستخدم عادة في الرسومات.",
+        "img": "/media/services/service2.png"
+      },
+      "2": {
+        "name": "تبييض الأسنان",
+        "desc": "Lorem ipsum هو نص بديل يستخدم عادة في الرسومات.",
+        "img": "/media/services/service3.png"
+      },
+      "3": {
+        "name": "علاج القناة",
+        "desc": "Lorem ipsum هو نص بديل يستخدم عادة في الرسومات.",
+        "img": "/media/services/service4.png"
+      }
+    }
+  },
+  "Promises": {
+    "label": "الوعود",
+    "title": "لماذا تختارنا لرعايتك السنية؟",
+    "list": {
+      "0": {
+        "name": "رعاية موثوقة",
+        "desc": "يمكن للمرضى الاعتماد على فريقنا ذي الخبرة للحصول على تقييمات صادقة وخيارات علاج تناسب احتياجاتهم.",
+        "img": "/media/promises/shield.svg"
+      },
+      "1": {
+        "name": "علاج عالي الجودة",
+        "desc": "نستخدم أحدث التقنيات ومواد عالية الجودة لضمان نتائج فعالة ودائمة.",
+        "img": "/media/promises/star.svg"
+      },
+      "2": {
+        "name": "اهتمام شخصي",
+        "desc": "يتلقى كل مريض رعاية فردية وخطط علاج تأخذ بعين الاعتبار احتياجاته الفموية الفريدة.",
+        "img": "/media/promises/couch.svg"
+      },
+      "3": {
+        "name": "أسعار شفافة",
+        "desc": "نقدم معلومات واضحة حول التكاليف وخيارات الدفع، بحيث يعرف المرضى ما يمكن توقعه.",
+        "img": "/media/promises/magnifying-dollar.svg"
+      }
+    }
+  },
+  "Whatsapp": {
+    "number": "+212622764003",
+    "name": "الدكتور ماجد زيد",
+    "statusMessage": "نحن هنا لمساعدتك!",
+    "chatMessage": "مرحبًا! كيف يمكننا مساعدتك؟",
+    "placeholder": "اكتب رسالة..."
   }
 }
