@@ -6,6 +6,8 @@ import { NextUIProvider } from '@nextui-org/react';
 import WhatsAppButton from '@/src/components/FloatingWhatsapp';
 import Header from '@/src/components/Header';
 import Footer from '@/src/components/Footer';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const keywords =
   'cabinet, dentaire, tanger, dentiste, dentist, implant dentaire, طبيب أسنان طنجة, طبيب أسنان بوخالف, احسن طبيب أسنان طنجة, أرقام هواتف أطباء الأسنان طنجة, dentist tanger, dentiste tanger';
