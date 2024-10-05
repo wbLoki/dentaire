@@ -14,8 +14,8 @@ async function fetchReviews(locale: string) {
   return data.reviews || [];
 }
 
-async function Reviews() {
-  const locale = 'fr'; // or get this dynamically based on your app's logic
+async function Reviews({ params }) {
+  const { locale } = params;
   let reviews: any[] = [];
   let error: string | null = null;
 
