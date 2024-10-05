@@ -14,7 +14,11 @@ async function fetchReviews(locale: string) {
   return data.reviews || [];
 }
 
-async function Reviews({ params }) {
+interface ReviewsProps {
+  params: { locale: string };
+}
+
+async function Reviews({ params }: ReviewsProps) {
   const { locale } = params;
   let reviews: any[] = [];
   let error: string | null = null;
