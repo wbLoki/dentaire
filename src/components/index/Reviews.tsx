@@ -1,5 +1,7 @@
 import React from 'react';
 import GoogleReviews from '../GoogleReviews';
+import { useLocale } from 'next-intl';
+import { getLocale } from 'next-intl/server';
 
 type Testimonial = { name: string; text: string; rating: number };
 
@@ -14,18 +16,15 @@ async function fetchReviews(locale: string) {
   return data.reviews || [];
 }
 
-interface ReviewsProps {
-  params: { locale: string };
-}
-
-async function Reviews({ params }: ReviewsProps) {
-  const { locale } = params;
+async function Reviews() {
   let reviews: any[] = [];
   let error: string | null = null;
 
   try {
+    const locale = await getLocale();
     reviews = await fetchReviews(locale);
   } catch (err) {
+    console.log(err);
     error = `${err}`;
   }
 
