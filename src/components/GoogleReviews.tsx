@@ -52,7 +52,7 @@ const GoogleReviews: React.FC<GoogleReviewsProps> = ({ reviews, error }) => {
                   </div>
                 </div>
               </CardHeader>
-              <CardBody className="px-3 pt-0 text-small text-default-400 overflow-y-scroll">
+              <CardBody className="px-3 pt-0 text-small text-default-400 overflow-y-auto">
                 <p>{review.text}</p>
               </CardBody>
             </Card>
