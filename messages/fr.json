@@ -42,23 +42,27 @@
     "title": "Sentez-vous bien dans votre santé dentaire.",
     "servicesList": {
       "0": {
-        "name": "Appareils dentaires & prothèse fixe",
-        "desc": "Lorem ipsum est un texte de substitution couramment utilisé dans la graphique.",
+        "slug": "appareils-dentaires-prothese-fixee",
+        "name": "Appareils Dentaires & Prothèse Fixée",
+        "desc": "Lorem ipsum est un texte de substitution couramment utilisé dans la conception graphique.",
         "img": "/media/services/service1.png"
       },
       "1": {
+        "slug": "implants",
         "name": "Implants",
-        "desc": "Lorem ipsum est un texte de substitution couramment utilisé dans la graphique.",
+        "desc": "Lorem ipsum est un texte de substitution couramment utilisé dans la conception graphique.",
         "img": "/media/services/service2.png"
       },
       "2": {
+        "slug": "blanchiment",
         "name": "Blanchiment",
-        "desc": "Lorem ipsum est un texte de substitution couramment utilisé dans la graphique.",
+        "desc": "Lorem ipsum est un texte de substitution couramment utilisé dans la conception graphique.",
         "img": "/media/services/service3.png"
       },
       "3": {
-        "name": "Traitement canalaire",
-        "desc": "Lorem ipsum est un texte de substitution couramment utilisé dans la graphique.",
+        "slug": "traitement-canal-rachidien",
+        "name": "Traitement de Canal Rachidien",
+        "desc": "Lorem ipsum est un texte de substitution couramment utilisé dans la conception graphique.",
         "img": "/media/services/service4.png"
       }
     }

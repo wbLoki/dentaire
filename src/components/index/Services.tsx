@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FiChevronRight } from 'react-icons/fi';
 import Image from 'next/image';
-import { useMessages, useTranslations, useLocale } from 'next-intl';
+import { useMessages, useTranslations } from 'next-intl';
 import { Link } from '@/src/i18n/routing';
 import Card from '../Card';
 
@@ -11,7 +11,6 @@ type Props = {};
 function Services({}: Props) {
   const t = useTranslations('Services');
   const messages = useMessages();
-  const locale = useLocale();
   let services;
   if (typeof messages.Services === 'object' && messages.Services !== null) {
     services = Object.values(messages.Services.servicesList);
@@ -29,12 +28,12 @@ function Services({}: Props) {
           name: service.name,
           desc: service.desc,
           img: service.img,
-        } as Service;
+        } as BaseItem;
       } else {
         return null;
       }
     })
-    .filter(Boolean) as Service[];
+    .filter(Boolean) as BaseItem[];
   return (
     <>
       <div className="grid grid-row-4 px-4 lg:px-8 text-xs gap-12 max-w-5xl">

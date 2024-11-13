@@ -44,23 +44,27 @@
     "see-more": "عرض قائمة الخدمات",
     "servicesList": {
       "0": {
-        "name": "الأجهزة السنية والأطراف الثابتة",
-        "desc": "Lorem ipsum هو نص بديل يستخدم عادة في الرسومات.",
+        "slug": "ajhizat-alsinan-walterkybat-althabita",
+        "name": "أجهزة الأسنان & التركيبات الثابتة",
+        "desc": "لوريم إيبسوم هو نص وهمي يستخدم عادة في التصميمات الرسومية.",
         "img": "/media/services/service1.png"
       },
       "1": {
-        "name": "زرع الأسنان",
-        "desc": "Lorem ipsum هو نص بديل يستخدم عادة في الرسومات.",
+        "slug": "zarat-alsinan",
+        "name": "زراعة الأسنان",
+        "desc": "لوريم إيبسوم هو نص وهمي يستخدم عادة في التصميمات الرسومية.",
         "img": "/media/services/service2.png"
       },
       "2": {
+        "slug": "tabyeed-alsinan",
         "name": "تبييض الأسنان",
-        "desc": "Lorem ipsum هو نص بديل يستخدم عادة في الرسومات.",
+        "desc": "لوريم إيبسوم هو نص وهمي يستخدم عادة في التصميمات الرسومية.",
         "img": "/media/services/service3.png"
       },
       "3": {
-        "name": "علاج القناة",
-        "desc": "Lorem ipsum هو نص بديل يستخدم عادة في الرسومات.",
+        "slug": "ilaj-qanat-aljather",
+        "name": "علاج قناة الجذر",
+        "desc": "لوريم إيبسوم هو نص وهمي يستخدم عادة في التصميمات الرسومية.",
         "img": "/media/services/service4.png"
       }
     }

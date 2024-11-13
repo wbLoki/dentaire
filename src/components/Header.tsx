@@ -50,14 +50,28 @@ function Header({}: Props) {
 
   const t = useTranslations('Navbar');
   const messages = useMessages();
+  const services =
+    typeof messages.Services === 'object' &&
+    messages.Services !== null &&
+    Object.values(messages.Services.servicesList);
   const menuItems = [
     { name: t('home'), href: '/' },
     {
       name: t('services'),
-      href: '#',
-      submenu: Object.values(
-        (messages.Navbar as { servicesList: any }).servicesList
-      ),
+      href: '/services',
+      submenu: Array.isArray(services)
+        ? services.map((service) => {
+            if (
+              typeof service === 'object' &&
+              service !== null &&
+              'slug' in service
+            ) {
+              return service.slug;
+            } else {
+              return null;
+            }
+          })
+        : [],
     },
     { name: t('about'), href: '/about-us' },
   ];
@@ -195,6 +209,7 @@ function Header({}: Props) {
                         key={`${item.name}-${subIndex}`}
                         color="primary"
                         id="dropdown-item"
+                        className="capitalize"
                         title={
                           typeof subItem === 'string' ? subItem : 'Unknown Item'
                         }
@@ -261,7 +276,7 @@ function Header({}: Props) {
                       <DropdownItem
                         key={`${item.name}-${subIndex}`}
                         description="Quelque-chose qui cloche."
-                        className="hover:bg-blue"
+                        className="hover:bg-blue capitalize"
                         color="primary"
                       >
                         {typeof subItem === 'string' ? subItem : 'Unknown Item'}
