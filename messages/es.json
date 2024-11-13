@@ -1,30 +1,30 @@
 {
   "Navbar": {
-    "name": "Clínica Insar de Odontología",
+    "name": "Clínica Dental Ennasr",
     "email": "drzade@tanger-dentiste.ma",
-    "address": "",
+    "address": "14, rue tanger, Tánger, Marruecos",
     "phone": "0774767832",
     "home": "Inicio",
     "services": "Nuestros Servicios",
     "news": "Noticias",
     "servicesList": {
       "0": "Consulta dental",
-      "1": "Limpieza y pulido dental",
+      "1": "Limpieza y pulido",
       "2": "Blanqueamiento dental",
       "3": "Tratamiento de caries",
-      "4": "Tratamiento de raíces",
+      "4": "Endodoncia",
       "5": "Cirugía oral",
       "6": "Prótesis dentales",
       "7": "Ortodoncia",
       "8": "Implantes dentales",
       "9": "Periodoncia",
-      "10": "Odontopediatría",
+      "10": "Odontología pediátrica",
       "11": "Estética dental",
-      "12": "Emergencias"
+      "12": "Urgencias dentales"
     },
     "about": "Sobre Nosotros",
     "call-you": "Llámanos",
-    "see-all": "Ver Todo",
+    "see-all": "Ver todos",
     "socials": {
       "facebook": "Facebook",
       "instagram": "https://www.instagram.com/dr.majdzade/",
@@ -34,67 +34,107 @@
   },
   "Hero": {
     "title": "Tu sonrisa es nuestra prioridad",
-    "subtitle": "Encontrarás todas las razones para visitarnos.",
-    "contact-us": "Contáctanos"
+    "subtitle": "Tendrás todas las razones para venir a nosotros.",
+    "contact-us": "Contáctanos",
+    "phone": "0774767832"
   },
   "Services": {
-    "label": "Servicios",
-    "title": "Disfruta de una buena salud bucal.",
-    "see-more": "Ver lista de Servicios",
+    "label": "servicios",
+    "title": "Siéntete bien con tu salud dental.",
+    "subtitle": "Dentista y Ortodoncista en Tánger: Descubre a los Mejores Profesionales para tu Salud Oral",
+    "desc": "Bienvenido al Centro Dental del Dr. Zade en Tánger, la dirección principal para un cuidado dental excepcional. Como dentista bien establecido en Tánger, el Dr. Zade se enorgullece de estar entre los profesionales más calificados en salud bucal y estética dental de la región. Nuestra práctica dental en Tánger está completamente dedicada a la salud y la belleza de tu sonrisa, que está en el centro de todo lo que hacemos.",
     "servicesList": {
       "0": {
-        "name": "Prótesis fijas y removibles",
-        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en gráficos.",
+        "name": "Aparatos dentales y prótesis fija",
+        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en diseño gráfico.",
         "img": "/media/services/service1.png"
       },
       "1": {
-        "name": "Implantes dentales",
-        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en gráficos.",
+        "name": "Implantes",
+        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en diseño gráfico.",
         "img": "/media/services/service2.png"
       },
       "2": {
-        "name": "Blanqueamiento dental",
-        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en gráficos.",
+        "name": "Blanqueamiento",
+        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en diseño gráfico.",
         "img": "/media/services/service3.png"
       },
       "3": {
         "name": "Tratamiento de conducto",
-        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en gráficos.",
+        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en diseño gráfico.",
         "img": "/media/services/service4.png"
       }
     }
   },
   "Promises": {
-    "label": "Compromisos",
-    "title": "¿Por qué elegirnos para tu cuidado dental?",
+    "label": "Promesas",
+    "title": "¿Por qué Elegirnos para tu Cuidado Dental?",
     "list": {
       "0": {
-        "name": "Atención confiable",
-        "desc": "Nuestros pacientes pueden confiar en nuestro equipo experimentado para evaluaciones honestas y opciones de tratamiento que se adapten a sus necesidades.",
+        "name": "Cuidado Confiable",
+        "desc": "Los pacientes pueden confiar en nuestro equipo experimentado para evaluaciones honestas y opciones de tratamiento personalizadas.",
         "img": "/media/promises/shield.svg"
       },
       "1": {
-        "name": "Tratamiento de alta calidad",
-        "desc": "Usamos las tecnologías más avanzadas y materiales de alta calidad para asegurar resultados efectivos y duraderos.",
+        "name": "Tratamiento de Calidad",
+        "desc": "Utilizamos las últimas técnicas y materiales de alta calidad para asegurar resultados efectivos y duraderos.",
         "img": "/media/promises/star.svg"
       },
       "2": {
-        "name": "Atención personalizada",
-        "desc": "Cada paciente recibe una atención individualizada y planes de tratamiento que consideran sus necesidades bucales únicas.",
+        "name": "Atención Personalizada",
+        "desc": "Cada paciente recibe atención y planes de tratamiento individualizados que consideran sus necesidades únicas de salud bucal.",
         "img": "/media/promises/couch.svg"
       },
       "3": {
-        "name": "Precios transparentes",
-        "desc": "Ofrecemos información clara sobre costos y opciones de pago, para que los pacientes sepan qué esperar.",
+        "name": "Precios Transparentes",
+        "desc": "Proporcionamos información clara sobre costos y opciones de pago, para que los pacientes sepan qué esperar.",
         "img": "/media/promises/magnifying-dollar.svg"
       }
     }
   },
   "Whatsapp": {
     "number": "+212622764003",
-    "name": "Dr. Majed Zaid",
+    "name": "Dr. Majd Zade",
     "statusMessage": "¡Estamos aquí para ayudarte!",
-    "chatMessage": "¡Hola! ¿Cómo podemos ayudarte?",
+    "chatMessage": "¡Hola! ¿En qué podemos ayudarte?",
     "placeholder": "Escribe un mensaje..."
+  },
+  "AboutUs": {
+    "title": "Sobre Nosotros",
+    "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en las industrias de impresión y publicación para previsualizar diseños y maquetas visuales.",
+    "img": "/media/about-us.png",
+    "doctor-name": "Dr. Majd Zade",
+    "doctor-desc": "El Dr. Majd Zade es un médico dentista renombrado, experto en estética de la sonrisa, cirugía dental y ortodoncia clínica. Graduado de la Facultad de Medicina Dental de Casablanca, posee un diploma universitario en ortodoncia clínica obtenido en Murcia, España. Ha enriquecido su trayectoria obteniendo CES en implantología y periodoncia en Burdeos, Francia, así como en estética dental en Ginebra, Suiza. Su búsqueda de la excelencia también lo llevó a obtener CES en estética facial, técnicas de relleno (FILLER) y uso de BOTOX.",
+    "doctor-img": "/media/about-us/doctor.png",
+    "team-name": "Nuestro equipo",
+    "team-desc": "Nuestro equipo del centro dental está especialmente formado para ofrecerte un servicio excepcional. Consta de una recepcionista cálida y dos asistentes dedicadas, todas comprometidas a brindarte una experiencia de atención de calidad. Desde la acogida inicial hasta cada etapa de tu tratamiento, nuestro equipo asegura que te sientas cómodo. Tu satisfacción y bienestar están en el centro de nuestro compromiso, y nuestro equipo está aquí para atender tus necesidades y ofrecerte el mejor servicio posible.",
+    "team-img": "/media/about-us/team.png",
+    "our-center": "Nuestro centro dental en Tánger.",
+    "centerImages": {
+      "0": {
+        "src": "/media/about-us/center-1.jpg",
+        "alt": "Imagen del centro 1"
+      },
+      "1": {
+        "src": "/media/about-us/center-2.jpg",
+        "alt": "Imagen del centro 2"
+      },
+      "2": {
+        "src": "/media/about-us/center-3.jpg",
+        "alt": "Imagen del centro 3"
+      },
+      "3": {
+        "src": "/media/about-us/center-4.jpg",
+        "alt": "Imagen del centro 4"
+      },
+      "4": {
+        "src": "/media/about-us/center-5.jpg",
+        "alt": "Imagen del centro 5"
+      },
+      "5": {
+        "src": "/media/about-us/center-6.jpg",
+        "alt": "Imagen del centro 6"
+      }
+    }
   }
 }
