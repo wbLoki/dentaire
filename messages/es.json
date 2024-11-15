@@ -1,28 +1,28 @@
 {
   "Navbar": {
-    "name": "Clínica Insar de Odontología",
+    "name": "Clínica Dental Ennasr",
     "email": "drzade@tanger-dentiste.ma",
-    "address": "",
+    "address": "14, calle Tanger, Tanger, Marruecos",
     "phone": "0774767832",
     "home": "Inicio",
     "services": "Nuestros Servicios",
     "news": "Noticias",
     "servicesList": {
-      "0": "Consulta dental",
-      "1": "Limpieza y pulido dental",
-      "2": "Blanqueamiento dental",
-      "3": "Tratamiento de caries",
-      "4": "Tratamiento de raíces",
-      "5": "Cirugía oral",
-      "6": "Prótesis dentales",
+      "0": "Consulta Dental",
+      "1": "Limpieza y Pulido Dental",
+      "2": "Blanqueamiento Dental",
+      "3": "Tratamiento de Caries",
+      "4": "Endodoncia",
+      "5": "Cirugía Oral",
+      "6": "Prótesis Dentales",
       "7": "Ortodoncia",
-      "8": "Implantes dentales",
+      "8": "Implantes Dentales",
       "9": "Periodoncia",
-      "10": "Odontopediatría",
-      "11": "Estética dental",
-      "12": "Emergencias"
+      "10": "Pediatría Dental",
+      "11": "Estética Dental",
+      "12": "Emergencias Dentales"
     },
-    "about": "Sobre Nosotros",
+    "about": "Acerca de Nosotros",
     "call-you": "Llámanos",
     "see-all": "Ver Todo",
     "socials": {
@@ -34,61 +34,67 @@
   },
   "Hero": {
     "title": "Tu sonrisa es nuestra prioridad",
-    "subtitle": "Encontrarás todas las razones para visitarnos.",
-    "contact-us": "Contáctanos"
+    "subtitle": "Tendrás todas las razones para venir a nosotros.",
+    "contact-us": "Contáctanos",
+    "phone": "0774767832"
   },
   "Services": {
-    "label": "Servicios",
-    "title": "Disfruta de una buena salud bucal.",
-    "see-more": "Ver lista de Servicios",
+    "label": "servicios",
+    "title": "Siéntete genial con tu salud dental.",
+    "subtitle": "Dentista y Ortodoncista en Tánger: Descubre los Mejores Profesionales para tu Salud Bucal",
+    "desc": "Bienvenido al Centro Dental Dr. Zade en Tánger, la dirección principal para un cuidado dental excepcional. Como dentista bien establecido en Tánger, el Dr. Zade se enorgullece de estar entre los profesionales más calificados en salud bucal y estética dental en la región. Nuestra clínica dental en Tánger está totalmente dedicada a la salud y belleza de tu sonrisa, que está en el corazón de todo lo que hacemos.",
     "servicesList": {
       "0": {
-        "slug": "aparatologia-dental-y-protesis-fija",
-        "name": "Aparatología Dental & Prótesis Fija",
-        "desc": "Lorem ipsum es un texto de marcador de posición comúnmente utilizado en el diseño gráfico.",
+        "slug": "aparatos-dentales-protesis-fija",
+        "name": "Aparatos Dentales y Prótesis Fijas",
+        "title": "Soluciones Dentales Personalizadas para Comodidad y Funcionalidad Duradera",
+        "desc": "Nuestros aparatos dentales y prótesis fijas están diseñados para mejorar la funcionalidad y estética oral. Desde puentes hasta coronas, ofrecemos soluciones personalizadas y duraderas que restauran tu sonrisa y confianza. Confía en nuestro equipo de expertos para entregar restauraciones precisas, cómodas y naturales.",
         "img": "/media/services/service1.png"
       },
       "1": {
         "slug": "implantes",
         "name": "Implantes",
-        "desc": "Lorem ipsum es un texto de marcador de posición comúnmente utilizado en el diseño gráfico.",
+        "title": "Restaura Tu Sonrisa con Implantes Dentales Avanzados",
+        "desc": "Los implantes dentales ofrecen una solución permanente y confiable para dientes faltantes. Nuestras técnicas de implantes de última generación aseguran un confort, funcionalidad y estética óptimos. Recupera tu confianza y disfruta de una sonrisa totalmente restaurada con nuestros implantes hechos a medida.",
         "img": "/media/services/service2.png"
       },
       "2": {
-        "slug": "blanqueamiento",
-        "name": "Blanqueamiento",
-        "desc": "Lorem ipsum es un texto de marcador de posición comúnmente utilizado en el diseño gráfico.",
+        "slug": "blanqueo",
+        "name": "Blanqueo",
+        "title": "¿Por qué Elegir el Blanqueo Profesional?",
+        "desc": "El blanqueamiento dental profesional ofrece una forma rápida y efectiva de restaurar el brillo y la blancura de tu sonrisa. Al elegir un tratamiento realizado por nuestros dentistas experimentados, puedes esperar las mejores técnicas y los productos de mayor calidad para obtener resultados visibles y duraderos desde la primera sesión. Utilizamos métodos seguros y probados para ayudarte a lograr una sonrisa naturalmente más blanca, y nuestro equipo está dedicado a garantizar tu comodidad durante todo el proceso.",
         "img": "/media/services/service3.png"
       },
       "3": {
-        "slug": "tratamiento-de-canal",
+        "slug": "tratamiento-canal-radicular",
         "name": "Tratamiento de Conducto Radicular",
-        "desc": "Lorem ipsum es un texto de marcador de posición comúnmente utilizado en el diseño gráfico.",
+        "title": "Preserva tus Dientes Naturales con un Tratamiento de Conducto Radicular Experto",
+        "desc": "El tratamiento de conducto radicular es una forma segura y efectiva de salvar dientes afectados por caries profundas o infecciones. Nuestros dentistas expertos utilizan técnicas avanzadas para eliminar la infección, aliviar el dolor y proteger tu diente de futuros daños. Experimenta un procedimiento sin dolor que prioriza tu salud bucal a largo plazo.",
         "img": "/media/services/service4.png"
       }
     }
   },
   "Promises": {
-    "label": "Compromisos",
+    "label": "Promesas",
     "title": "¿Por qué elegirnos para tu cuidado dental?",
     "list": {
       "0": {
-        "name": "Atención confiable",
-        "desc": "Nuestros pacientes pueden confiar en nuestro equipo experimentado para evaluaciones honestas y opciones de tratamiento que se adapten a sus necesidades.",
+        "name": "Cuidado Confiable",
+        "desc": "Los pacientes pueden confiar en nuestro equipo experimentado para obtener evaluaciones honestas y opciones de tratamiento adaptadas a sus necesidades.",
         "img": "/media/promises/shield.svg"
       },
       "1": {
-        "name": "Tratamiento de alta calidad",
-        "desc": "Usamos las tecnologías más avanzadas y materiales de alta calidad para asegurar resultados efectivos y duraderos.",
+        "name": "Tratamiento de Calidad",
+        "desc": "Usamos las últimas técnicas y materiales de alta calidad para garantizar resultados efectivos y duraderos.",
         "img": "/media/promises/star.svg"
       },
       "2": {
-        "name": "Atención personalizada",
-        "desc": "Cada paciente recibe una atención individualizada y planes de tratamiento que consideran sus necesidades bucales únicas.",
+        "name": "Atención Personalizada",
+        "desc": "Cada paciente recibe atención individualizada y planes de tratamiento que consideran sus necesidades únicas de salud bucal.",
         "img": "/media/promises/couch.svg"
       },
       "3": {
-        "name": "Precios transparentes",
+        "name": "Precios Transparentes",
         "desc": "Ofrecemos información clara sobre costos y opciones de pago, para que los pacientes sepan qué esperar.",
         "img": "/media/promises/magnifying-dollar.svg"
       }
@@ -96,9 +102,47 @@
   },
   "Whatsapp": {
     "number": "+212622764003",
-    "name": "Dr. Majed Zaid",
+    "name": "Dr. Majd Zade",
     "statusMessage": "¡Estamos aquí para ayudarte!",
-    "chatMessage": "¡Hola! ¿Cómo podemos ayudarte?",
+    "chatMessage": "¡Hola! ¿En qué podemos ayudarte?",
     "placeholder": "Escribe un mensaje..."
+  },
+  "AboutUs": {
+    "title": "Acerca de Nosotros",
+    "desc": "Lorem ipsum es un texto de marcador de posición utilizado en la industria de la impresión y publicación para la vista previa de diseños y maquetas visuales.",
+    "img": "/media/about-us.png",
+    "doctor-name": "Dr. Majd Zade",
+    "doctor-desc": "El Dr. Majd Zade es un dentista de renombre, especialista en estética del sonrisa, cirugía dental y ortodoncia clínica. Graduado de la facultad de medicina dental de Casablanca, tiene un título en ortodoncia clínica obtenido en Murcia, España. Ha enriquecido su trayectoria obteniendo diplomas en implantología y periodoncia en Burdeos, Francia, y en estética dental en Ginebra, Suiza. Su búsqueda de la excelencia también lo llevó a obtener diplomas en estética facial, técnicas de relleno (FILLER) y uso de BOTOX.",
+    "doctor-img": "/media/about-us/doctor.png",
+    "team-name": "Nuestro equipo",
+    "team-desc": "Nuestro equipo del centro dental está especialmente capacitado para brindarte un servicio excepcional. Está compuesto por una secretaria cálida y dos asistentes dedicadas, todas comprometidas a ofrecerte una experiencia de cuidado de calidad. Desde la bienvenida inicial hasta cada etapa de tu tratamiento, nuestro equipo se asegura de que te sientas cómodo. Tu satisfacción y bienestar están en el corazón de nuestro compromiso, y nuestro equipo está aquí para responder a tus necesidades y ofrecerte el mejor servicio posible.",
+    "team-img": "/media/about-us/team.png",
+    "our-center": "Nuestro centro dental en Tánger.",
+    "centerImages": {
+      "0": {
+        "src": "/media/about-us/center-1.jpg",
+        "alt": "Imagen del centro 1"
+      },
+      "1": {
+        "src": "/media/about-us/center-2.jpg",
+        "alt": "Imagen del centro 2"
+      },
+      "2": {
+        "src": "/media/about-us/center-3.jpg",
+        "alt": "Imagen del centro 3"
+      },
+      "3": {
+        "src": "/media/about-us/center-4.jpg",
+        "alt": "Imagen del centro 4"
+      },
+      "4": {
+        "src": "/media/about-us/center-5.jpg",
+        "alt": "Imagen del centro 5"
+      },
+      "5": {
+        "src": "/media/about-us/center-6.jpg",
+        "alt": "Imagen del centro 6"
+      }
+    }
   }
 }
