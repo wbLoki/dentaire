@@ -52,7 +52,7 @@ export default async function ServicePage({
   return (
     <main className="m-auto text-sm flex flex-col gap-16 lg:gap-24 items-center p-2 xl:p-16 overflow-hidden min-h-screen bg-gradient-to-b from-blue-100 via-blue-50 to-white">
       <h1 className="text-4xl pb-2 pt-28 lg:text-6xl lg:pt-36 max-w-lg text-center">
-        <Link href="whitening">{service.name}</Link>
+        {service.name}
       </h1>
       <section
         id="Doctor intro"
