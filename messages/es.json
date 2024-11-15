@@ -43,23 +43,27 @@
     "see-more": "Ver lista de Servicios",
     "servicesList": {
       "0": {
-        "name": "Prótesis fijas y removibles",
-        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en gráficos.",
+        "slug": "aparatologia-dental-y-protesis-fija",
+        "name": "Aparatología Dental & Prótesis Fija",
+        "desc": "Lorem ipsum es un texto de marcador de posición comúnmente utilizado en el diseño gráfico.",
         "img": "/media/services/service1.png"
       },
       "1": {
-        "name": "Implantes dentales",
-        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en gráficos.",
+        "slug": "implantes",
+        "name": "Implantes",
+        "desc": "Lorem ipsum es un texto de marcador de posición comúnmente utilizado en el diseño gráfico.",
         "img": "/media/services/service2.png"
       },
       "2": {
-        "name": "Blanqueamiento dental",
-        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en gráficos.",
+        "slug": "blanqueamiento",
+        "name": "Blanqueamiento",
+        "desc": "Lorem ipsum es un texto de marcador de posición comúnmente utilizado en el diseño gráfico.",
         "img": "/media/services/service3.png"
       },
       "3": {
-        "name": "Tratamiento de conducto",
-        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en gráficos.",
+        "slug": "tratamiento-de-canal",
+        "name": "Tratamiento de Conducto Radicular",
+        "desc": "Lorem ipsum es un texto de marcador de posición comúnmente utilizado en el diseño gráfico.",
         "img": "/media/services/service4.png"
       }
     }

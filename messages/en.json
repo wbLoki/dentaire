@@ -45,24 +45,31 @@
     "desc": "Welcome to Dr. Zade's Dental Center in Tangier, the premier address for exceptional dental care. As a well-established dentist in Tangier, Dr. Zade is proud to be among the most qualified oral health and dental aesthetics professionals in the region. Our dental practice in Tangier is fully dedicated to the health and beauty of your smile, which lies at the heart of everything we do.",
     "servicesList": {
       "0": {
-        "name": "Appareils dentaires & prothese fixee",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "slug": "dental-appliances-fixed-prosthesis",
+        "name": "Dental Appliances & Fixed Prosthesis",
+        "title": "Custom Dental Solutions for Lasting Comfort and Functionality",
+        "desc": "Our dental appliances and fixed prostheses are designed to enhance oral functionality and aesthetics. From bridges to crowns, we provide customized, durable solutions that restore your smile and confidence. Trust our expert team to deliver precise, comfortable, and natural-looking restorations.",
         "img": "/media/services/service1.png"
       },
       "1": {
+        "slug": "implants",
         "name": "Implants",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "title": "Restore Your Smile with Advanced Dental Implants",
+        "desc": "Dental implants offer a permanent and reliable solution for missing teeth. Our state-of-the-art implant procedures ensure optimal comfort, functionality, and aesthetics. Regain your confidence and enjoy a fully restored smile with our expertly crafted implants.",
         "img": "/media/services/service2.png"
       },
       "2": {
-        "name": "Blanchiment",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "slug": "whitening",
+        "name": "Whitening",
+        "title": "Why Choose Professional Whitening?",
+        "desc": "Professional teeth whitening offers a fast and effective way to restore the brightness and whiteness of your smile. By choosing a treatment performed by our experienced dentists, you can expect the best techniques and highest-quality products to deliver lasting, visible results from your very first session. We use safe, proven methods to help you achieve a naturally whiter smile, and our team is dedicated to ensuring your comfort throughout the process.",
         "img": "/media/services/service3.png"
       },
-
       "3": {
-        "name": "Traitement canalaire",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "slug": "root-canal-treatment",
+        "name": "Root Canal Treatment",
+        "title": "Preserve Your Natural Teeth with Expert Root Canal Therapy",
+        "desc": "Root canal treatment is a safe and effective way to save teeth affected by deep decay or infection. Our skilled dentists use advanced techniques to remove the infection, relieve pain, and protect your tooth from further damage. Experience a pain-free procedure that prioritizes your long-term oral health.",
         "img": "/media/services/service4.png"
       }
     }

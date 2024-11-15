@@ -18,7 +18,7 @@ import {
   Divider,
 } from '@nextui-org/react';
 import Image from 'next/image';
-import { Link as IntLink } from '../i18n/routing';
+import { Link as IntLink, useRouter } from '../i18n/routing';
 
 import logo from '../media/logo.jpg';
 import { useMessages, useTranslations } from 'next-intl';
@@ -36,6 +36,7 @@ function Header({}: Props) {
     false
   );
   const [scrollPosition, setScrollPosition] = useState(0);
+  const router = useRouter();
 
   const handleScroll = () => {
     setScrollPosition(window.scrollY); // Track the scroll position
@@ -50,14 +51,32 @@ function Header({}: Props) {
 
   const t = useTranslations('Navbar');
   const messages = useMessages();
+  const services =
+    typeof messages.Services === 'object' &&
+    messages.Services !== null &&
+    Object.values(messages.Services.servicesList);
   const menuItems = [
     { name: t('home'), href: '/' },
     {
       name: t('services'),
-      href: '#',
-      submenu: Object.values(
-        (messages.Navbar as { servicesList: any }).servicesList
-      ),
+      href: '/services',
+      submenu: Array.isArray(services)
+        ? services.map((service) => {
+            if (
+              typeof service === 'object' &&
+              service !== null &&
+              'name' in service &&
+              'slug' in service
+            ) {
+              return { name: service.name, slug: service.slug } as {
+                name: string;
+                slug: string;
+              };
+            } else {
+              return null;
+            }
+          })
+        : [],
     },
     { name: t('about'), href: '/about-us' },
   ];
@@ -165,7 +184,7 @@ function Header({}: Props) {
               <Dropdown
                 type="listbox"
                 className="hidden lg:flex w-full"
-                key={`${item.name}-${index}`}
+                key={index}
               >
                 <NavbarItem>
                   <DropdownTrigger>
@@ -188,17 +207,19 @@ function Header({}: Props) {
                     base: 'gap-4',
                   }}
                 >
-                  {item.submenu
-                    .slice(0, 5) // Ensure we only take the first 5 items
+                  {item?.submenu
+                    .slice(0, 3) // Ensure we only take the first 5 items
                     .map((subItem, subIndex) => (
                       <DropdownItem
-                        key={`${item.name}-${subIndex}`}
                         color="primary"
                         id="dropdown-item"
-                        title={
-                          typeof subItem === 'string' ? subItem : 'Unknown Item'
+                        className="capitalize"
+                        key={subIndex}
+                        title={subItem?.name}
+                        onPress={() =>
+                          router.replace(`/services/${subItem?.slug}`)
                         }
-                      ></DropdownItem>
+                      />
                     ))}
                 </DropdownMenu>
               </Dropdown>
@@ -259,13 +280,15 @@ function Header({}: Props) {
                     .slice(0, 5) // Ensure we only take the first 5 items
                     .map((subItem, subIndex) => (
                       <DropdownItem
-                        key={`${item.name}-${subIndex}`}
-                        description="Quelque-chose qui cloche."
-                        className="hover:bg-blue"
                         color="primary"
-                      >
-                        {typeof subItem === 'string' ? subItem : 'Unknown Item'}
-                      </DropdownItem>
+                        id="dropdown-item"
+                        className="hover:bg-blue capitalize"
+                        title={subItem?.name}
+                        key={subIndex}
+                        onPress={() =>
+                          router.replace(`/services/${subItem?.slug}`)
+                        }
+                      />
                     ))}
                 </DropdownMenu>
               </Dropdown>
