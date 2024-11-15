@@ -18,25 +18,25 @@ body {
   font-family: 'Alata', sans-serif;
 }
 
-:dir(rtl) span,
-:dir(rtl) p,
-:dir(rtl) h1,
-:dir(rtl) h2,
-:dir(rtl) h3,
-:dir(rtl) h4,
-:dir(rtl) h5,
-:dir(rtl) h6 {
+:dir(rtl) span:not(.text-center),
+:dir(rtl) p:not(.text-center),
+:dir(rtl) h1:not(.text-center),
+:dir(rtl) h2:not(.text-center),
+:dir(rtl) h3:not(.text-center),
+:dir(rtl) h4:not(.text-center),
+:dir(rtl) h5:not(.text-center),
+:dir(rtl) h6:not(.text-center) {
   text-align: right;
 }
 
-:dir(ltr) span,
-:dir(ltr) p,
-:dir(ltr) h1,
-:dir(ltr) h2,
-:dir(ltr) h3,
-:dir(ltr) h4,
-:dir(ltr) h5,
-:dir(ltr) h6 {
+:dir(ltr) span:not(.text-center),
+:dir(ltr) p:not(.text-center),
+:dir(ltr) h1:not(.text-center),
+:dir(ltr) h2:not(.text-center),
+:dir(ltr) h3:not(.text-center),
+:dir(ltr) h4:not(.text-center),
+:dir(ltr) h5:not(.text-center),
+:dir(ltr) h6:not(.text-center) {
   text-align: left;
 }
 

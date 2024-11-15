@@ -5,7 +5,8 @@ interface BaseItem {
 }
 
 interface Service extends BaseItem {
-  color: string;
+  title: string;
+  slug: string;
 }
 
 interface PromiseType extends BaseItem {}

@@ -45,23 +45,27 @@
     "desc": "Bienvenido al Centro Dental del Dr. Zade en Tánger, la dirección principal para un cuidado dental excepcional. Como dentista bien establecido en Tánger, el Dr. Zade se enorgullece de estar entre los profesionales más calificados en salud bucal y estética dental de la región. Nuestra práctica dental en Tánger está completamente dedicada a la salud y la belleza de tu sonrisa, que está en el centro de todo lo que hacemos.",
     "servicesList": {
       "0": {
-        "name": "Aparatos dentales y prótesis fija",
-        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en diseño gráfico.",
+        "slug": "aparatologia-dental-y-protesis-fija",
+        "name": "Aparatología Dental & Prótesis Fija",
+        "desc": "Lorem ipsum es un texto de marcador de posición comúnmente utilizado en el diseño gráfico.",
         "img": "/media/services/service1.png"
       },
       "1": {
+        "slug": "implantes",
         "name": "Implantes",
-        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en diseño gráfico.",
+        "desc": "Lorem ipsum es un texto de marcador de posición comúnmente utilizado en el diseño gráfico.",
         "img": "/media/services/service2.png"
       },
       "2": {
+        "slug": "blanqueamiento",
         "name": "Blanqueamiento",
-        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en diseño gráfico.",
+        "desc": "Lorem ipsum es un texto de marcador de posición comúnmente utilizado en el diseño gráfico.",
         "img": "/media/services/service3.png"
       },
       "3": {
-        "name": "Tratamiento de conducto",
-        "desc": "Lorem ipsum es un texto de relleno comúnmente utilizado en diseño gráfico.",
+        "slug": "tratamiento-de-canal",
+        "name": "Tratamiento de Conducto Radicular",
+        "desc": "Lorem ipsum es un texto de marcador de posición comúnmente utilizado en el diseño gráfico.",
         "img": "/media/services/service4.png"
       }
     }
