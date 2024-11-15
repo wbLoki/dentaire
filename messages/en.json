@@ -47,13 +47,15 @@
       "0": {
         "slug": "dental-appliances-fixed-prosthesis",
         "name": "Dental Appliances & Fixed Prosthesis",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "title": "Custom Dental Solutions for Lasting Comfort and Functionality",
+        "desc": "Our dental appliances and fixed prostheses are designed to enhance oral functionality and aesthetics. From bridges to crowns, we provide customized, durable solutions that restore your smile and confidence. Trust our expert team to deliver precise, comfortable, and natural-looking restorations.",
         "img": "/media/services/service1.png"
       },
       "1": {
         "slug": "implants",
         "name": "Implants",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "title": "Restore Your Smile with Advanced Dental Implants",
+        "desc": "Dental implants offer a permanent and reliable solution for missing teeth. Our state-of-the-art implant procedures ensure optimal comfort, functionality, and aesthetics. Regain your confidence and enjoy a fully restored smile with our expertly crafted implants.",
         "img": "/media/services/service2.png"
       },
       "2": {
@@ -66,7 +68,8 @@
       "3": {
         "slug": "root-canal-treatment",
         "name": "Root Canal Treatment",
-        "desc": "Lorem ipsum is placeholder text commonly used in the graphic.",
+        "title": "Preserve Your Natural Teeth with Expert Root Canal Therapy",
+        "desc": "Root canal treatment is a safe and effective way to save teeth affected by deep decay or infection. Our skilled dentists use advanced techniques to remove the infection, relieve pain, and protect your tooth from further damage. Experience a pain-free procedure that prioritizes your long-term oral health.",
         "img": "/media/services/service4.png"
       }
     }
