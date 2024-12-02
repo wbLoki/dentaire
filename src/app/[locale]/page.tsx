@@ -14,7 +14,7 @@ export default function HomePage() {
       <main className="mx-auto">
         {/************ Hero section ************/}
         <section
-          className="bg-[url('/media/bg.jpeg')] h-screen flex flex-col justify-between"
+          className="bg-[url('/media/bg.jpeg')] h-screen flex flex-col"
           id="hero"
         >
           <Hero />
