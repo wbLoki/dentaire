@@ -1,0 +1,139 @@
+{
+  "Navbar": {
+    "name": "Dr. Majd Zade",
+    "address": "Av. Martyr el alami taghzouti",
+    "home": "Inicio",
+    "services": "Nuestros Servicios",
+    "news": "Noticias",
+    "servicesList": {
+      "0": "Consulta dental",
+      "1": "Limpieza y pulido",
+      "2": "Blanqueamiento dental",
+      "3": "Tratamiento de caries",
+      "4": "Endodoncia",
+      "5": "Cirugía bucal",
+      "6": "Prótesis dentales",
+      "7": "Ortodoncia",
+      "8": "Implantes dentales",
+      "9": "Periodoncia",
+      "10": "Pediatría dental",
+      "11": "Estética dental",
+      "12": "Emergencias dentales"
+    },
+    "about": "Sobre Nosotros",
+    "call-you": "Contáctenos",
+    "see-all": "Ver todo"
+  },
+  "Hero": {
+    "title": "Tu sonrisa es nuestra prioridad",
+    "subtitle": "Tendrás todas las razones para venir a nosotros.",
+    "contact-us": "Contáctenos",
+    "phone": "0774767832"
+  },
+  "Services": {
+    "label": "servicios",
+    "title": "Siéntete bien con tu salud dental.",
+    "subtitle": "Dentista y Ortodoncista en Tánger: Descubre a los mejores profesionales para tu salud oral",
+    "desc": "Bienvenido al Centro Dental del Dr. Zade en Tánger, la principal dirección para una atención dental excepcional. Como un dentista bien establecido en Tánger, el Dr. Zade se enorgullece de estar entre los profesionales más calificados en salud oral y estética dental en la región. Nuestra práctica dental en Tánger está completamente dedicada a la salud y belleza de tu sonrisa, que está en el corazón de todo lo que hacemos.",
+    "servicesList": {
+      "0": {
+        "slug": "dental-appliances-fixed-prosthesis",
+        "name": "Tratamientos endodónticos avanzados",
+        "title": "Nos dedicamos a preservar tus sonrisas ofreciendo tratamientos endodónticos de alta calidad.",
+        "desc": "La endodoncia es una rama de la odontología que se enfoca en el tratamiento del interior del diente, incluida la pulpa dental y los tejidos circundantes. Realizamos tratamientos de conductos radiculares para salvar dientes afectados por infecciones o daños.",
+        "img": "/media/services/service1.png"
+      },
+      "1": {
+        "slug": "composite-restorations",
+        "name": "Restauraciones compuestas",
+        "title": "Estamos orgullosos de ofrecer restauraciones compuestas de alta calidad para restaurar la belleza y función de tus dientes frontales y posteriores.",
+        "desc": "Nuestras restauraciones compuestas para dientes frontales están diseñadas para combinar perfectamente con el color natural de tus dientes, asegurando un resultado estético y discreto. Con nuestras técnicas avanzadas, restauramos la integridad de tus dientes mientras preservamos su apariencia natural.",
+        "img": "/media/services/service2.png"
+      },
+      "2": {
+        "slug": "high-quality-fixed-prostheses",
+        "name": "Prótesis fijas de alta calidad",
+        "title": "Prótesis Fijas de Alta Calidad: Restaurando la Función y Belleza de tu Sonrisa",
+        "desc": "En la Clínica Dental Ennasr, ofrecemos con orgullo soluciones avanzadas de prótesis fija, incluidas coronas cerámicas-metálicas (CCM), coronas de zirconia y puentes dentales. Nuestras restauraciones de alta calidad están diseñadas para restaurar la función y estética de tus dientes, con planes de tratamiento personalizados adaptados a tus necesidades dentales y estéticas. Usando materiales de vanguardia como la zirconia, proporcionamos resultados duraderos y de aspecto natural que se integran perfectamente con tu sonrisa.",
+        "img": "/media/services/service3.png"
+      },
+      "3": {
+        "slug": "root-canal-treatment",
+        "name": "Tratamiento de conductos radiculares",
+        "title": "Preserva tus dientes naturales con terapia experta de conductos radiculares",
+        "desc": "El tratamiento de conductos radiculares es una forma segura y eficaz de salvar dientes afectados por caries profundas o infecciones. Nuestros dentistas experimentados utilizan técnicas avanzadas para eliminar la infección, aliviar el dolor y proteger tu diente de más daños.",
+        "img": "/media/services/service4.png"
+      }
+    }
+  },
+  "Promises": {
+    "label": "Promesas",
+    "title": "¿Por qué elegirnos para tu cuidado dental?",
+    "list": {
+      "0": {
+        "name": "Atención confiable",
+        "desc": "Los pacientes pueden confiar en nuestro equipo experimentado para evaluaciones honestas y opciones de tratamiento adaptadas a sus necesidades.",
+        "img": "/media/promises/shield.svg"
+      },
+      "1": {
+        "name": "Tratamiento de calidad",
+        "desc": "Usamos las últimas técnicas y materiales de alta calidad para asegurar resultados efectivos y duraderos.",
+        "img": "/media/promises/star.svg"
+      },
+      "2": {
+        "name": "Atención personalizada",
+        "desc": "Cada paciente recibe atención individualizada y planes de tratamiento que consideran sus necesidades de salud oral únicas.",
+        "img": "/media/promises/couch.svg"
+      },
+      "3": {
+        "name": "Precios transparentes",
+        "desc": "Proporcionamos información clara sobre costos y opciones de pago, para que los pacientes sepan qué esperar.",
+        "img": "/media/promises/magnifying-dollar.svg"
+      }
+    }
+  },
+  "Whatsapp": {
+    "name": "Dr. Majd Zade",
+    "statusMessage": "¡Estamos aquí para ayudarte!",
+    "chatMessage": "¡Hola! ¿En qué podemos ayudarte?",
+    "placeholder": "Escribe un mensaje..."
+  },
+  "AboutUs": {
+    "title": "Sobre Nosotros",
+    "desc": "Lorem ipsum es un texto de marcador de posición usado en las industrias de impresión y publicación para previsualizar diseños y maquetas visuales.",
+    "img": "/media/about-us.png",
+    "doctor-name": "Dr. Majd Zade",
+    "doctor-desc": "El Dr. Zade Majd es un dentista general experimentado y apasionado, ofreciendo una gama completa de atención dental de alta calidad en su práctica ubicada en Tánger. Con varios años de experiencia en el campo, puede abordar todos los aspectos de la salud oral, desde la prevención y la higiene oral hasta la restauración y la cirugía dental. El Dr. Zade Majd es conocido por su enfoque centrado en el paciente y su preocupación por el bienestar de sus pacientes. Se toma el tiempo para escuchar cuidadosamente las preocupaciones y metas de sus pacientes, trabajando estrechamente con ellos para desarrollar un plan de tratamiento adaptado a sus necesidades individuales.",
+    "doctor-img": "/media/about-us/doctor.png",
+    "team-name": "Nuestro equipo",
+    "team-desc": "El equipo de nuestro centro dental está especialmente capacitado para brindarte un servicio excepcional. Consta de una recepcionista cálida y un asistente dedicado, ambos comprometidos a ofrecerte una experiencia de atención de alta calidad. Desde la bienvenida inicial hasta cada paso de tu tratamiento, nuestro equipo asegura que te sientas cómodo. Tu satisfacción y bienestar están en el corazón de nuestro compromiso, y nuestro equipo está aquí para satisfacer tus necesidades y brindar el mejor servicio posible.",
+    "team-img": "/media/about-us/team.png",
+    "our-center": "Nuestro centro dental en Tánger.",
+    "centerImages": {
+      "0": {
+        "src": "/media/about-us/center-1.jpg",
+        "alt": "Imagen del centro 1"
+      },
+      "1": {
+        "src": "/media/about-us/center-2.jpg",
+        "alt": "Imagen del centro 2"
+      },
+      "2": {
+        "src": "/media/about-us/center-3.jpg",
+        "alt": "Imagen del centro 3"
+      },
+      "3": {
+        "src": "/media/about-us/center-4.jpg",
+        "alt": "Imagen del centro 4"
+      },
+      "4": {
+        "src": "/media/about-us/center-5.jpg",
+        "alt": "Imagen del centro 5"
+      },
+      "5": {
+        "src": "/media/about-us/center-6.jpg",
+        "alt": "Imagen del centro 6"
+      }
+    }
+  }
+}

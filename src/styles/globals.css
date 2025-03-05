@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  section {
+    @apply py-4 px-2 space-y-4;
+  }
+}
+
+html,
+body {
+  max-width: 100%;
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
+  margin: 0;
+  font-size: larger;
+  font-family: 'Alata', sans-serif;
+}
+
+:dir(rtl) span:not(.text-center),
+:dir(rtl) p:not(.text-center),
+:dir(rtl) h1:not(.text-center),
+:dir(rtl) h2:not(.text-center),
+:dir(rtl) h3:not(.text-center),
+:dir(rtl) h4:not(.text-center),
+:dir(rtl) h5:not(.text-center),
+:dir(rtl) h6:not(.text-center) {
+  text-align: right;
+}
+
+:dir(ltr) span:not(.text-center),
+:dir(ltr) p:not(.text-center),
+:dir(ltr) h1:not(.text-center),
+:dir(ltr) h2:not(.text-center),
+:dir(ltr) h3:not(.text-center),
+:dir(ltr) h4:not(.text-center),
+:dir(ltr) h5:not(.text-center),
+:dir(ltr) h6:not(.text-center) {
+  text-align: left;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+input,
+textarea {
+  -webkit-box-shadow: 0 0 0 1px rgb(209 213 219) inset;
+  -moz-box-shadow: 0 0 0 1px rgb(209 213 219) inset;
+  box-shadow: 0 0 0 1px rgb(209 213 219) inset;
+  --tw-ring-inset: inset;
+  outline: none;
+}
+
+input:focus {
+  -webkit-box-shadow: 0 0 0 2px rgb(88 63 188) inset;
+  -moz-box-shadow: 0 0 0 2px rgb(88 63 188) inset;
+  box-shadow: 0 0 0 2px rgb(88 63 188) inset;
+  --tw-ring-inset: inset;
+}
+
+#header:focus {
+  outline: none;
+}
+
+:root {
+  --shine-width: 382px; /* Default value */
+}
+@media (min-width: 1280px) {
+  :root {
+    --shine-width: 212px;
+  }
+}
+
+.shine-text {
+  background-color: hsl(205,76%,28%); /* Add this line for a purple background */
+  background: hsl(205,76%,28%);
+}
+
+.shine-text:hover {
+  background-clip: text; /* Ensure background clips to text */
+  -webkit-background-clip: text; /* For webkit browsers */
+  background: linear-gradient(to right, hsl(205,76%,28%) 0, hsl(205, 77%, 32%) 0%, hsl(205,76%,28%) 100%);
+  animation: shine 2s ease-out forwards;
+}
+
+@keyframes shine {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: var(--shine-width);
+  }
+}
+
+#dropdown-item {
+  color: rgb(3, 105, 161);
+}
+#dropdown-item:hover {
+  color: white;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}

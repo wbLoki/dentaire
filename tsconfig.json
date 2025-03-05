@@ -21,8 +21,20 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/sendgrid.js", "src/**/*.ts*"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "something-else/api/sendgrid.js",
+    "src/**/*.ts*",
+    ".next/types/**/*.ts"
+  ],
   "exclude": ["node_modules", "dist", "lib"]
 }

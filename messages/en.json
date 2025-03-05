@@ -1,0 +1,122 @@
+{
+  "Navbar": {
+    "name": "Dr Majd Zade",
+    "address": "Av. Martyr el alami taghzouti",
+    "home": "Home",
+    "services": "Our Services",
+    "news": "News",
+    "servicesList": {
+      "0": "Consultation dentaire",
+      "1": "Détartrage et polissage",
+      "2": "Blanchiment dentaire",
+      "3": "Soins des caries",
+      "4": "Endodontie",
+      "5": "Chirurgie buccale",
+      "6": "Prothèses dentaires",
+      "7": "Orthodontie",
+      "8": "Implants dentaires",
+      "9": "Parodontologie",
+      "10": "Pédiatrie dentaire",
+      "11": "Esthétique dentaire",
+      "12": "Urgences dentaires"
+    },
+    "about": "About Us",
+    "call-you": "Contact Us",
+    "see-all": "See all"
+  },
+  "Hero": {
+    "title": "Your smile is our priority",
+    "subtitle": "You'll have every good reason to come to us.",
+    "contact-us": "Contact Us",
+    "phone": "0774767832"
+  },
+  "Services": {
+    "label": "services",
+    "title": "Feel great about your dental health.",
+    "subtitle": "Dentist and Orthodontist in Tangier: Discover the Best Professionals for Your Oral Health",
+    "desc": "Welcome to Dr. Zade's Dental Center in Tangier, the premier address for exceptional dental care. As a well-established dentist in Tangier, Dr. Zade is proud to be among the most qualified oral health and dental aesthetics professionals in the region. Our dental practice in Tangier is fully dedicated to the health and beauty of your smile, which lies at the heart of everything we do.",
+    "servicesList": {
+      "0": {
+        "slug": "dental-appliances-fixed-prosthesis",
+        "name": "Advanced endodontic treatments",
+        "title": "We are dedicated to preserving your smiles by offering high-quality endodontic treatments.",
+        "desc": "Endodontics is a branch of dentistry that focuses on the treatment of the inside of the tooth, including the dental pulp and surrounding tissues. We perform root canal treatments to save teeth affected by infections or damage.",
+        "img": "/media/services/service1.png"
+      },
+      "1": {
+        "slug": "composite-restorations",
+        "name": "Composite restorations",
+        "title": "We are proud to offer high-quality composite restorations to restore the beauty and function of your front and back teeth.",
+        "desc": "Our composite restorations for front teeth are designed to perfectly match the natural color of your teeth, ensuring an aesthetic and discreet result. With our advanced techniques, we restore the integrity of your teeth while preserving their natural appearance.",
+        "img": "/media/services/service2.png"
+      },
+      "2": {
+        "slug": "high-quality-fixed-prostheses",
+        "name": "High-quality fixed prostheses",
+        "title": "High-Quality Fixed Prostheses: Restoring Function and Beauty to Your Smile",
+        "desc": "At Ennasr Dental Clinic, we proudly offer advanced fixed prosthesis solutions, including ceramic-metallic (CCM) crowns, zirconia crowns, and dental bridges. Our high-quality restorations are designed to restore the function and aesthetics of your teeth, with personalized treatment plans tailored to your dental and aesthetic needs. Using cutting-edge materials like zirconia, we provide durable, natural-looking results that blend seamlessly with your smile. Trust Dr. Zade Majd and our expert team to restore both the beauty and functionality of your teeth with lasting, reliable solutions.",
+        "img": "/media/services/service3.png"
+      },
+      "3": {
+        "slug": "root-canal-treatment",
+        "name": "Root Canal Treatment",
+        "title": "Preserve Your Natural Teeth with Expert Root Canal Therapy",
+        "desc": "Root canal treatment is a safe and effective way to save teeth affected by deep decay or infection. Our skilled dentists use advanced techniques to remove the infection, relieve pain, and protect your tooth from further damage. Experience a pain-free procedure that prioritizes your long-term oral health.",
+        "img": "/media/services/service4.png"
+      }
+    }
+  },
+  "Promises": {
+    "label": "Promises",
+    "title": "Why Choose Us for Your Dental Care?",
+    "list": {
+      "0": {
+        "name": "Trustworthy Care",
+        "desc": "Patients can rely on our experienced team for honest assessments and treatment options tailored to their needs.",
+        "img": "/media/promises/shield.svg"
+      },
+      "1": {
+        "name": "Quality Treatment",
+        "desc": "We use the latest techniques and high-quality materials to ensure effective and lasting results.",
+        "img": "/media/promises/star.svg"
+      },
+      "2": {
+        "name": "Personalized Attention",
+        "desc": "Each patient receives individualized care and treatment plans that consider their unique oral health needs.",
+        "img": "/media/promises/couch.svg"
+      },
+
+      "3": {
+        "name": "Transparent Pricing",
+        "desc": "We provide clear information about costs and payment options, so patients know what to expect.",
+        "img": "/media/promises/magnifying-dollar.svg"
+      }
+    }
+  },
+  "Whatsapp": {
+    "name": "Dr. Majd Zade",
+    "statusMessage": "We're here to help!",
+    "chatMessage": "Hello! How can we assist you?",
+    "placeholder": "Type a message..."
+  },
+  "AboutUs": {
+    "title": "About Us",
+    "desc": "Lorem ipsum is placeholder text print, and publishing industries for previewing layouts and visual mockups.",
+    "img": "/media/about-us.png",
+    "doctor-name": "Dr. Majd Zade",
+    "doctor-desc": "Dr. Zade Majd is an experienced and passionate general dentist, offering a full range of high-quality dental care at his practice located in Tangier. With several years of experience in the field, he is able to address all aspects of oral health, from prevention and oral hygiene to restoration and dental surgery. Dr. Zade Majd is known for his patient-centered approach and his concern for the well-being of his patients. He takes the time to listen carefully to his patients' concerns and goals, working closely with them to develop a treatment plan tailored to their individual needs.",
+    "doctor-img": "/media/about-us/doctor.png",
+    "team-name": "Our team",
+    "team-desc": "Our dental center team is specially trained to provide you with exceptional service. It consists of a warm receptionist and a dedicated assistant, both committed to offering you a high-quality care experience. From the initial welcome to every step of your treatment, our team ensures that you feel comfortable. Your satisfaction and well-being are at the heart of our commitment, and our team is here to meet your needs and provide the best possible service.",
+    "team-img": "/media/about-us/team.png",
+    "our-center": "Our dental center in Tangier.",
+    "centerImages": {
+      "0": { "src": "/media/about-us/center-1.jpg", "alt": "Center image 1" },
+      "1": { "src": "/media/about-us/center-2.jpg", "alt": "Center image 2" },
+      "2": { "src": "/media/about-us/center-3.jpg", "alt": "Center image 3" },
+      "3": { "src": "/media/about-us/center-4.jpg", "alt": "Center image 4" },
+      "4": { "src": "/media/about-us/center-5.jpg", "alt": "Center image 5" },
+      "5": { "src": "/media/about-us/center-6.jpg", "alt": "Center image 6" }
+    }
+  }
+}
