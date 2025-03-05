@@ -6,6 +6,7 @@ import React from 'react';
 import { FiPhoneCall } from 'react-icons/fi';
 import majd from '../../media/majd.jpg';
 import { useTranslations } from 'next-intl';
+import { contact } from '@/src/constants';
 
 type Props = {};
 
@@ -36,7 +37,7 @@ function Hero() {
                 }}
               >
                 <span className="uppercase text-primary">24h emergency</span>
-                <span className="ltr">{t('phone')}</span>
+                <span className="ltr">{contact.phone}</span>
               </div>
             </button>
           </div>

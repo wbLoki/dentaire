@@ -27,6 +27,7 @@ import LangSelector from './LangSelector';
 
 import { MdOutlineMailOutline, MdPhone } from 'react-icons/md';
 import { IoLocationOutline } from 'react-icons/io5';
+import { contact, socialLinks } from '../constants';
 
 type Props = {};
 
@@ -95,31 +96,31 @@ function Header({}: Props) {
             <Link
               color="foreground"
               className="flex gap-2"
-              href={`mailto:${t('email')}`}
+              href={`mailto:${contact.email}`}
             >
               <MdOutlineMailOutline />
-              <span className="text-xs">{t('email')}</span>
+              <span className="text-xs">{contact.email}</span>
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link
               color="foreground"
-              href={t('socials.maps')}
+              href={socialLinks.maps}
               aria-current="page"
               className="flex gap-2"
             >
               <IoLocationOutline />
-              <span className="text-xs">{t('address')}</span>
+              <span className="text-xs capitalize">{t('address')}</span>
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link
               color="foreground"
-              href={`tel:${t('phone')}`}
+              href={`tel:${contact.phone}`}
               className="flex gap-2"
             >
               <MdPhone />
-              <span className="text-xs">{t('phone')}</span>
+              <span className="text-xs">{contact.phone}</span>
             </Link>
           </NavbarItem>
         </NavbarContent>
@@ -133,7 +134,7 @@ function Header({}: Props) {
             <Link
               color="foreground"
               className="flex gap-2"
-              href={t('socials.instagram')}
+              href={socialLinks.instagram}
             >
               <FaInstagram />
             </Link>
@@ -142,7 +143,7 @@ function Header({}: Props) {
             <Link
               color="foreground"
               className="flex gap-2"
-              href={t('socials.tiktok')}
+              href={socialLinks.tiktok}
             >
               <FaTiktok />
             </Link>
