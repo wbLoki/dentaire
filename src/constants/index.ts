@@ -10,3 +10,17 @@ export const socialLinks = {
   tiktok: 'https://www.tiktok.com/@dr.majd.zade',
   maps: 'https://maps.app.goo.gl/89MUHkwn6pw9HN7s6',
 };
+
+export const hours = {
+  days: [
+    'sunday',
+    'monday',
+    'tuesday',
+    'wednesday',
+    'thursday',
+    'friday',
+    'saturday',
+  ],
+  start: '10:00 AM - 14:00 PM',
+  end: '16:00 PM - 20:00 PM',
+};
