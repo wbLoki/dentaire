@@ -1,15 +1,15 @@
 {
   "Navbar": {
-    "name": "Dr. Majd Zade",
+    "name": "Dr Majd Zade",
     "address": "Av. Martyr el alami taghzouti",
     "home": "Accueil",
     "services": "Nos Services",
     "news": "Actualités",
     "servicesList": {
       "0": "Consultation dentaire",
-      "1": "Nettoyage et polissage",
+      "1": "Détartrage et polissage",
       "2": "Blanchiment dentaire",
-      "3": "Traitement des caries",
+      "3": "Soins des caries",
       "4": "Endodontie",
       "5": "Chirurgie buccale",
       "6": "Prothèses dentaires",
@@ -20,117 +20,59 @@
       "11": "Esthétique dentaire",
       "12": "Urgences dentaires"
     },
-    "about": "À Propos",
+    "about": "A propos de nous",
     "call-you": "Contactez-nous",
     "see-all": "Voir tout"
   },
   "Hero": {
     "title": "Votre sourire est notre priorité",
-    "subtitle": "Vous aurez toutes les raisons de venir chez nous.",
+    "subtitle": "Vous aurez toutes les bonnes raisons de venir chez nous.",
     "contact-us": "Contactez-nous",
     "phone": "0774767832"
   },
   "Services": {
     "label": "services",
     "title": "Prenez soin de votre santé dentaire.",
-    "subtitle": "Dentiste et orthodontiste à Tanger : Découvrez les meilleurs professionnels pour votre santé bucco-dentaire",
-    "desc": "Bienvenue au Centre Dentaire du Dr. Zade à Tanger, la première adresse pour des soins dentaires exceptionnels. En tant que dentiste bien établi à Tanger, le Dr. Zade est fier de faire partie des professionnels les plus qualifiés en santé bucco-dentaire et esthétique dentaire dans la région. Notre pratique dentaire à Tanger est entièrement dédiée à la santé et à la beauté de votre sourire, qui est au cœur de tout ce que nous faisons.",
+    "subtitle": "Dentiste et Orthodontiste à Tanger : Découvrez les Meilleurs Professionnels pour Votre Santé Buccodentaire",
+    "desc": "Bienvenue au Centre Dentaire du Dr Zade à Tanger, l'adresse de référence pour des soins dentaires exceptionnels. En tant que dentiste bien établi à Tanger, le Dr Zade est fier de faire partie des professionnels les plus qualifiés en matière de santé buccale et d'esthétique dentaire. Notre cabinet dentaire à Tanger est entièrement dédié à la santé et à la beauté de votre sourire, qui est au cœur de tout ce que nous faisons.",
     "servicesList": {
       "0": {
         "slug": "dental-appliances-fixed-prosthesis",
         "name": "Traitements endodontiques avancés",
-        "title": "Nous nous engageons à préserver vos sourires en offrant des traitements endodontiques de haute qualité.",
-        "desc": "L'endodontie est une branche de la dentisterie qui se concentre sur le traitement de l'intérieur de la dent, y compris la pulpe dentaire et les tissus environnants. Nous effectuons des traitements de canaux radiculaires pour sauver les dents affectées par des infections ou des dommages.",
+        "title": "Nous nous engageons à préserver votre sourire en proposant des traitements endodontiques de haute qualité.",
+        "desc": "L'endodontie est une branche de la dentisterie qui se concentre sur le traitement de l'intérieur de la dent, y compris la pulpe dentaire et les tissus environnants. Nous réalisons des traitements de canal pour sauver les dents affectées par des infections ou des lésions.",
         "img": "/media/services/service1.png"
       },
       "1": {
         "slug": "composite-restorations",
-        "name": "Restaurations composées",
-        "title": "Nous sommes fiers d'offrir des restaurations composées de haute qualité pour restaurer la beauté et la fonction de vos dents antérieures et postérieures.",
-        "desc": "Nos restaurations composées pour les dents antérieures sont conçues pour se fondre parfaitement avec la couleur naturelle de vos dents, garantissant un résultat esthétique et discret. Avec nos techniques avancées, nous restaurons l'intégrité de vos dents tout en préservant leur apparence naturelle.",
+        "name": "Restaurations en composite",
+        "title": "Nous sommes fiers de proposer des restaurations en composite de haute qualité pour restaurer la beauté et la fonction de vos dents.",
+        "desc": "Nos restaurations en composite pour les dents de devant sont conçues pour correspondre parfaitement à la couleur naturelle de vos dents, garantissant un résultat esthétique et discret. Avec nos techniques avancées, nous restaurons l'intégrité de vos dents tout en préservant leur apparence naturelle.",
         "img": "/media/services/service2.png"
       },
       "2": {
         "slug": "high-quality-fixed-prostheses",
         "name": "Prothèses fixes de haute qualité",
         "title": "Prothèses Fixes de Haute Qualité : Restaurer la Fonction et la Beauté de Votre Sourire",
-        "desc": "À la Clinique Dentaire Ennasr, nous offrons fièrement des solutions avancées de prothèses fixes, y compris des couronnes céramo-métalliques (CCM), des couronnes en zircone et des ponts dentaires. Nos restaurations de haute qualité sont conçues pour restaurer la fonction et l'esthétique de vos dents, avec des plans de traitement personnalisés adaptés à vos besoins dentaires et esthétiques. En utilisant des matériaux de pointe comme la zircone, nous fournissons des résultats durables et d'apparence naturelle qui s'intègrent parfaitement à votre sourire.",
+        "desc": "À la Clinique Dentaire Ennasr, nous proposons fièrement des solutions de prothèses fixes avancées, notamment des couronnes céramo-métalliques (CCM), des couronnes en zirconium et des bridges dentaires. Nos restaurations de haute qualité sont conçues pour restaurer la fonction et l'esthétique de vos dents, avec des plans de traitement personnalisés adaptés à vos besoins dentaires et esthétiques.",
         "img": "/media/services/service3.png"
-      },
-      "3": {
-        "slug": "root-canal-treatment",
-        "name": "Traitement de canaux radiculaires",
-        "title": "Préservez vos dents naturelles avec une thérapie experte des canaux radiculaires",
-        "desc": "Le traitement des canaux radiculaires est une méthode sûre et efficace pour sauver les dents affectées par des caries profondes ou des infections. Nos dentistes expérimentés utilisent des techniques avancées pour éliminer l'infection, soulager la douleur et protéger votre dent contre d'autres dommages.",
-        "img": "/media/services/service4.png"
       }
     }
   },
-  "Promises": {
-    "label": "Promesses",
-    "title": "Pourquoi nous choisir pour vos soins dentaires ?",
-    "list": {
-      "0": {
-        "name": "Soins fiables",
-        "desc": "Les patients peuvent avoir confiance en notre équipe expérimentée pour des évaluations honnêtes et des options de traitement adaptées à leurs besoins.",
-        "img": "/media/promises/shield.svg"
-      },
-      "1": {
-        "name": "Traitement de qualité",
-        "desc": "Nous utilisons les dernières techniques et matériaux de haute qualité pour garantir des résultats efficaces et durables.",
-        "img": "/media/promises/star.svg"
-      },
-      "2": {
-        "name": "Soins personnalisés",
-        "desc": "Chaque patient bénéficie de soins personnalisés et de plans de traitement qui tiennent compte de ses besoins en santé bucco-dentaire uniques.",
-        "img": "/media/promises/couch.svg"
-      },
-      "3": {
-        "name": "Prix transparents",
-        "desc": "Nous fournissons des informations claires sur les coûts et les options de paiement, afin que les patients sachent à quoi s'attendre.",
-        "img": "/media/promises/magnifying-dollar.svg"
-      }
-    }
-  },
-  "Whatsapp": {
-    "name": "Dr. Majd Zade",
-    "statusMessage": "Nous sommes là pour vous aider !",
-    "chatMessage": "Bonjour ! Comment pouvons-nous vous aider ?",
-    "placeholder": "Écrivez un message..."
-  },
-  "AboutUs": {
-    "title": "À Propos",
-    "desc": "Lorem ipsum est un texte de remplacement utilisé dans les industries de l'impression et de la publication pour prévisualiser des maquettes et des conceptions visuelles.",
-    "img": "/media/about-us.png",
-    "doctor-name": "Dr. Majd Zade",
-    "doctor-desc": "Le Dr. Zade Majd est un dentiste général expérimenté et passionné, offrant une gamme complète de soins dentaires de haute qualité dans son cabinet situé à Tanger. Fort de plusieurs années d'expérience dans le domaine, il peut traiter tous les aspects de la santé bucco-dentaire, de la prévention et de l'hygiène dentaire à la restauration et à la chirurgie dentaire. Le Dr. Zade Majd est connu pour son approche centrée sur le patient et son souci du bien-être de ses patients. Il prend le temps d'écouter attentivement les préoccupations et les objectifs de ses patients, en travaillant en étroite collaboration avec eux pour développer un plan de traitement adapté à leurs besoins individuels.",
-    "doctor-img": "/media/about-us/doctor.png",
-    "team-name": "Notre équipe",
-    "team-desc": "L'équipe de notre centre dentaire est spécialement formée pour vous offrir un service exceptionnel. Elle se compose d'une réceptionniste chaleureuse et d'un assistant dédié, tous deux engagés à vous fournir une expérience de soins de haute qualité. Depuis l'accueil initial jusqu'à chaque étape de votre traitement, notre équipe veille à ce que vous soyez à l'aise. Votre satisfaction et votre bien-être sont au cœur de notre engagement, et notre équipe est là pour répondre à vos besoins et vous offrir le meilleur service possible.",
-    "team-img": "/media/about-us/team.png",
-    "our-center": "Notre centre dentaire à Tanger.",
-    "centerImages": {
-      "0": {
-        "src": "/media/about-us/center-1.jpg",
-        "alt": "Image du centre 1"
-      },
-      "1": {
-        "src": "/media/about-us/center-2.jpg",
-        "alt": "Image du centre 2"
-      },
-      "2": {
-        "src": "/media/about-us/center-3.jpg",
-        "alt": "Image du centre 3"
-      },
-      "3": {
-        "src": "/media/about-us/center-4.jpg",
-        "alt": "Image du centre 4"
-      },
-      "4": {
-        "src": "/media/about-us/center-5.jpg",
-        "alt": "Image du centre 5"
-      },
-      "5": { "src": "/media/about-us/center-6.jpg", "alt": "Image du centre 6" }
-    }
+  "Footer": {
+    "contact-info": "contact et informations",
+    "phone": "Numéro de téléphone",
+    "hours": "heures d'ouverture",
+    "address": "Adresse de la clinique",
+    "links": {
+      "title": "liens rapides",
+      "list": [
+        { "title": "A propos de nous", "href": "/about-us" },
+        { "title": "Nos services", "href": "/services" },
+        { "title": "Contactez-nous", "href": "/contact-us" }
+      ]
+    },
+    "follow": "Suivez-nous sur",
+    "clinic-address": "Av. Martyr el alami taghzouti, Tanger"
   }
 }
