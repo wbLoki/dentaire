@@ -8,8 +8,15 @@ import Footer from '@/src/components/Footer';
 import metadata from '@/src/config/metadata';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { ThemeProvider } from 'next-themes';
+import { Josefin_Sans as JosefinSans } from 'next/font/google';
 
 export { metadata };
+
+const josefinSans = JosefinSans({
+  subsets: ['latin'],
+  variable: '--font-josefin',
+});
 
 export default async function RootLayout({
   children,
@@ -23,11 +30,19 @@ export default async function RootLayout({
     <html
       lang={locale}
       dir={locale == 'ar' ? 'rtl' : 'ltr'}
+      className={josefinSans.variable}
     >
       <body>
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <NextUIProvider>{children}</NextUIProvider>
+          <NextUIProvider>
+            <ThemeProvider
+              attribute="class"
+              defaultTheme="system"
+            >
+              {children}
+            </ThemeProvider>
+          </NextUIProvider>
           <WhatsAppButton />
           <Footer />
         </NextIntlClientProvider>

@@ -17,11 +17,11 @@ function Footer() {
   const t = useTranslations('Footer');
   const links: LinkProps[] = t.raw('links.list');
   return (
-    <div className="py-8 bg-zinc-900">
-      <div className="grid grid-cols-1 md:grid-cols-2 max-w-screen-2xl mx-auto gap-14 text-xs text-slate-500">
+    <div className="py-8 bg-card">
+      <div className="grid grid-cols-1 md:grid-cols-2 max-w-screen-2xl mx-auto gap-14 text-xs text-default-500">
         {/**************** CONTACT INFORMATION *****************/}
         <div className="flex flex-col gap-10">
-          <h3 className="uppercase self-center text-slate-300">
+          <h3 className="uppercase self-center text-default-600">
             {t('contact-info')}
           </h3>
           <div className="grid grid-rows-3 gap-8 md:gap-6 self-center">
@@ -32,8 +32,8 @@ function Footer() {
                 </div>
               </div>
               <div className="flex flex-col gap-2">
-                <span className="text-slate-300 capitalize">{t('phone')}</span>
-                <span className="text-white text-sm">
+                <span className="capitalize">{t('phone')}</span>
+                <span className="text-foreground text-sm">
                   {contact.phone.replace(/(\d{2})/g, '$1 ').trim()}
                 </span>
               </div>
@@ -46,10 +46,10 @@ function Footer() {
                 </div>
               </div>
               <div className="flex flex-col gap-2">
-                <span className="text-slate-300 capitalize">{t('hours')}</span>
+                <span className="capitalize">{t('hours')}</span>
                 <div className="flex flex-col">
-                  <span className="text-white text-sm">{hours.start}</span>
-                  <span className="text-white text-sm">{hours.end}</span>
+                  <span className="text-foreground text-sm">{hours.start}</span>
+                  <span className="text-foreground text-sm">{hours.end}</span>
                 </div>
               </div>
             </div>
@@ -61,10 +61,8 @@ function Footer() {
                 </div>
               </div>
               <div className="flex flex-col gap-2">
-                <span className="text-slate-300 capitalize">
-                  {t('address')}
-                </span>
-                <span className="text-white text-sm capitalize">
+                <span className="capitalize">{t('address')}</span>
+                <span className="text-foreground text-sm capitalize">
                   {t('clinic-address')}
                 </span>
               </div>
@@ -73,10 +71,10 @@ function Footer() {
         </div>
         {/**************** QUICK LINKS *****************/}
         <div className="flex flex-col gap-10">
-          <h3 className="uppercase self-center text-slate-300">
+          <h3 className="uppercase self-center text-default-600">
             {t('links.title')}
           </h3>
-          <div className="flex flex-col gap-8 md:gap-4 capitalize text-white text-sm items-center">
+          <div className="flex flex-col gap-8 md:gap-4 capitalize text-foreground text-sm items-center">
             {links.map((link, index) => (
               <Link
                 key={index}
@@ -87,7 +85,7 @@ function Footer() {
             ))}
           </div>
           <div className="flex flex-col gap-8 items-center">
-            <h3 className="uppercase self-center text-slate-300">
+            <h3 className="uppercase self-center text-default-600">
               {t('follow')}
             </h3>
             <div className="flex gap-4">
@@ -96,20 +94,20 @@ function Footer() {
                 href={socialLinks.instagram}
                 rel="noopener noreferrer"
               >
-                <FaInstagram className="text-white text-2xl" />
+                <FaInstagram className="text-foreground text-2xl" />
               </Link>
               <Link
                 target="_blank"
                 href={socialLinks.facebook}
                 rel="noopener noreferrer"
               >
-                <FaFacebookF className="text-white text-2xl" />
+                <FaFacebookF className="text-foreground text-2xl" />
               </Link>
               <Link href={socialLinks.tiktok}>
-                <FaTiktok className="text-white text-2xl" />
+                <FaTiktok className="text-foreground text-2xl" />
               </Link>
               <Link href={socialLinks.maps}>
-                <FaMapMarkerAlt className="text-white text-2xl" />
+                <FaMapMarkerAlt className="text-foreground text-2xl" />
               </Link>
             </div>
           </div>

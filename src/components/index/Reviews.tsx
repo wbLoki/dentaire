@@ -29,8 +29,8 @@ async function Reviews() {
   }
 
   return (
-    <div className="flex flex-col w-full max-w-5xl bg-blue rounded-2xl p-4 md:p-6 lg:px-14 text-xs gap-8 lg:gap-16">
-      <span className="uppercase text-primary text-xs -ml-4">testimonial</span>
+    <div className="flex flex-col w-full max-w-5xl bg-background rounded-2xl p-4 md:p-6 lg:px-14 text-xs gap-8 lg:gap-16">
+      <span className="uppercase text-xs -ml-4">testimonial</span>
       <h2 className="text-3xl pl-3 -ml-4">Ce que pensent les gens de nous.</h2>
 
       <GoogleReviews
