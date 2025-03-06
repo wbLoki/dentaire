@@ -38,7 +38,7 @@ function Services({}: Props) {
     <div className="grid grid-row-4 text-foreground px-4 lg:px-8 text-xs gap-12 max-w-5xl">
       <span className="uppercase">{t('label')}</span>
       <h2 className="text-2xl lg:text-4xl lg:max-w-[70%]">{t('title')}</h2>
-      <div className="grid grid-cols-1 grid-rows-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 grid-rows-2 xl:grid-rows-1 md:grid-cols-3 xl:grid-cols-4 gap-6">
         {servicesArray?.map((service, index: number) => (
           <Card
             key={index}
