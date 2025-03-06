@@ -8,6 +8,7 @@ import Footer from '@/src/components/Footer';
 import metadata from '@/src/config/metadata';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { ThemeProvider } from 'next-themes';
 
 export { metadata };
 
@@ -27,7 +28,14 @@ export default async function RootLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <NextUIProvider>{children}</NextUIProvider>
+          <NextUIProvider>
+            <ThemeProvider
+              attribute="class"
+              defaultTheme="system"
+            >
+              {children}
+            </ThemeProvider>
+          </NextUIProvider>
           <WhatsAppButton />
           <Footer />
         </NextIntlClientProvider>

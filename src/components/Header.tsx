@@ -89,7 +89,7 @@ function Header({}: Props) {
         className="hidden lg:flex absolute top-0 left-0 right-0 z-10 bg-transparent"
       >
         <NavbarContent
-          className="hidden sm:flex gap-4 text-white"
+          className="hidden sm:flex gap-4"
           justify="center"
         >
           <NavbarItem>
@@ -165,17 +165,16 @@ function Header({}: Props) {
         onMenuOpenChange={setIsMenuOpen}
       >
         <NavbarContent>
-          <NavbarMenuToggle
-            // aria-label={isMenuOpen}
-            className="lg:hidden"
-          />
+          <NavbarMenuToggle className="lg:hidden" />
           <NavbarBrand className="flex gap-2">
             <Image
               src={logo}
               alt="logo"
               className="w-9 rounded-full"
             />
-            <p className="font-bold text-inherit text-sky-700">{t('name')}</p>
+            <p className="font-bold text-inherit text-foreground">
+              {t('name')}
+            </p>
           </NavbarBrand>
         </NavbarContent>
 
@@ -190,8 +189,9 @@ function Header({}: Props) {
                 <NavbarItem>
                   <DropdownTrigger>
                     <Link
-                      className="hidden lg:flex w-full text-sky-700 hover:text-sky-500 cursor-pointer gap-1"
+                      className="hidden lg:flex w-full cursor-pointer gap-1"
                       size="lg"
+                      color="foreground"
                     >
                       {item.name}
                       <FaChevronDown
@@ -212,7 +212,7 @@ function Header({}: Props) {
                     .slice(0, 3) // Ensure we only take the first 5 items
                     .map((subItem, subIndex) => (
                       <DropdownItem
-                        color="primary"
+                        color="secondary"
                         id="dropdown-item"
                         className="capitalize"
                         key={subIndex}
@@ -227,8 +227,9 @@ function Header({}: Props) {
             ) : (
               <NavbarMenuItem key={`${item}-${index}`}>
                 <IntLink
-                  className="hidden lg:flex w-full text-sky-700 hover:text-sky-500"
+                  className="hidden lg:flex w-full"
                   href={item.href}
+                  color="foreground"
                 >
                   {item.name}
                 </IntLink>
@@ -239,8 +240,8 @@ function Header({}: Props) {
             <Button
               as={Link}
               href="#"
-              color="primary"
-              className="text-sky-50 hover:text-yellow-300 px-6 hidden lg:flex rounded-full"
+              color="success"
+              className="px-6 hidden lg:flex rounded-full"
             >
               {t('call-you')}
             </Button>

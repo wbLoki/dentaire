@@ -22,23 +22,25 @@ export default function HomePage() {
         </section>
         <section
           id="services"
-          className="bg-slate-100/40 flex justify-center"
+          className="bg-primary flex justify-center"
         >
           <Services />
         </section>
         <section
           id="features"
-          className="bg-mauve md:bg-slate-100/60 flex justify-center"
+          className="bg-primary flex justify-center"
         >
           <Promises />
         </section>
         <section
           id="reviews"
-          className="bg-blue md:bg-slate-100/40 flex justify-center"
+          className="bg-primary flex justify-center"
         >
           <Reviews />
         </section>
-        <section id="location">{/* <Location /> */}</section>
+        {/* <section id="location">
+          <Location />
+        </section> */}
       </main>
     </>
   );
