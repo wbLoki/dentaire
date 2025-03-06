@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-import { FiPhoneCall } from 'react-icons/fi';
 import majd from '../../media/majd.jpg';
 import { useTranslations } from 'next-intl';
 import { contact } from '@/src/constants';
@@ -22,7 +21,12 @@ function Hero() {
           <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 place-items-center text-xs gap-2">
             <div className="w-full">
               <Link href="#location">
-                <Button size="lg">
+                <Button
+                  size="lg"
+                  onClick={() =>
+                    (window.location.href = `tel:${contact.phone}`)
+                  }
+                >
                   <span className="text-medium">{t('contact-us')}</span>
                 </Button>
               </Link>

@@ -73,23 +73,23 @@
       "0": {
         "name": "Trustworthy Care",
         "desc": "Patients can rely on our experienced team for honest assessments and treatment options tailored to their needs.",
-        "img": "/media/promises/shield.svg"
+        "img": "HiShieldCheck"
       },
       "1": {
         "name": "Quality Treatment",
         "desc": "We use the latest techniques and high-quality materials to ensure effective and lasting results.",
-        "img": "/media/promises/star.svg"
+        "img": "MdWorkspacePremium"
       },
       "2": {
         "name": "Personalized Attention",
         "desc": "Each patient receives individualized care and treatment plans that consider their unique oral health needs.",
-        "img": "/media/promises/couch.svg"
+        "img": "FaUserDoctor"
       },
 
       "3": {
         "name": "Transparent Pricing",
         "desc": "We provide clear information about costs and payment options, so patients know what to expect.",
-        "img": "/media/promises/magnifying-dollar.svg"
+        "img": "FaMagnifyingGlassDollar"
       }
     }
   },

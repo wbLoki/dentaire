@@ -40,19 +40,19 @@ const GoogleReviews: React.FC<GoogleReviewsProps> = ({ reviews, error }) => {
                   size="md"
                   src={review.profile_photo_url}
                 />
-                <div className="flex flex-col gap-1 items-start justify-center flex-1">
-                  <h4 className="text-small font-semibold leading-none text-default-600">
+                <div className="flex flex-col gap-1 items-start justify-center flex-1 text-default-500">
+                  <h4 className="text-small font-semibold leading-none">
                     {review.author_name}
                   </h4>
                   <div className="flex w-full justify-between">
-                    <h5 className="text-small tracking-tight text-default-400">
+                    <h5 className="text-small tracking-tight text-default-500">
                       {review.relative_time_description}
                     </h5>
                     <StarRating rating={review.rating} />
                   </div>
                 </div>
               </CardHeader>
-              <CardBody className="px-3 pt-0 text-small text-default-400 overflow-y-auto">
+              <CardBody className="px-3 pt-0 text-small text-default-600 overflow-y-auto">
                 <p>{review.text}</p>
               </CardBody>
             </Card>
