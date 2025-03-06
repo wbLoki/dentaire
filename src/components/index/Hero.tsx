@@ -13,11 +13,13 @@ type Props = {};
 function Hero() {
   const t = useTranslations('Hero');
   return (
-    <div className="max-w-5xl mx-auto grid lg:grid-cols-2 mt-auto">
-      <div className="flex flex-col items-center gap-8 lg:gap-12 px-4 xl:px-16 2xl:pr-10 text-center lg:text-left">
-        <h1 className="lg:row-span-3 text-4xl md:text-5xl xl:text-6xl">{t('title')}</h1>
+    <div className="relative max-w-5xl mx-auto grid lg:grid-cols-2 min-h-[50%]">
+      <div className="flex flex-col items-center px-4 xl:px-16 2xl:pr-10 text-center lg:text-left">
+        <h1 className="lg:row-span-3 text-4xl md:text-5xl xl:text-6xl p-4 text-white">
+          {t('title')}
+        </h1>
         <div className="lg:row-span-2 space-y-10">
-          <h2 className="text-slate-600 text-base">{t('subtitle')}</h2>
+          <h2 className="text-white text-base">{t('subtitle')}</h2>
           <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 place-items-center text-xs gap-2">
             <div className="w-full">
               <Link href="#location">

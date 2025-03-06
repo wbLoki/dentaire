@@ -14,9 +14,10 @@ export default function HomePage() {
       <main className="mx-auto">
         {/************ Hero section ************/}
         <section
-          className="bg-[url('/media/bg.jpeg')] h-screen flex flex-col"
+          className="bg-[url('/media/bg.jpeg')] h-screen flex flex-col justify-end"
           id="hero"
         >
+          <div className="absolute inset-0 w-2/3 bg-gradient-to-r from-black to-transparent"></div>
           <Hero />
         </section>
         <section

@@ -89,12 +89,12 @@ function Header({}: Props) {
         className="hidden lg:flex absolute top-0 left-0 right-0 z-10 bg-transparent"
       >
         <NavbarContent
-          className="hidden sm:flex gap-4"
+          className="hidden sm:flex gap-4 text-white"
           justify="center"
         >
           <NavbarItem>
             <Link
-              color="foreground"
+              color="secondary"
               className="flex gap-2"
               href={`mailto:${contact.email}`}
             >
@@ -104,7 +104,7 @@ function Header({}: Props) {
           </NavbarItem>
           <NavbarItem>
             <Link
-              color="foreground"
+              color="secondary"
               href={socialLinks.maps}
               aria-current="page"
               className="flex gap-2"
@@ -115,7 +115,7 @@ function Header({}: Props) {
           </NavbarItem>
           <NavbarItem>
             <Link
-              color="foreground"
+              color="secondary"
               href={`tel:${contact.phone}`}
               className="flex gap-2"
             >
