@@ -28,6 +28,9 @@ module.exports = {
       backgroundImage: {
         'hero-image': "url('../media/cabinet/happy.jpg')",
       },
+      fontFamily: {
+        sans: 'var(--font-josefin)',
+      },
     },
   },
   darkMode: 'class',

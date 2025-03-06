@@ -11,11 +11,9 @@
 html,
 body {
   max-width: 100%;
-  /* overflow-x: hidden; */
-  /* overflow-y: hidden; */
   margin: 0;
   font-size: larger;
-  font-family: 'Alata', sans-serif;
+  font-family: var(--font-josefin);
 }
 
 :dir(rtl) span:not(.text-center),
