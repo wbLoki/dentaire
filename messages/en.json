@@ -118,5 +118,21 @@
       "4": { "src": "/media/about-us/center-5.jpg", "alt": "Center image 5" },
       "5": { "src": "/media/about-us/center-6.jpg", "alt": "Center image 6" }
     }
+  },
+  "Footer": {
+    "contact-info": "contact & information",
+    "phone": "Phone Number",
+    "hours": "working hours",
+    "address": "Clinic Address",
+    "links": {
+      "title": "quick links",
+      "list": [
+        { "title": "About us", "href": "/about-us" },
+        { "title": "Our services", "href": "/services" },
+        { "title": "contact us", "href": "/contact-us" }
+      ]
+    },
+    "follow": "Follow us on",
+    "clinic-address": "Av. Martyr el alami taghzouti, Tangier"
   }
 }

@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import { FiPhoneCall, FiClock } from 'react-icons/fi';
 import {
@@ -6,18 +7,22 @@ import {
   FaInstagram,
   FaTiktok,
 } from 'react-icons/fa';
-import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import { contact, hours, socialLinks } from '../constants';
+import { Link } from '../i18n/routing';
 
-type Props = {};
+type LinkProps = { title: string; href: string };
 
-function Footer({}: Props) {
+function Footer() {
+  const t = useTranslations('Footer');
+  const links: LinkProps[] = t.raw('links.list');
   return (
     <div className="py-8 bg-zinc-900">
       <div className="grid grid-cols-1 md:grid-cols-2 max-w-screen-2xl mx-auto gap-14 text-xs text-slate-500">
         {/**************** CONTACT INFORMATION *****************/}
         <div className="flex flex-col gap-10">
           <h3 className="uppercase self-center text-slate-300">
-            contact & information
+            {t('contact-info')}
           </h3>
           <div className="grid grid-rows-3 gap-8 md:gap-6 self-center">
             <div className="flex items-center gap-4">
@@ -27,8 +32,10 @@ function Footer({}: Props) {
                 </div>
               </div>
               <div className="flex flex-col gap-2">
-                <span className="text-slate-300">Numero de Telephone</span>
-                <span className="text-white text-sm">07 74 76 78 38</span>
+                <span className="text-slate-300 capitalize">{t('phone')}</span>
+                <span className="text-white text-sm">
+                  {contact.phone.replace(/(\d{2})/g, '$1 ').trim()}
+                </span>
               </div>
             </div>
 
@@ -39,14 +46,10 @@ function Footer({}: Props) {
                 </div>
               </div>
               <div className="flex flex-col gap-2">
-                <span className="text-slate-300">Horaires</span>
+                <span className="text-slate-300 capitalize">{t('hours')}</span>
                 <div className="flex flex-col">
-                  <span className="text-white text-sm">
-                    10:00 AM - 14:00 PM
-                  </span>
-                  <span className="text-white text-sm">
-                    16:00 PM - 20:00 PM
-                  </span>
+                  <span className="text-white text-sm">{hours.start}</span>
+                  <span className="text-white text-sm">{hours.end}</span>
                 </div>
               </div>
             </div>
@@ -58,9 +61,11 @@ function Footer({}: Props) {
                 </div>
               </div>
               <div className="flex flex-col gap-2">
-                <span className="text-slate-300">Cabinet Address</span>
-                <span className="text-white text-sm">
-                  35 West Rue Tanger, Tanger
+                <span className="text-slate-300 capitalize">
+                  {t('address')}
+                </span>
+                <span className="text-white text-sm capitalize">
+                  {t('clinic-address')}
                 </span>
               </div>
             </div>
@@ -68,29 +73,44 @@ function Footer({}: Props) {
         </div>
         {/**************** QUICK LINKS *****************/}
         <div className="flex flex-col gap-10">
-          <h3 className="uppercase self-center text-slate-300">quick links</h3>
+          <h3 className="uppercase self-center text-slate-300">
+            {t('links.title')}
+          </h3>
           <div className="flex flex-col gap-8 md:gap-4 capitalize text-white text-sm items-center">
-            <Link href="/">A Propos Nous</Link>
-            <Link href="/">services dentaire</Link>
-            <Link href="/">dentist</Link>
-            <Link href="/">FAQ</Link>
+            {links.map((link, index) => (
+              <Link
+                key={index}
+                href={link.href}
+              >
+                {link.title}
+              </Link>
+            ))}
           </div>
           <div className="flex flex-col gap-8 items-center">
             <h3 className="uppercase self-center text-slate-300">
-              follow us on
+              {t('follow')}
             </h3>
             <div className="flex gap-4">
               <Link
                 target="_blank"
-                href="https://www.instagram.com/dr.majdzade/"
+                href={socialLinks.instagram}
                 rel="noopener noreferrer"
               >
                 <FaInstagram className="text-white text-2xl" />
               </Link>
-              <span>
+              <Link
+                target="_blank"
+                href={socialLinks.facebook}
+                rel="noopener noreferrer"
+              >
                 <FaFacebookF className="text-white text-2xl" />
-              </span>
-              {/* <Link href="/"><FaTiktok className='text-white text-2xl'/></Link> */}
+              </Link>
+              <Link href={socialLinks.tiktok}>
+                <FaTiktok className="text-white text-2xl" />
+              </Link>
+              <Link href={socialLinks.maps}>
+                <FaMapMarkerAlt className="text-white text-2xl" />
+              </Link>
             </div>
           </div>
         </div>
