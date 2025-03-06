@@ -33,7 +33,7 @@ function Services({}: Props) {
         return null;
       }
     })
-    .filter(Boolean) as BaseItem[];
+    .filter(Boolean) as Service[];
   return (
     <div className="grid grid-row-4 text-foreground px-4 lg:px-8 text-xs gap-12 max-w-5xl">
       <span className="uppercase">{t('label')}</span>
