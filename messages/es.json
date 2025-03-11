@@ -41,28 +41,28 @@
         "name": "Tratamientos endodónticos avanzados",
         "title": "Nos dedicamos a preservar tus sonrisas ofreciendo tratamientos endodónticos de alta calidad.",
         "desc": "La endodoncia es una rama de la odontología que se enfoca en el tratamiento del interior del diente, incluyendo la pulpa dental y los tejidos circundantes. Realizamos tratamientos de conductos radiculares para salvar dientes afectados por infecciones o daños.",
-        "img": "/media/services/service1.png"
+        "img": "/media/services/advanced-endodontic-treatments.webp"
       },
       "1": {
         "slug": "composite-restorations",
         "name": "Restauraciones compuestas",
         "title": "Nos enorgullece ofrecer restauraciones compuestas de alta calidad para restaurar la belleza y función de tus dientes delanteros y traseros.",
         "desc": "Nuestras restauraciones compuestas para los dientes delanteros están diseñadas para coincidir perfectamente con el color natural de tus dientes, asegurando un resultado estético y discreto. Con nuestras técnicas avanzadas, restauramos la integridad de tus dientes mientras preservamos su apariencia natural.",
-        "img": "/media/services/service2.png"
+        "img": "/media/services/composite-restorations.jpg"
       },
       "2": {
         "slug": "high-quality-fixed-prostheses",
         "name": "Prótesis fijas de alta calidad",
         "title": "Prótesis fijas de alta calidad: Restaurando la función y belleza de tu sonrisa",
         "desc": "En la Clínica Dental Ennasr, ofrecemos soluciones avanzadas de prótesis fijas, incluyendo coronas cerámico-metálicas (CCM), coronas de zirconia y puentes dentales. Nuestras restauraciones de alta calidad están diseñadas para restaurar la función y la estética de tus dientes, con planes de tratamiento personalizados adaptados a tus necesidades dentales y estéticas. Usando materiales de vanguardia como la zirconia, ofrecemos resultados duraderos y de aspecto natural que se integran perfectamente con tu sonrisa. Confía en el Dr. Zade Majd y en nuestro equipo de expertos para restaurar tanto la belleza como la funcionalidad de tus dientes con soluciones duraderas y confiables.",
-        "img": "/media/services/service3.png"
+        "img": "/media/services/high-quality-fixed-prostheses.webp"
       },
       "3": {
         "slug": "root-canal-treatment",
         "name": "Tratamiento de conductos radiculares",
         "title": "Preserva tus dientes naturales con terapia de conductos radiculares experta",
         "desc": "El tratamiento de conductos radiculares es una forma segura y eficaz de salvar dientes afectados por caries profundas o infecciones. Nuestros dentistas expertos utilizan técnicas avanzadas para eliminar la infección, aliviar el dolor y proteger tu diente de daños adicionales. Experimenta un procedimiento sin dolor que prioriza tu salud oral a largo plazo.",
-        "img": "/media/services/service4.png"
+        "img": "/media/services/root-canal-treatment.jpg"
       }
     }
   },

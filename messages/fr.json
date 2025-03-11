@@ -20,7 +20,7 @@
       "11": "Esthétique dentaire",
       "12": "Urgences dentaires"
     },
-    "about": "A propos de nous",
+    "about": "À Propos",
     "call-you": "Contactez-nous",
     "see-all": "Voir tout"
   },
@@ -32,44 +32,118 @@
   },
   "Services": {
     "label": "services",
-    "title": "Prenez soin de votre santé dentaire.",
-    "subtitle": "Dentiste et Orthodontiste à Tanger : Découvrez les Meilleurs Professionnels pour Votre Santé Buccodentaire",
-    "desc": "Bienvenue au Centre Dentaire du Dr Zade à Tanger, l'adresse de référence pour des soins dentaires exceptionnels. En tant que dentiste bien établi à Tanger, le Dr Zade est fier de faire partie des professionnels les plus qualifiés en matière de santé buccale et d'esthétique dentaire. Notre cabinet dentaire à Tanger est entièrement dédié à la santé et à la beauté de votre sourire, qui est au cœur de tout ce que nous faisons.",
+    "title": "Prenez soin de votre santé bucco-dentaire.",
+    "subtitle": "Dentiste et Orthodontiste à Tanger : Découvrez les Meilleurs Professionnels pour Votre Santé Bucco-Dentaire",
+    "desc": "Bienvenue au Centre Dentaire du Dr. Zade à Tanger, l’adresse incontournable pour des soins dentaires exceptionnels. En tant que dentiste réputé à Tanger, Dr. Zade est fier de figurer parmi les professionnels les plus qualifiés en matière de santé bucco-dentaire et d’esthétique dentaire. Notre cabinet dentaire à Tanger est entièrement dédié à la santé et à la beauté de votre sourire, qui est au cœur de notre engagement.",
     "servicesList": {
       "0": {
         "slug": "dental-appliances-fixed-prosthesis",
         "name": "Traitements endodontiques avancés",
-        "title": "Nous nous engageons à préserver votre sourire en proposant des traitements endodontiques de haute qualité.",
-        "desc": "L'endodontie est une branche de la dentisterie qui se concentre sur le traitement de l'intérieur de la dent, y compris la pulpe dentaire et les tissus environnants. Nous réalisons des traitements de canal pour sauver les dents affectées par des infections ou des lésions.",
-        "img": "/media/services/service1.png"
+        "title": "Nous nous engageons à préserver votre sourire grâce à des traitements endodontiques de haute qualité.",
+        "desc": "L’endodontie est une branche de la dentisterie qui se concentre sur le traitement de l’intérieur de la dent, y compris la pulpe dentaire et les tissus environnants. Nous réalisons des traitements de canal pour sauver les dents affectées par des infections ou des lésions.",
+        "img": "/media/services/advanced-endodontic-treatments.webp"
       },
       "1": {
         "slug": "composite-restorations",
         "name": "Restaurations en composite",
         "title": "Nous sommes fiers de proposer des restaurations en composite de haute qualité pour restaurer la beauté et la fonction de vos dents.",
-        "desc": "Nos restaurations en composite pour les dents de devant sont conçues pour correspondre parfaitement à la couleur naturelle de vos dents, garantissant un résultat esthétique et discret. Avec nos techniques avancées, nous restaurons l'intégrité de vos dents tout en préservant leur apparence naturelle.",
-        "img": "/media/services/service2.png"
+        "desc": "Nos restaurations en composite pour les dents antérieures sont conçues pour correspondre parfaitement à la couleur naturelle de vos dents, assurant ainsi un résultat esthétique et discret. Grâce à nos techniques avancées, nous restaurons l’intégrité de vos dents tout en préservant leur apparence naturelle.",
+        "img": "/media/services/composite-restorations.jpg"
       },
       "2": {
         "slug": "high-quality-fixed-prostheses",
         "name": "Prothèses fixes de haute qualité",
-        "title": "Prothèses Fixes de Haute Qualité : Restaurer la Fonction et la Beauté de Votre Sourire",
-        "desc": "À la Clinique Dentaire Ennasr, nous proposons fièrement des solutions de prothèses fixes avancées, notamment des couronnes céramo-métalliques (CCM), des couronnes en zirconium et des bridges dentaires. Nos restaurations de haute qualité sont conçues pour restaurer la fonction et l'esthétique de vos dents, avec des plans de traitement personnalisés adaptés à vos besoins dentaires et esthétiques.",
-        "img": "/media/services/service3.png"
+        "title": "Prothèses Fixes de Haute Qualité : Restauration de la Fonction et de l'Esthétique de Votre Sourire",
+        "desc": "À la Clinique Dentaire Ennasr, nous proposons des solutions avancées de prothèses fixes, y compris les couronnes céramo-métalliques (CCM), les couronnes en zircone et les bridges dentaires. Nos restaurations de haute qualité sont conçues pour restaurer la fonction et l’esthétique de vos dents, avec des plans de traitement personnalisés adaptés à vos besoins dentaires et esthétiques.",
+        "img": "/media/services/high-quality-fixed-prostheses.webp"
+      },
+      "3": {
+        "slug": "root-canal-treatment",
+        "name": "Traitement de canal",
+        "title": "Préservez Vos Dents Naturelles avec un Traitement Endodontique Expert",
+        "desc": "Le traitement de canal est une solution sûre et efficace pour sauver les dents affectées par des caries profondes ou des infections. Nos dentistes expérimentés utilisent des techniques avancées pour éliminer l’infection, soulager la douleur et protéger votre dent contre d’autres dommages.",
+        "img": "/media/services/root-canal-treatment.jpg"
       }
     }
   },
+  "Promises": {
+    "label": "Engagements",
+    "title": "Pourquoi Nous Choisir pour Vos Soins Dentaires ?",
+    "list": {
+      "0": {
+        "name": "Soins de Confiance",
+        "desc": "Nos patients peuvent compter sur notre équipe expérimentée pour des évaluations honnêtes et des traitements adaptés à leurs besoins.",
+        "img": "HiShieldCheck"
+      },
+      "1": {
+        "name": "Traitements de Qualité",
+        "desc": "Nous utilisons les dernières techniques et des matériaux de haute qualité pour garantir des résultats efficaces et durables.",
+        "img": "MdWorkspacePremium"
+      },
+      "2": {
+        "name": "Attention Personnalisée",
+        "desc": "Chaque patient bénéficie de soins individualisés et de plans de traitement adaptés à ses besoins bucco-dentaires uniques.",
+        "img": "FaUserDoctor"
+      },
+      "3": {
+        "name": "Tarification Transparente",
+        "desc": "Nous fournissons des informations claires sur les coûts et les options de paiement afin que les patients sachent à quoi s’attendre.",
+        "img": "FaMagnifyingGlassDollar"
+      }
+    }
+  },
+  "Whatsapp": {
+    "name": "Dr. Majd Zade",
+    "statusMessage": "Nous sommes là pour vous aider !",
+    "chatMessage": "Bonjour ! Comment pouvons-nous vous aider ?",
+    "placeholder": "Tapez un message..."
+  },
+  "AboutUs": {
+    "title": "À Propos de Nous",
+    "desc": "Lorem ipsum est un texte de remplacement utilisé dans les industries de l’impression et de l’édition pour prévisualiser des mises en page et des maquettes visuelles.",
+    "img": "/media/about-us.png",
+    "doctor-name": "Dr. Majd Zade",
+    "doctor-desc": "Le Dr. Zade Majd est un dentiste généraliste expérimenté et passionné, offrant une gamme complète de soins dentaires de haute qualité dans son cabinet à Tanger. Avec plusieurs années d’expérience, il prend en charge tous les aspects de la santé bucco-dentaire, de la prévention et de l’hygiène bucco-dentaire à la restauration et à la chirurgie dentaire.",
+    "doctor-img": "/media/about-us/doctor.png",
+    "team-name": "Notre équipe",
+    "team-desc": "L’équipe de notre centre dentaire est spécialement formée pour vous offrir un service exceptionnel. Elle est composée d’une réceptionniste chaleureuse et d’une assistante dévouée, toutes deux engagées à vous offrir une expérience de soins de qualité.",
+    "team-img": "/media/about-us/team.png",
+    "our-center": "Notre centre dentaire à Tanger.",
+    "centerImages": {
+      "0": {
+        "src": "/media/about-us/center-1.jpg",
+        "alt": "Image du centre 1"
+      },
+      "1": {
+        "src": "/media/about-us/center-2.jpg",
+        "alt": "Image du centre 2"
+      },
+      "2": {
+        "src": "/media/about-us/center-3.jpg",
+        "alt": "Image du centre 3"
+      },
+      "3": {
+        "src": "/media/about-us/center-4.jpg",
+        "alt": "Image du centre 4"
+      },
+      "4": {
+        "src": "/media/about-us/center-5.jpg",
+        "alt": "Image du centre 5"
+      },
+      "5": { "src": "/media/about-us/center-6.jpg", "alt": "Image du centre 6" }
+    }
+  },
   "Footer": {
-    "contact-info": "contact et informations",
-    "phone": "Numéro de téléphone",
-    "hours": "heures d'ouverture",
-    "address": "Adresse de la clinique",
+    "contact-info": "Contact & Informations",
+    "phone": "Numéro de Téléphone",
+    "hours": "Heures d'Ouverture",
+    "address": "Adresse de la Clinique",
     "links": {
-      "title": "liens rapides",
+      "title": "Liens Rapides",
       "list": [
-        { "title": "A propos de nous", "href": "/about-us" },
+        { "title": "À propos", "href": "/about-us" },
         { "title": "Nos services", "href": "/services" },
-        { "title": "Contactez-nous", "href": "/contact-us" }
+        { "title": "Nous contacter", "href": "/contact-us" }
       ]
     },
     "follow": "Suivez-nous sur",
