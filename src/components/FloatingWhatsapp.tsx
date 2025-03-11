@@ -16,6 +16,7 @@ const WhatsAppButton = () => {
       chatMessage={t('chatMessage')} // Default message when the chat opens
       placeholder={t('placeholder')}
       avatar="/logo.jpg"
+      darkMode
     />
   );
 };
