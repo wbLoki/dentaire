@@ -28,7 +28,10 @@ const EmblaCarousel: React.FC<PropType> = ({ slides, options }) => {
   } = usePrevNextButtons(emblaApi);
 
   return (
-    <section className="embla">
+    <section
+      dir="ltr"
+      className="embla"
+    >
       <div
         className="embla__viewport"
         ref={emblaRef}

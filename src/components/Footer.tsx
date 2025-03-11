@@ -33,7 +33,10 @@ function Footer() {
               </div>
               <div className="flex flex-col gap-2">
                 <span className="capitalize">{t('phone')}</span>
-                <span className="text-foreground text-sm">
+                <span
+                  dir="ltr"
+                  className="text-foreground text-sm"
+                >
                   {contact.phone.replace(/(\d{2})/g, '$1 ').trim()}
                 </span>
               </div>
@@ -47,7 +50,10 @@ function Footer() {
               </div>
               <div className="flex flex-col gap-2">
                 <span className="capitalize">{t('hours')}</span>
-                <div className="flex flex-col">
+                <div
+                  dir="ltr"
+                  className="flex flex-col"
+                >
                   <span className="text-foreground text-sm">{hours.start}</span>
                   <span className="text-foreground text-sm">{hours.end}</span>
                 </div>

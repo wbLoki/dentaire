@@ -17,7 +17,7 @@ export default function HomePage() {
           className="bg-[url('/media/bg.jpeg')] h-screen flex flex-col justify-end"
           id="hero"
         >
-          <div className="absolute inset-0 w-2/3 bg-gradient-to-r from-black to-transparent"></div>
+          <div className="absolute inset-0 w-2/3 bg-gradient-to-r rtl:bg-gradient-to-l from-black to-transparent"></div>
           <Hero />
         </section>
         <section

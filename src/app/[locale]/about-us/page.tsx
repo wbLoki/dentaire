@@ -74,7 +74,7 @@ function page({}: Props) {
       </section>
       <section
         id="Center images"
-        className=" max-w-5xl m-auto"
+        className="max-w-5xl m-auto"
       >
         <EmblaCarousel
           slides={slidesArray}
