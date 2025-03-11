@@ -50,14 +50,11 @@ export default async function ServicePage({
   console.log('service: ', service);
 
   return (
-    <main className="m-auto text-sm flex flex-col gap-16 lg:gap-24 items-center p-2 xl:p-16 overflow-hidden min-h-screen bg-gradient-to-b from-blue-100 via-blue-50 to-white">
+    <main className="m-auto text-sm flex flex-col gap-16 lg:gap-24 items-center p-2 xl:p-16 overflow-hidden min-h-screen bg-primary">
       <h1 className="text-4xl pb-2 pt-28 lg:text-6xl lg:pt-36 max-w-lg text-center">
         {service.name}
       </h1>
-      <section
-        id="Doctor intro"
-        className="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-16 max-w-5xl m-auto bg-black/5 p-8 rounded-lg"
-      >
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-16 max-w-5xl m-auto bg-card p-8 rounded-lg">
         <div>
           <Image
             src={service.img}
@@ -71,7 +68,7 @@ export default async function ServicePage({
           <h2 className="font-bold text-3xl py-8">{service.title}</h2>
           <p>{service.desc}</p>
         </div>
-      </section>
+      </div>
     </main>
   );
 }
