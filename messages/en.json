@@ -41,28 +41,28 @@
         "name": "Advanced endodontic treatments",
         "title": "We are dedicated to preserving your smiles by offering high-quality endodontic treatments.",
         "desc": "Endodontics is a branch of dentistry that focuses on the treatment of the inside of the tooth, including the dental pulp and surrounding tissues. We perform root canal treatments to save teeth affected by infections or damage.",
-        "img": "/media/services/service1.png"
+        "img": "/media/services/advanced-endodontic-treatments.webp"
       },
       "1": {
         "slug": "composite-restorations",
         "name": "Composite restorations",
         "title": "We are proud to offer high-quality composite restorations to restore the beauty and function of your front and back teeth.",
         "desc": "Our composite restorations for front teeth are designed to perfectly match the natural color of your teeth, ensuring an aesthetic and discreet result. With our advanced techniques, we restore the integrity of your teeth while preserving their natural appearance.",
-        "img": "/media/services/service2.png"
+        "img": "/media/services/composite-restorations.jpg"
       },
       "2": {
         "slug": "high-quality-fixed-prostheses",
         "name": "High-quality fixed prostheses",
         "title": "High-Quality Fixed Prostheses: Restoring Function and Beauty to Your Smile",
         "desc": "At Ennasr Dental Clinic, we proudly offer advanced fixed prosthesis solutions, including ceramic-metallic (CCM) crowns, zirconia crowns, and dental bridges. Our high-quality restorations are designed to restore the function and aesthetics of your teeth, with personalized treatment plans tailored to your dental and aesthetic needs. Using cutting-edge materials like zirconia, we provide durable, natural-looking results that blend seamlessly with your smile. Trust Dr. Zade Majd and our expert team to restore both the beauty and functionality of your teeth with lasting, reliable solutions.",
-        "img": "/media/services/service3.png"
+        "img": "/media/services/high-quality-fixed-prostheses.webp"
       },
       "3": {
         "slug": "root-canal-treatment",
         "name": "Root Canal Treatment",
         "title": "Preserve Your Natural Teeth with Expert Root Canal Therapy",
         "desc": "Root canal treatment is a safe and effective way to save teeth affected by deep decay or infection. Our skilled dentists use advanced techniques to remove the infection, relieve pain, and protect your tooth from further damage. Experience a pain-free procedure that prioritizes your long-term oral health.",
-        "img": "/media/services/service4.png"
+        "img": "/media/services/root-canal-treatment.jpg"
       }
     }
   },
