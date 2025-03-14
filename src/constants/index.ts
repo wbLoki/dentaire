@@ -1,6 +1,6 @@
 export const contact = {
   phone: '0774767832',
-  whatsapp: '+212622764003',
+  whatsapp: '+212774767832',
   email: 'majdzade@hotmail.com',
 };
 
@@ -21,6 +21,6 @@ export const hours = {
     'friday',
     'saturday',
   ],
-  start: '10:00 AM - 14:00 PM',
-  end: '16:00 PM - 20:00 PM',
+  start: '09:00 AM - 13:00 PM',
+  end: '15:30 PM - 20:00 PM',
 };
